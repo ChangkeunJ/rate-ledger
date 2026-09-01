@@ -51,9 +51,9 @@ h1 {
   flex-wrap: wrap;
   gap: 1px;
   background: var(--line);
-  border-top: 1px solid var(--line);
-  margin: 0 -20px;
-  padding: 0 20px;
+  border: 1px solid var(--line);
+  border-bottom: 0;
+  border-radius: 3px 3px 0 0;
 }
 
 .cell {
@@ -112,7 +112,7 @@ select, input {
 
 .note { margin: 0; color: var(--muted); font-size: 13px; }
 
-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+table { width: 100%; min-width: 700px; border-collapse: collapse; font-size: 14px; }
 
 th {
   text-align: left;
@@ -131,7 +131,7 @@ tr:last-child td { border-bottom: 0; }
 td.r, .big { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
 .big { font-weight: 500; }
 .rank { color: var(--muted); font-family: 'IBM Plex Mono', monospace; width: 30px; }
-.name { font-weight: 500; white-space: nowrap; }
+.name { font-weight: 500; max-width: 34ch; }
 .dim { color: var(--muted); white-space: nowrap; }
 .up { color: var(--up); }
 .down { color: var(--down); }
@@ -147,7 +147,15 @@ td.r, .big { font-family: 'IBM Plex Mono', ui-monospace, monospace; }
   white-space: nowrap;
 }
 
-.err-cell { color: var(--muted); font-size: 12px; max-width: 340px; }
+.err-cell { color: var(--muted); font-size: 12px; }
+.err-cell span {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  width: 220px;
+}
 .err { margin: 0; padding: 16px; color: var(--down); }
 .empty { margin: 0; padding: 24px 16px; color: var(--muted); max-width: 62ch; }
 

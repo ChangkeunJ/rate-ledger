@@ -16,6 +16,12 @@ const CATS = [
 ]
 const MONTHS = [1, 3, 6, 9, 12, 24, 36, 60]
 const TABS = ['rates', 'moves', 'banks'] as const
+type Tab = (typeof TABS)[number]
+
+const shown = () => {
+  const h = location.hash.slice(1) as Tab
+  return TABS.includes(h) ? h : 'rates'
+}
 
 function useJson<T>(url: string) {
   const [v, setV] = useState<T | null>(null)
@@ -106,6 +112,7 @@ function Rates() {
         </p>
       </div>
       {err && <p className="err">{err}</p>}
+      {v?.length ? (
       <table>
         <thead>
           <tr>
@@ -137,6 +144,7 @@ function Rates() {
           ))}
         </tbody>
       </table>
+      ) : null}
       {v && v.length === 0 && <p className="empty">Nothing published in this category today.</p>}
     </>
   )
@@ -156,6 +164,7 @@ function Moves() {
         <p className="note">Every rate that moved, biggest move first.</p>
       </div>
       {err && <p className="err">{err}</p>}
+      {v?.length ? (
       <table>
         <thead>
           <tr>
@@ -187,6 +196,7 @@ function Moves() {
           })}
         </tbody>
       </table>
+      ) : null}
       {v && v.length === 0 && (
         <p className="empty">No move recorded in this window. The ledger compares each morning's read with the one before it, so the first moves show up a day after the first read.</p>
       )}
@@ -222,7 +232,7 @@ function Banks() {
               <td className="dim">{b.industries.join(', ').replace(/-/g, ' ')}</td>
               <td className="r">{num(b.products)}</td>
               <td className="dim">{ago(b.last_ok)}</td>
-              <td className="err-cell">{b.last_err ?? ''}</td>
+              <td className="err-cell">{b.last_err && <span title={b.last_err}>{b.last_err}</span>}</td>
             </tr>
           ))}
         </tbody>
@@ -232,9 +242,14 @@ function Banks() {
 }
 
 export default function App() {
-  const [tab, setTab] = useState<(typeof TABS)[number]>('rates')
+  const [tab, setTab] = useState<Tab>(shown)
   const { v: counts } = useJson<Counts>('/api/counts')
   const { v: health } = useJson<Health>('/api/health')
+  useEffect(() => {
+    const on = () => setTab(shown())
+    addEventListener('hashchange', on)
+    return () => removeEventListener('hashchange', on)
+  }, [])
   return (
     <>
       <header>
@@ -249,7 +264,7 @@ export default function App() {
       </header>
       <nav className="wrap">
         {TABS.map((t) => (
-          <button key={t} className={t === tab ? 'on' : ''} onClick={() => setTab(t)}>
+          <button key={t} className={t === tab ? 'on' : ''} onClick={() => { location.hash = t; setTab(t) }}>
             {t === 'rates' ? 'Rates' : t === 'moves' ? 'Movements' : 'Banks'}
           </button>
         ))}

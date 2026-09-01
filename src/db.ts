@@ -24,7 +24,7 @@ export async function markBrand(db: Pool, id: string, err: string | null) {
   await db.query(
     err ? `update brand set last_err = $2 where id = $1`
         : `update brand set last_ok = now(), last_err = null where id = $1`,
-    err ? [id, err.slice(0, 400)] : [id],
+    err ? [id, err.replace(/\s+/g, ' ').slice(0, 200)] : [id],
   )
 }
 
