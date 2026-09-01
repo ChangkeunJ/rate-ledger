@@ -19,7 +19,17 @@ decision and how many days they took.
 A second pass seven minutes later rewrote 12 of those 21,621, and all twelve were
 MoveBank, which served a different set of home loan rates the second time.
 
-## Running it
+## Running it daily
+
+A scheduled workflow walks the register at 06:00 AEST, writes the day's summary
+into `data/`, and commits it. The commit is the point: the schedule is what
+proves the thing runs unattended, and GitHub switches a schedule off after 60
+quiet days, so the job has to leave a mark.
+
+    data/latest.json      the most recent pass
+    data/2026-09-01.json  and every one before it
+
+## Running it locally
 
     docker compose up -d
     export DATABASE_URL=postgres://ledger:ledger@localhost:5433/ledger
@@ -29,6 +39,7 @@ MoveBank, which served a different set of home loan rates the second time.
 
     curl 'localhost:8080/best?category=TERM_DEPOSITS&term=P1Y'
     curl 'localhost:8080/moves?days=7'
+    curl 'localhost:8080/counts'
     curl 'localhost:8080/health'
 
 ## Notes on the source
@@ -60,7 +71,9 @@ served and when, which is the only honest thing it can do.
     src/cdr.ts     register, product list, product detail, rate identity
     src/db.ts      schema access and the interval open/close
     src/ingest.ts  one lane per holder, failures recorded not thrown
-    src/api.ts     read side
+    src/queries.ts the read side's SQL, written once
+    src/api.ts     local server over it
+    src/summary.ts the daily file that lands in data/
     schema.sql
 
 ## Licence

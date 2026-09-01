@@ -1,0 +1,41 @@
+name: ingest
+
+on:
+  schedule:
+    # 06:00 AEST, after the Australian business day the rates moved on.
+    - cron: '0 20 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    env:
+      DATABASE_URL: ${{ secrets.DATABASE_URL }}
+      LANES: '10'
+      GAP_MS: '60'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: psql "$DATABASE_URL" -f schema.sql
+      - run: npm run build
+      - run: node dist/src/ingest.js
+      - run: node dist/src/summary.js
+      - name: commit the day
+        run: |
+          git config user.name ChangkeunJ
+          git config user.email reiot92@gmail.com
+          git add data
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "$(date -u +%Y-%m-%d) rates"
+          git push

@@ -1,0 +1,173 @@
+{
+ "date": "2026-09-01",
+ "run": {
+  "started": "2026-09-01T05:03:58.588Z",
+  "finished": "2026-09-01T05:09:41.364Z",
+  "brands": "213/249",
+  "products": 4120,
+  "opened": 12,
+  "closed": 12,
+  "failures": 52
+ },
+ "totals": {
+  "brands": 249,
+  "products": 4120,
+  "rates_open": 21621,
+  "deposit": 6104,
+  "lending": 15517
+ },
+ "moves": [
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0599,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0619
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0609
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0654
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0639,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0639
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0644,
+   "now": 0.0654
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0669,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0689,
+   "now": 0.0679
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0674,
+   "now": 0.0664
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.0535
+   },
+   {
+    "brand": "ING BANK (Australia) Ltd",
+    "product": "Personal Term Deposits",
+    "rate": 0.053
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.0525
+   },
+   {
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Partners",
+    "rate": 0.0525
+   },
+   {
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Direct",
+    "rate": 0.0525
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.059
+   },
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Newcastle Permanent Building Society",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.057
+   },
+   {
+    "brand": "MoveBank",
+    "product": "Growth Saver",
+    "rate": 0.0555
+   }
+  ]
+ }
+}
