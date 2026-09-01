@@ -29,3 +29,5 @@ jobs:
       - run: npm ci
       - run: psql "$DATABASE_URL" -f schema.sql
       - run: npm test
+      - run: npm run check
+      - run: npm run build:web

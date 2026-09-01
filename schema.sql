@@ -59,3 +59,17 @@ create table if not exists run (
   closed        int not null default 0,
   failures      jsonb not null default '[]'
 );
+
+-- additionalValue carries an ISO 8601 term for a fixed rate and a sentence of
+-- prose for a discount, so only the durations are a term.
+create or replace function tenor(t text) returns text language sql immutable as $$
+  select case when t ~ '^P[0-9]' then t end
+$$;
+
+create or replace function term_months(t text) returns int language sql immutable as $$
+  select case when t ~ '^P[0-9]' then
+    coalesce((substring(t from 'P(\d+)Y'))::int, 0) * 12
+    + coalesce((substring(t from '(\d+)M'))::int, 0)
+    + coalesce((substring(t from '(\d+)D'))::int, 0) / 30
+  end
+$$;

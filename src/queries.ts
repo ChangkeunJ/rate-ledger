@@ -7,22 +7,32 @@ export const health = (q: Q) =>
             opened, closed, jsonb_array_length(failures) as failures
        from run order by id desc limit 1`, [])
 
-export const best = (q: Q, cat: string, kind: string, term: string | null, at: string | null) =>
-  q(`select b.name as brand, p.name as product, r.rate_type, r.term, r.rate,
-            r.from_at, r.detail->'tiers' as tiers
+// Best means the highest rate on a deposit and the lowest on a loan. Discounts
+// and penalties are increments off a reference rate rather than a rate anyone
+// pays, so they cannot be ranked against one.
+export const best = (q: Q, cat: string, kind: string, months: number | null, at: string | null) =>
+  q(`select b.name as brand, p.name as product, r.rate_type, tenor(r.term) as term, r.rate,
+            r.from_at, r.detail->>'loanPurpose' as purpose, r.detail->>'repayType' as repay,
+            r.detail->>'info' as info
        from rate r
        join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
        join brand b on b.id = r.brand_id
-      where p.category = $1 and r.kind = $2
-        and ($3::text is null or r.term = $3)
+      where p.category = $1 and r.kind = $2 and r.rate > 0
+        and r.rate_type not in ('DISCOUNT', 'BUNDLE_DISCOUNT', 'PENALTY')
+        -- Some holders publish a loading as a FIXED rate and nothing in the
+        -- payload separates it from a rate you can borrow at. Under one percent,
+        -- on a loan, it is not one.
+        and (r.kind = 'deposit' or r.rate >= 0.01)
+        and ($3::int is null or term_months(r.term) = $3)
         and ($4::timestamptz is null
              or (r.from_at <= $4 and (r.to_at is null or r.to_at > $4)))
         and ($4::timestamptz is not null or r.to_at is null)
-      order by r.rate desc limit 25`, [cat, kind, term, at])
+      order by (case when $2 = 'lending' then -r.rate else r.rate end) desc
+      limit 25`, [cat, kind, months, at])
 
 export const moves = (q: Q, days: number, limit = 200) =>
   q(`select b.name as brand, p.name as product, p.category, r.kind, r.rate_type,
-            r.term, prev.rate as was, r.rate as now, r.from_at as moved_at
+            tenor(r.term) as term, prev.rate as was, r.rate as now, r.from_at as moved_at
        from rate r
        join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
        join brand b on b.id = r.brand_id

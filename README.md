@@ -9,15 +9,18 @@ stores each rate as an interval rather than a daily row, and can answer what any
 product's rate was on any past date, and which lenders moved after a cash rate
 decision and how many days they took.
 
-## What it found on the first pass
+    https://rate-ledger.pages.dev
 
-    213 / 249 brands answered
-    4,120 products
-    21,621 open rate intervals   (6,104 deposit, 15,517 lending)
-    6 minutes, 52 failures
+## What the first recorded pass held
 
-A second pass seven minutes later rewrote 12 of those 21,621, and all twelve were
-MoveBank, which served a different set of home loan rates the second time.
+    244 / 249 brands answered
+    4,746 products
+    24,432 open rate intervals   (7,039 deposit, 17,393 lending)
+    20 minutes, 21 failures
+
+A second pass seven minutes after an earlier one rewrote 12 of those intervals,
+and all twelve were MoveBank, which served a different set of home loan rates the
+second time.
 
 ## Running it daily
 
@@ -37,10 +40,14 @@ quiet days, so the job has to leave a mark.
     npm run ingest
     npm run serve
 
-    curl 'localhost:8080/best?category=TERM_DEPOSITS&term=P1Y'
-    curl 'localhost:8080/moves?days=7'
-    curl 'localhost:8080/counts'
-    curl 'localhost:8080/health'
+    curl 'localhost:8080/api/best?category=TERM_DEPOSITS&months=12'
+    curl 'localhost:8080/api/best?category=RESIDENTIAL_MORTGAGES&kind=lending'
+    curl 'localhost:8080/api/moves?days=7'
+    curl 'localhost:8080/api/counts'
+
+The site is the same five endpoints and a page over them. `npm run web` serves the
+page against a local API on 8787, `npm run api` runs that API, and `npm run deploy`
+builds both and pushes them to Cloudflare.
 
 ## Notes on the source
 
@@ -61,6 +68,18 @@ different order from different replicas, which is why the key is built from a
 canonical form: arrays sorted by their own serialisation, object keys sorted.
 Without that, a quiet day rewrites hundreds of intervals that never moved.
 
+`additionalValue` means whatever the rate type says it means. On a fixed rate it
+is an ISO 8601 term, on a discount it is a sentence of prose explaining the
+margin, and both land in the same column. Only the durations are read as a term,
+and the same twelve months arrives as P1Y, P12M and P365D, so the comparison runs
+on months.
+
+Ranking has to leave some rates out. A discount or a penalty is an increment off
+a reference rate rather than a rate anyone pays, and ranking one against a real
+rate puts a 0.35% home loan at the top. Some holders also publish a loading as a
+FIXED rate with nothing in the payload to say so, which is why nothing under one
+percent is ranked as a loan.
+
 Some holders disagree with themselves. Three consecutive reads of one ING product
 gave two different tier sets, and MoveBank served two different sets of home loan
 rates seven minutes apart. Nothing here fixes that; the ledger records what was
@@ -74,6 +93,8 @@ served and when, which is the only honest thing it can do.
     src/queries.ts the read side's SQL, written once
     src/api.ts     local server over it
     src/summary.ts the daily file that lands in data/
+    worker/        the same routes on Cloudflare, over Neon's HTTP driver
+    web/           the page
     schema.sql
 
 ## Licence

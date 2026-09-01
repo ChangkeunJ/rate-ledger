@@ -24,7 +24,7 @@ async function main() {
       was: Number(m.was), now: Number(m.now),
     })),
     best: {
-      term_deposit_1y: (await best(q, 'TERM_DEPOSITS', 'deposit', 'P1Y', null))
+      term_deposit_1y: (await best(q, 'TERM_DEPOSITS', 'deposit', 12, null))
         .slice(0, 5).map((r) => ({ brand: r.brand, product: r.product, rate: Number(r.rate) })),
       savings: (await best(q, 'TRANS_AND_SAVINGS_ACCOUNTS', 'deposit', null, null))
         .slice(0, 5).map((r) => ({ brand: r.brand, product: r.product, rate: Number(r.rate) })),

@@ -7,11 +7,11 @@ const PORT = Number(process.env.PORT ?? 8080)
 const q = async (sql: string, args: unknown[]) => (await db.query(sql, args)).rows
 
 const routes: Record<string, (p: URLSearchParams) => Promise<unknown>> = {
-  '/health': async () => (await Q.health(q))[0] ?? { note: 'no run yet' },
-  '/counts': async () => (await Q.counts(q))[0],
-  '/brands': () => Q.brands(q),
-  '/best': (p) => Q.best(q, p.get('category') ?? 'TERM_DEPOSITS', p.get('kind') ?? 'deposit', p.get('term'), p.get('at')),
-  '/moves': (p) => Q.moves(q, Math.min(Number(p.get('days') ?? 7), 90)),
+  '/api/health': async () => (await Q.health(q))[0] ?? { note: 'no run yet' },
+  '/api/counts': async () => (await Q.counts(q))[0],
+  '/api/brands': () => Q.brands(q),
+  '/api/best': (p) => Q.best(q, p.get('category') ?? 'TERM_DEPOSITS', p.get('kind') ?? 'deposit', p.get('months') ? Number(p.get('months')) : null, p.get('at')),
+  '/api/moves': (p) => Q.moves(q, Math.min(Number(p.get('days') ?? 7), 90)),
 }
 
 createServer(async (req, res) => {
