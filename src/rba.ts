@@ -19,7 +19,8 @@ export function parse(csv: string): Decision[] {
     if (!at || !c[2]) continue
     const target = last(c[2])
     if (target === null) continue
-    out.push({ at, change: last(c[1] ?? ''), target: target / 100, raw: `${c[1]},${c[2]}` })
+    const ch = last(c[1] ?? '')
+    out.push({ at, change: ch === null ? null : ch / 100, target: target / 100, raw: `${c[1]},${c[2]}` })
   }
   return out
 }

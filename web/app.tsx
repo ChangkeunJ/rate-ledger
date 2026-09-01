@@ -2,8 +2,10 @@ import { useEffect, useState } from 'react'
 
 type Counts = { brands: number; products: number; rates_open: number; deposit: number; lending: number }
 type Health = { finished_at: string; brands_ok: number; brands_total: number; failures: number } | null
-type Best = { brand: string; product: string; rate_type: string; term: string | null; rate: string; from_at: string; purpose: string | null; repay: string | null; info: string | null }
-type Move = { brand: string; product: string; kind: string; rate_type: string; term: string | null; was: string; now: string; moved_at: string }
+type Pick = { brand_id: string; pid: string }
+type Hist = { brand: string; product: string; rate_type: string; term: string | null; rate: string; from_at: string; to_at: string | null; purpose: string | null; repay: string | null }
+type Best = { brand_id: string; pid: string; brand: string; product: string; rate_type: string; term: string | null; rate: string; from_at: string; purpose: string | null; repay: string | null; info: string | null }
+type Move = { brand_id: string; pid: string; brand: string; product: string; kind: string; rate_type: string; term: string | null; was: string; now: string; moved_at: string }
 type Cash = { at: string; change: string | null; target: string }
 type Spread = { brand: string; product: string; rate: string; over: string }
 type Bank = { name: string; industries: string[]; products: string; last_ok: string | null; last_err: string | null }
@@ -20,9 +22,16 @@ const MONTHS = [1, 3, 6, 9, 12, 24, 36, 60]
 const TABS = ['rates', 'moves', 'cash', 'banks'] as const
 type Tab = (typeof TABS)[number]
 
-const shown = () => {
-  const h = location.hash.slice(1) as Tab
-  return TABS.includes(h) ? h : 'rates'
+// Two routes: a tab, or one product's history with the tab to go back to.
+const at = () => location.hash.slice(1)
+
+function route(h: string) {
+  const p = h.split('/')
+  const tab = (p[0] === 'p' ? p[1] : p[0]) as Tab
+  return {
+    tab: TABS.includes(tab) ? tab : 'rates',
+    pick: p[0] === 'p' && p[2] ? { brand_id: p[2], pid: decodeURIComponent(p.slice(3).join('/')) } : null,
+  }
 }
 
 function useJson<T>(url: string) {
@@ -40,6 +49,24 @@ function useJson<T>(url: string) {
   return { v, err }
 }
 
+// A row that opens its own history, reachable by keyboard as well as mouse.
+const row = (tab: Tab, r: Pick) => {
+  const open = () => {
+    location.hash = `p/${tab}/${r.brand_id}/${encodeURIComponent(r.pid)}`
+  }
+  return {
+    className: 'click',
+    tabIndex: 0,
+    onClick: open,
+    onKeyDown: (e: { key: string; preventDefault(): void }) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault()
+        open()
+      }
+    },
+  }
+}
+
 const pct = (r: string | number) => (Number(r) * 100).toFixed(2) + '%'
 const num = (n: number | string) => Number(n).toLocaleString('en-AU')
 
@@ -49,6 +76,9 @@ function ago(iso: string | null) {
   const d = Math.floor((Date.now() - Date.parse(iso)) / 86400e3)
   return d <= 0 ? 'today' : d === 1 ? 'yesterday' : `${d} days ago`
 }
+
+const day = (iso: string) =>
+  new Date(iso).toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
 
 function term(t: string | null) {
   if (!t) return '—'
@@ -84,6 +114,52 @@ function Strip({ counts, health }: { counts: Counts | null; health: Health }) {
         </div>
       )}
     </div>
+  )
+}
+
+// What the interval table is for: every number this product has carried, and the
+// day each one stopped.
+function History({ p, back }: { p: Pick; back: string }) {
+  const { v, err } = useJson<Hist[]>(`/api/history?brand=${p.brand_id}&pid=${encodeURIComponent(p.pid)}`)
+  const first = v?.[0]
+  return (
+    <>
+      <div className="bar">
+        <button className="back" onClick={() => (location.hash = back)}>Back</button>
+        <p className="note">
+          {first ? `${first.brand} — ${first.product}` : 'Loading'}
+        </p>
+      </div>
+      {err && <p className="err">{err}</p>}
+      {v?.length ? (
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Term</th>
+            <th>Purpose</th>
+            <th className="r">Rate</th>
+            <th>From</th>
+            <th>Until</th>
+          </tr>
+        </thead>
+        <tbody>
+          {v.map((r, i) => (
+            <tr key={i}>
+              <td className="dim">{r.rate_type.toLowerCase()}</td>
+              <td className="dim">{term(r.term)}</td>
+              <td className="dim">
+                {[r.purpose, r.repay].filter(Boolean).join(' ').replace(/_/g, ' ').toLowerCase() || '—'}
+              </td>
+              <td className="r big">{pct(r.rate)}</td>
+              <td className="dim">{day(r.from_at)}</td>
+              <td className={r.to_at ? 'dim' : ''}>{r.to_at ? day(r.to_at) : 'still held'}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      ) : null}
+    </>
   )
 }
 
@@ -129,7 +205,7 @@ function Rates() {
         </thead>
         <tbody>
           {v?.map((r, i) => (
-            <tr key={i}>
+            <tr key={i} {...row('rates', r)}>
               <td className="rank">{i + 1}</td>
               <td className="name">{r.brand}</td>
               <td>
@@ -184,7 +260,7 @@ function Moves() {
           {v?.map((m, i) => {
             const d = Number(m.now) - Number(m.was)
             return (
-              <tr key={i}>
+              <tr key={i} {...row('moves', m)}>
                 <td className="name">{m.brand}</td>
                 <td>{m.product}</td>
                 <td className="dim">{m.rate_type.toLowerCase()}</td>
@@ -328,14 +404,15 @@ function Banks() {
 }
 
 export default function App() {
-  const [tab, setTab] = useState<Tab>(shown)
+  const [hash, setHash] = useState(at)
   const { v: counts } = useJson<Counts>('/api/counts')
   const { v: health } = useJson<Health>('/api/health')
   useEffect(() => {
-    const on = () => setTab(shown())
+    const on = () => setHash(at())
     addEventListener('hashchange', on)
     return () => removeEventListener('hashchange', on)
   }, [])
+  const { tab, pick } = route(hash)
   return (
     <>
       <header>
@@ -350,16 +427,22 @@ export default function App() {
       </header>
       <nav className="wrap">
         {TABS.map((t) => (
-          <button key={t} className={t === tab ? 'on' : ''} onClick={() => { location.hash = t; setTab(t) }}>
+          <button key={t} className={t === tab ? 'on' : ''} onClick={() => (location.hash = t)}>
             {t === 'rates' ? 'Rates' : t === 'moves' ? 'Movements' : t === 'cash' ? 'Cash rate' : 'Banks'}
           </button>
         ))}
       </nav>
       <main className="wrap">
-        {tab === 'rates' && <Rates />}
-        {tab === 'moves' && <Moves />}
-        {tab === 'cash' && <CashRate />}
-        {tab === 'banks' && <Banks />}
+        {pick ? (
+          <History p={pick} back={tab} />
+        ) : (
+          <>
+            {tab === 'rates' && <Rates />}
+            {tab === 'moves' && <Moves />}
+            {tab === 'cash' && <CashRate />}
+            {tab === 'banks' && <Banks />}
+          </>
+        )}
       </main>
       <footer className="wrap">
         <p>

@@ -204,3 +204,17 @@ footer a { color: var(--acc); }
 .chart .dot { fill: var(--acc); }
 .chart .lab { fill: var(--muted); font: 400 10px 'IBM Plex Mono', monospace; }
 .chart .end { text-anchor: end; }
+
+tr.click { cursor: pointer; }
+tr.click:hover td, tr.click:focus-visible td { background: var(--paper); }
+tr.click:focus-visible { outline: 2px solid var(--acc); outline-offset: -2px; }
+
+.back {
+  font: 500 13px 'IBM Plex Sans', sans-serif;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 5px 11px;
+  cursor: pointer;
+}

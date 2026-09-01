@@ -39,10 +39,12 @@ quiet days, so the job has to leave a mark.
     npm ci && npm run db
     npm run ingest
     npm run serve
+    npm test
 
     curl 'localhost:8080/api/best?category=TERM_DEPOSITS&months=12'
     curl 'localhost:8080/api/best?category=RESIDENTIAL_MORTGAGES&kind=lending'
     curl 'localhost:8080/api/moves?days=7'
+    curl 'localhost:8080/api/history?brand=<uuid>&pid=<id>'
     curl 'localhost:8080/api/cash'
     curl 'localhost:8080/api/spread'
     curl 'localhost:8080/api/passthrough?at=2026-05-06&days=60'
@@ -63,6 +65,10 @@ settles at v5 and Get Product Detail at v7, and asking for the wrong one returns
 406 with the version the holder does support named in the `x-v` header of the
 error. Sending `x-v: 10` with `x-min-v: 1` gets 206 of 214 holders in one call;
 the rest are picked up by reading that header and asking again.
+
+Revolut takes neither half of that. It ignores `x-min-v`, and its 406 names no
+version in the header, so the only way in is to walk the version down from the
+ceiling until one is accepted. It answers at v5, nine requests later.
 
 Rates are not uniquely identified by type and term. ING lists three owner-occupied
 principal-and-interest variable rates at the same price, separated only by their
@@ -106,6 +112,7 @@ served and when, which is the only honest thing it can do.
     src/ingest.ts  one lane per holder, failures recorded not thrown
     src/rba.ts     the cash rate decisions the loans are priced off
     src/queries.ts the read side's SQL, written once
+    test/          the rate key, the interval open and close, and the read SQL
     src/api.ts     local server over it
     src/summary.ts the daily file that lands in data/
     worker/        the same routes on Cloudflare, over Neon's HTTP driver

@@ -35,26 +35,28 @@ export class Http {
   constructor(private ua = 'rate-ledger/0.1 (+https://github.com/ChangkeunJ/rate-ledger)') {}
 
   // A holder that cannot serve the asked range answers 406 and names a version it
-  // does support in the x-v header. Asking high with x-min-v covers most of them;
-  // the named version covers the rest.
+  // does support in the x-v header. Asking high with x-min-v covers most of them
+  // and the named version covers most of the rest. Revolut honours neither: it
+  // ignores x-min-v and names nothing, so the last resort is to walk down.
   async json(url: string, maxV = 10, tries = 3): Promise<{ body: any; v: string | null }> {
     let last: Error | null = null
-    let pin: string | null = null
-    for (let i = 0; i < tries; i++) {
+    let ask = maxV
+    let pin = false
+    let n = 0
+    for (let i = 0; i < tries + maxV; i++) {
       const ac = new AbortController()
       const t = setTimeout(() => ac.abort(), 30_000)
       try {
         const h: Record<string, string> = { accept: 'application/json', 'user-agent': this.ua }
-        if (pin) h['x-v'] = pin
-        else {
-          h['x-v'] = String(maxV)
-          h['x-min-v'] = '1'
-        }
+        h['x-v'] = String(ask)
+        if (!pin) h['x-min-v'] = '1'
         const r = await fetch(url, { signal: ac.signal, headers: h })
-        if (r.status === 406 && !pin) {
+        if (r.status === 406) {
           const said = r.headers.get('x-v')
-          if (said && /^\d+$/.test(said)) {
-            pin = said
+          const next = said && /^\d+$/.test(said) ? Number(said) : ask - 1
+          if (next >= 1 && next !== ask) {
+            ask = next
+            pin = true
             continue
           }
         }
@@ -66,8 +68,8 @@ export class Http {
         return { body: await r.json(), v: r.headers.get('x-v') }
       } catch (e: any) {
         last = e
-        if (e.fatal) break
-        await sleep(400 * 2 ** i + Math.floor(Math.random() * 200))
+        if (e.fatal || ++n >= tries) break
+        await sleep(400 * 2 ** n + Math.floor(Math.random() * 200))
       } finally {
         clearTimeout(t)
       }

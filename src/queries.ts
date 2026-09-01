@@ -11,7 +11,8 @@ export const health = (q: Q) =>
 // and penalties are increments off a reference rate rather than a rate anyone
 // pays, so they cannot be ranked against one.
 export const best = (q: Q, cat: string, kind: string, months: number | null, at: string | null) =>
-  q(`select b.name as brand, p.name as product, r.rate_type, tenor(r.term) as term, r.rate,
+  q(`select b.name as brand, p.name as product, r.brand_id, r.pid,
+            r.rate_type, tenor(r.term) as term, r.rate,
             r.from_at, r.detail->>'loanPurpose' as purpose, r.detail->>'repayType' as repay,
             r.detail->>'info' as info
        from rate r
@@ -31,7 +32,7 @@ export const best = (q: Q, cat: string, kind: string, months: number | null, at:
       limit 25`, [cat, kind, months, at])
 
 export const moves = (q: Q, days: number, limit = 200) =>
-  q(`select b.name as brand, p.name as product, p.category, r.kind, r.rate_type,
+  q(`select b.name as brand, p.name as product, r.brand_id, r.pid, p.category, r.kind, r.rate_type,
             tenor(r.term) as term, prev.rate as was, r.rate as now, r.from_at as moved_at
        from rate r
        join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
@@ -95,3 +96,15 @@ export const passthrough = (q: Q, at: string | null, days = 60) =>
           order by o.to_at desc limit 1) prev on true
       where d.at = coalesce($1::date, (select max(at) from cash_rate)) and d.change <> 0
       order by days, abs(r.rate - prev.rate) desc limit 300`, [at, days])
+
+// Every interval this product's rates have held. The open one has no to_at; the
+// rest are what the numbers were before they moved.
+export const history = async (q: Q, brand: string, pid: string, limit = 300) =>
+  !brand || !pid ? [] : q(`select b.name as brand, p.name as product, r.rate_type, tenor(r.term) as term,
+            r.rate, r.from_at, r.to_at,
+            r.detail->>'loanPurpose' as purpose, r.detail->>'repayType' as repay
+       from rate r
+       join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
+       join brand b on b.id = r.brand_id
+      where r.brand_id = $1 and r.pid = $2
+      order by r.from_at desc, r.rate desc limit $3`, [brand, pid, limit])

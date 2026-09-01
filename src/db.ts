@@ -33,7 +33,7 @@ export async function putDecisions(db: Pool, rows: { at: string; change: number 
     await db.query(
       `insert into cash_rate (at, change, target, raw) values ($1,$2,$3,$4)
        on conflict (at) do update set change = excluded.change, target = excluded.target, raw = excluded.raw`,
-      [d.at, d.change === null ? null : d.change / 100, d.target, d.raw],
+      [d.at, d.change, d.target, d.raw],
     )
   }
 }
