@@ -1,124 +1,37 @@
 {
  "date": "2026-09-01",
  "run": {
-  "started": "2026-09-01T05:03:58.588Z",
-  "finished": "2026-09-01T05:09:41.364Z",
-  "brands": "213/249",
-  "products": 4120,
-  "opened": 12,
-  "closed": 12,
-  "failures": 52
+  "started": "2026-09-01T06:03:27.221Z",
+  "finished": "2026-09-01T06:23:36.959Z",
+  "brands": "244/249",
+  "products": 4746,
+  "opened": 24432,
+  "closed": 0,
+  "failures": 21
  },
  "totals": {
   "brands": 249,
-  "products": 4120,
-  "rates_open": 21621,
-  "deposit": 6104,
-  "lending": 15517
+  "products": 4746,
+  "rates_open": 24432,
+  "deposit": 7039,
+  "lending": 17393
  },
- "moves": [
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0599,
-   "now": 0.0629
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0619
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0609
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0669,
-   "now": 0.0654
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0634,
-   "now": 0.0649
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0639,
-   "now": 0.0629
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0659,
-   "now": 0.0649
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0639
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0644,
-   "now": 0.0654
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0669,
-   "now": 0.0659
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0689,
-   "now": 0.0679
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0674,
-   "now": 0.0664
-  }
- ],
+ "moves": [],
  "best": {
   "term_deposit_1y": [
    {
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
+    "rate": 0.0535
+   },
+   {
     "brand": "Qudos Bank",
     "product": "Term Deposits",
+    "rate": 0.0535
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
     "rate": 0.0535
    },
    {
@@ -127,19 +40,9 @@
     "rate": 0.053
    },
    {
-    "brand": "Qudos Bank",
-    "product": "Term Deposits",
-    "rate": 0.0525
-   },
-   {
-    "brand": "Alex.Bank",
-    "product": "Term Deposit - Partners",
-    "rate": 0.0525
-   },
-   {
-    "brand": "Alex.Bank",
-    "product": "Term Deposit - Direct",
-    "rate": 0.0525
+    "brand": "Regional Australia Bank",
+    "product": "Term Savings",
+    "rate": 0.053
    }
   ],
   "savings": [
