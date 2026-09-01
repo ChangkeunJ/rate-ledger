@@ -56,3 +56,42 @@ export const counts = (q: Q) =>
             (select count(*)::int from rate where to_at is null) rates_open,
             (select count(*)::int from rate where to_at is null and kind = 'deposit') deposit,
             (select count(*)::int from rate where to_at is null and kind = 'lending') lending`, [])
+
+export const cash = (q: Q, years = 15) =>
+  q(`select at::text as at, change, target from cash_rate
+      where at > now() - ($1 || ' years')::interval order by at`, [years])
+
+// The cheapest owner-occupied principal-and-interest variable loan each lender
+// advertises, against the cash rate it is priced off.
+export const spread = (q: Q) =>
+  q(`select * from (
+       select distinct on (b.id) b.name as brand, p.name as product, r.rate,
+              r.rate - (select target from cash_rate order by at desc limit 1) as over
+         from rate r
+         join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
+         join brand b on b.id = r.brand_id
+        where r.to_at is null and r.kind = 'lending' and r.rate_type = 'VARIABLE'
+          and p.category = 'RESIDENTIAL_MORTGAGES' and r.rate >= 0.01
+          and r.detail->>'loanPurpose' = 'OWNER_OCCUPIED'
+          and r.detail->>'repayType' = 'PRINCIPAL_AND_INTEREST'
+        order by b.id, r.rate) t
+      order by rate`, [])
+
+// Every rate that moved in the window after a decision, with the days it took and
+// the share of the cash rate change it passed on.
+export const passthrough = (q: Q, at: string | null, days = 60) =>
+  q(`select b.name as brand, p.name as product, r.rate_type, d.at::text as decided,
+            prev.rate as was, r.rate as now,
+            round((r.rate - prev.rate) / d.change, 2) as share,
+            r.from_at::date - d.at as days
+       from cash_rate d
+       join rate r on r.from_at::date between d.at and d.at + $2::int
+       join product p on (p.brand_id, p.pid) = (r.brand_id, r.pid)
+       join brand b on b.id = r.brand_id
+       join lateral (
+         select rate from rate o
+          where o.brand_id = r.brand_id and o.pid = r.pid and o.key = r.key
+            and o.to_at = r.from_at
+          order by o.to_at desc limit 1) prev on true
+      where d.at = coalesce($1::date, (select max(at) from cash_rate)) and d.change <> 0
+      order by days, abs(r.rate - prev.rate) desc limit 300`, [at, days])

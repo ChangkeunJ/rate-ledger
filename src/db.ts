@@ -28,6 +28,16 @@ export async function markBrand(db: Pool, id: string, err: string | null) {
   )
 }
 
+export async function putDecisions(db: Pool, rows: { at: string; change: number | null; target: number; raw: string }[]) {
+  for (const d of rows) {
+    await db.query(
+      `insert into cash_rate (at, change, target, raw) values ($1,$2,$3,$4)
+       on conflict (at) do update set change = excluded.change, target = excluded.target, raw = excluded.raw`,
+      [d.at, d.change === null ? null : d.change / 100, d.target, d.raw],
+    )
+  }
+}
+
 export async function putProduct(db: Pool, brandId: string, d: Detail, at: Date) {
   await db.query(
     `insert into product (brand_id, pid, category, name, descr, tailored, updated, first_seen, last_seen)

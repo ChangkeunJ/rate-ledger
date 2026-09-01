@@ -12,6 +12,9 @@ const routes: Record<string, (p: URLSearchParams) => Promise<unknown>> = {
   '/api/brands': () => Q.brands(q),
   '/api/best': (p) => Q.best(q, p.get('category') ?? 'TERM_DEPOSITS', p.get('kind') ?? 'deposit', p.get('months') ? Number(p.get('months')) : null, p.get('at')),
   '/api/moves': (p) => Q.moves(q, Math.min(Number(p.get('days') ?? 7), 90)),
+  '/api/cash': () => Q.cash(q),
+  '/api/spread': () => Q.spread(q),
+  '/api/passthrough': (p) => Q.passthrough(q, p.get('at'), Math.min(Number(p.get('days') ?? 60), 180)),
 }
 
 createServer(async (req, res) => {

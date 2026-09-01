@@ -7,8 +7,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "ingest": "tsc && node dist/ingest.js",
-    "serve": "tsc && node dist/api.js",
+    "ingest": "tsc && node dist/src/ingest.js",
+    "serve": "tsc && node dist/src/api.js",
     "test": "tsc && node --test dist/test/*.test.js",
     "db": "psql \"$DATABASE_URL\" -f schema.sql",
     "web": "vite",
@@ -16,7 +16,8 @@
     "check": "tsc && tsc -p web/tsconfig.json && tsc -p worker/tsconfig.json",
     "deploy": "npm run build:web && wrangler pages deploy",
     "build:worker": "esbuild worker/index.ts --bundle --format=esm --target=es2022 --conditions=worker,browser --outfile=public/_worker.js",
-    "api": "wrangler pages dev public --port 8787"
+    "api": "wrangler pages dev public --port 8787",
+    "rba": "tsc && node dist/src/rba.js"
   },
   "engines": {
     "node": ">=20"

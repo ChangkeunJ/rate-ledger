@@ -1,5 +1,9 @@
 {
  "date": "2026-09-01",
+ "cash_rate": {
+  "target": 0.0435,
+  "since": "2026-05-06"
+ },
  "run": {
   "started": "2026-09-01T06:03:27.221Z",
   "finished": "2026-09-01T06:23:36.959Z",
@@ -20,6 +24,16 @@
  "best": {
   "term_deposit_1y": [
    {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.054
+   },
+   {
+    "brand": "ME Bank - ME Go",
+    "product": "ME Go Term Deposit",
+    "rate": 0.0537
+   },
+   {
     "brand": "Judo Bank",
     "product": "Business Term Deposits",
     "rate": 0.0535
@@ -30,19 +44,9 @@
     "rate": 0.0535
    },
    {
-    "brand": "Judo Bank",
-    "product": "SMSF Term Deposits",
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
     "rate": 0.0535
-   },
-   {
-    "brand": "ING BANK (Australia) Ltd",
-    "product": "Personal Term Deposits",
-    "rate": 0.053
-   },
-   {
-    "brand": "Regional Australia Bank",
-    "product": "Term Savings",
-    "rate": 0.053
    }
   ],
   "savings": [

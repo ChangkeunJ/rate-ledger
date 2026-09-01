@@ -29,6 +29,7 @@ jobs:
       - run: npm ci
       - run: psql "$DATABASE_URL" -f schema.sql
       - run: npm run build
+      - run: node dist/src/rba.js
       - run: node dist/src/ingest.js
       - run: node dist/src/summary.js
       - name: commit the day

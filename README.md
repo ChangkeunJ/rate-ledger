@@ -43,6 +43,9 @@ quiet days, so the job has to leave a mark.
     curl 'localhost:8080/api/best?category=TERM_DEPOSITS&months=12'
     curl 'localhost:8080/api/best?category=RESIDENTIAL_MORTGAGES&kind=lending'
     curl 'localhost:8080/api/moves?days=7'
+    curl 'localhost:8080/api/cash'
+    curl 'localhost:8080/api/spread'
+    curl 'localhost:8080/api/passthrough?at=2026-05-06&days=60'
     curl 'localhost:8080/api/counts'
 
 The site is the same five endpoints and a page over them. `npm run web` serves the
@@ -68,6 +71,17 @@ different order from different replicas, which is why the key is built from a
 canonical form: arrays sorted by their own serialisation, object keys sorted.
 Without that, a quiet day rewrites hundreds of intervals that never moved.
 
+The cash rate comes from the RBA's own table A2, which is every monetary policy
+decision since January 1990. Before 1998 the target was announced as a range, so
+those rows still read "17.00 to 17.50"; the number the rate settled at is read out
+and the line is kept as served. Ninety-eight decisions, and the last one raised the
+target to 4.35% on 6 May 2026.
+
+That is the other half of the question. `passthrough` takes a decision date and
+returns every rate that moved in the window after it, the days each lender took and
+the share of the cash rate change it passed on. It answers nothing yet: the ledger's
+own history starts on 1 September 2026 and the next decision has not happened.
+
 `additionalValue` means whatever the rate type says it means. On a fixed rate it
 is an ISO 8601 term, on a discount it is a sentence of prose explaining the
 margin, and both land in the same column. Only the durations are read as a term,
@@ -90,6 +104,7 @@ served and when, which is the only honest thing it can do.
     src/cdr.ts     register, product list, product detail, rate identity
     src/db.ts      schema access and the interval open/close
     src/ingest.ts  one lane per holder, failures recorded not thrown
+    src/rba.ts     the cash rate decisions the loans are priced off
     src/queries.ts the read side's SQL, written once
     src/api.ts     local server over it
     src/summary.ts the daily file that lands in data/

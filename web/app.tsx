@@ -4,6 +4,8 @@ type Counts = { brands: number; products: number; rates_open: number; deposit: n
 type Health = { finished_at: string; brands_ok: number; brands_total: number; failures: number } | null
 type Best = { brand: string; product: string; rate_type: string; term: string | null; rate: string; from_at: string; purpose: string | null; repay: string | null; info: string | null }
 type Move = { brand: string; product: string; kind: string; rate_type: string; term: string | null; was: string; now: string; moved_at: string }
+type Cash = { at: string; change: string | null; target: string }
+type Spread = { brand: string; product: string; rate: string; over: string }
 type Bank = { name: string; industries: string[]; products: string; last_ok: string | null; last_err: string | null }
 
 const CATS = [
@@ -15,7 +17,7 @@ const CATS = [
   { id: 'CRED_AND_CHRG_CARDS', kind: 'lending', label: 'Credit cards' },
 ]
 const MONTHS = [1, 3, 6, 9, 12, 24, 36, 60]
-const TABS = ['rates', 'moves', 'banks'] as const
+const TABS = ['rates', 'moves', 'cash', 'banks'] as const
 type Tab = (typeof TABS)[number]
 
 const shown = () => {
@@ -204,6 +206,90 @@ function Moves() {
   )
 }
 
+// A step line: the target holds flat until the next decision moves it.
+function Chart({ d }: { d: Cash[] }) {
+  const w = 760
+  const h = 150
+  const pad = 26
+  const t0 = Date.parse(d[0]!.at)
+  const t1 = Date.now()
+  const hi = Math.ceil(Math.max(...d.map((s) => Number(s.target))) * 100) / 100
+  const x = (iso: string) => pad + ((Date.parse(iso) - t0) / (t1 - t0)) * (w - pad * 2)
+  const y = (v: number) => h - pad - (v / hi) * (h - pad * 2)
+
+  let p = `M ${x(d[0]!.at)} ${y(Number(d[0]!.target))}`
+  for (const s of d.slice(1)) p += ` H ${x(s.at)} V ${y(Number(s.target))}`
+  p += ` H ${w - pad}`
+
+  return (
+    <svg className="chart" viewBox={`0 0 ${w} ${h}`} role="img" aria-label="cash rate target">
+      <line x1={pad} y1={y(0)} x2={w - pad} y2={y(0)} className="axis" />
+      <line x1={pad} y1={y(hi)} x2={w - pad} y2={y(hi)} className="axis" />
+      <text x={pad} y={y(hi) - 6} className="lab">{(hi * 100).toFixed(2)}%</text>
+      <text x={pad} y={y(0) + 14} className="lab">{d[0]!.at.slice(0, 4)}</text>
+      <text x={w - pad} y={y(0) + 14} className="lab end">{new Date().getFullYear()}</text>
+      <path d={p} className="line" />
+      <circle cx={w - pad} cy={y(Number(d[d.length - 1]!.target))} r="3" className="dot" />
+    </svg>
+  )
+}
+
+function CashRate() {
+  const { v: d, err } = useJson<Cash[]>('/api/cash')
+  const { v: s } = useJson<Spread[]>('/api/spread')
+  const now = d?.[d.length - 1]
+  return (
+    <>
+      {err && <p className="err">{err}</p>}
+      {now && (
+        <div className="figure">
+          <div>
+            <span className="k">Cash rate target</span>
+            <span className="big-rate">{pct(now.target)}</span>
+            <span className="k">
+              {Number(now.change) > 0 ? 'raised' : 'cut'} {pct(Math.abs(Number(now.change)))} on{' '}
+              {new Date(now.at).toLocaleDateString('en-AU', { day: 'numeric', month: 'long', year: 'numeric' })}
+            </span>
+          </div>
+          {d && d.length > 1 && <Chart d={d} />}
+        </div>
+      )}
+      <div className="bar">
+        <p className="note">
+          The cheapest owner-occupied principal-and-interest variable loan each lender advertises, and how far it
+          sits above the cash rate it is priced off.
+        </p>
+      </div>
+      {s?.length ? (
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Bank</th>
+            <th>Product</th>
+            <th className="r">Rate</th>
+            <th className="r">Over cash</th>
+          </tr>
+        </thead>
+        <tbody>
+          {s.map((r, i) => (
+            <tr key={r.brand}>
+              <td className="rank">{i + 1}</td>
+              <td className="name">{r.brand}</td>
+              <td>{r.product}</td>
+              <td className="r big">{pct(r.rate)}</td>
+              <td className={'r ' + (Number(r.over) > 0 ? 'down' : 'up')}>
+                {(Number(r.over) > 0 ? '+' : '') + (Number(r.over) * 100).toFixed(2)}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      ) : null}
+    </>
+  )
+}
+
 function Banks() {
   const { v, err } = useJson<Bank[]>('/api/brands')
   const [f, setF] = useState('')
@@ -265,13 +351,14 @@ export default function App() {
       <nav className="wrap">
         {TABS.map((t) => (
           <button key={t} className={t === tab ? 'on' : ''} onClick={() => { location.hash = t; setTab(t) }}>
-            {t === 'rates' ? 'Rates' : t === 'moves' ? 'Movements' : 'Banks'}
+            {t === 'rates' ? 'Rates' : t === 'moves' ? 'Movements' : t === 'cash' ? 'Cash rate' : 'Banks'}
           </button>
         ))}
       </nav>
       <main className="wrap">
         {tab === 'rates' && <Rates />}
         {tab === 'moves' && <Moves />}
+        {tab === 'cash' && <CashRate />}
         {tab === 'banks' && <Banks />}
       </main>
       <footer className="wrap">

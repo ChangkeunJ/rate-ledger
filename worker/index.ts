@@ -16,6 +16,9 @@ const routes: Record<string, (q: Q.Q, p: URLSearchParams) => Promise<unknown>> =
     Q.best(q, p.get('category') ?? 'TERM_DEPOSITS', p.get('kind') ?? 'deposit',
            p.get('months') ? Number(p.get('months')) : null, p.get('at')),
   '/api/moves': (q, p) => Q.moves(q, Math.min(Number(p.get('days') ?? 7), 90)),
+  '/api/cash': (q) => Q.cash(q),
+  '/api/spread': (q) => Q.spread(q),
+  '/api/passthrough': (q, p) => Q.passthrough(q, p.get('at'), Math.min(Number(p.get('days') ?? 60), 180)),
 }
 
 function json(body: unknown, status = 200) {

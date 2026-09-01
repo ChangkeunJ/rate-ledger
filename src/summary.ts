@@ -1,6 +1,6 @@
 import { writeFileSync, mkdirSync } from 'node:fs'
 import { pool } from './db.js'
-import { counts, health, moves, best } from './queries.js'
+import { counts, health, moves, best, cash } from './queries.js'
 
 // Written into the repo after every scheduled run. It is the public record, and
 // it is also what keeps GitHub from disabling the schedule after 60 quiet days.
@@ -11,8 +11,11 @@ async function main() {
   const [c] = await counts(q)
   const day = new Date().toISOString().slice(0, 10)
 
+  const rba = (await cash(q, 1)).pop() ?? (await cash(q, 40)).pop()
+
   const out = {
     date: day,
+    cash_rate: rba ? { target: Number(rba.target), since: String(rba.at).slice(0, 10) } : null,
     run: h ? {
       started: h.started_at, finished: h.finished_at,
       brands: `${h.brands_ok}/${h.brands_total}`,

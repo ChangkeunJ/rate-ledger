@@ -179,3 +179,28 @@ footer a { color: var(--acc); }
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
+
+.figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  padding: 20px 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.figure .k { display: block; font-size: 11px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); }
+.big-rate {
+  display: block;
+  font: 500 46px/1.1 'IBM Plex Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  margin: 4px 0 6px;
+}
+
+.chart { flex: 1 1 380px; max-width: 760px; height: 150px; }
+.chart .axis { stroke: var(--line); stroke-width: 1; }
+.chart .line { fill: none; stroke: var(--acc); stroke-width: 1.6; }
+.chart .dot { fill: var(--acc); }
+.chart .lab { fill: var(--muted); font: 400 10px 'IBM Plex Mono', monospace; }
+.chart .end { text-anchor: end; }

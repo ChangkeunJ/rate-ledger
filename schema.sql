@@ -73,3 +73,12 @@ create or replace function term_months(t text) returns int language sql immutabl
     + coalesce((substring(t from '(\d+)D'))::int, 0) / 30
   end
 $$;
+
+-- Every cash rate decision the RBA has announced, kept as a fraction like every
+-- other rate here.
+create table if not exists cash_rate (
+  at     date primary key,
+  change numeric(8,6),
+  target numeric(8,6) not null,
+  raw    text
+);
