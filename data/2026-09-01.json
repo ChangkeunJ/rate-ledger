@@ -5,22 +5,343 @@
   "since": "2026-05-06"
  },
  "run": {
-  "started": "2026-09-01T06:03:27.221Z",
-  "finished": "2026-09-01T06:23:36.959Z",
+  "started": "2026-09-01T22:11:46.118Z",
+  "finished": "2026-09-01T22:23:36.443Z",
   "brands": "244/249",
-  "products": 4746,
-  "opened": 24432,
-  "closed": 0,
-  "failures": 21
+  "products": 4738,
+  "opened": 74,
+  "closed": 58,
+  "failures": 23
  },
  "totals": {
   "brands": 249,
-  "products": 4746,
-  "rates_open": 24432,
-  "deposit": 7039,
-  "lending": 17393
+  "products": 4755,
+  "rates_open": 24404,
+  "deposit": 7008,
+  "lending": 17396
  },
- "moves": [],
+ "moves": [
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0639
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Digital Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0515,
+   "now": 0.053
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Digital Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0505,
+   "now": 0.052
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0505,
+   "now": 0.052
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0515,
+   "now": 0.053
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0503,
+   "now": 0.0518
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0505,
+   "now": 0.052
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0654
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0496,
+   "now": 0.051
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0499,
+   "now": 0.0513
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0494,
+   "now": 0.0508
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0509,
+   "now": 0.0523
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.04425
+  },
+  {
+   "brand": "IMB Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0525,
+   "now": 0.0515
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0505,
+   "now": 0.0515
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.05,
+   "now": 0.051
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0502,
+   "now": 0.0512
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.051,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.03425
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0669,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0639,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0629,
+   "now": 0.0639
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0674,
+   "now": 0.0664
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0654,
+   "now": 0.0644
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0664,
+   "now": 0.0674
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.04425
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0649
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.02425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.02425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.03425
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.049,
+   "now": 0.05
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0485,
+   "now": 0.0495
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0487,
+   "now": 0.0497
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.05,
+   "now": 0.051
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0492,
+   "now": 0.0502
+  },
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0494,
+   "now": 0.0504
+  }
+ ],
  "best": {
   "term_deposit_1y": [
    {
@@ -34,18 +355,18 @@
     "rate": 0.0537
    },
    {
-    "brand": "Judo Bank",
-    "product": "Business Term Deposits",
-    "rate": 0.0535
-   },
-   {
     "brand": "Qudos Bank",
     "product": "Term Deposits",
     "rate": 0.0535
    },
    {
-    "brand": "Bank Australia",
-    "product": "Term Deposit 12 months",
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0535
+   },
+   {
+    "brand": "ORANGE CREDIT UNION LTD",
+    "product": "12MTH FIXED TERM DEPOSIT WEALTH BUILDER",
     "rate": 0.0535
    }
   ],
