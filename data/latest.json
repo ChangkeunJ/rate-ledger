@@ -1,24 +1,24 @@
 {
  "date": "2026-09-29",
  "cash_rate": {
-  "target": 0.0435,
-  "since": "2026-05-06"
+  "target": 0.046,
+  "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-09-29T00:04:04.955Z",
-  "finished": "2026-09-29T00:17:34.346Z",
-  "brands": "246/250",
-  "products": 4764,
-  "opened": 550,
-  "closed": 543,
+  "started": "2026-09-29T23:17:01.632Z",
+  "finished": "2026-09-29T23:27:13.412Z",
+  "brands": "247/250",
+  "products": 4761,
+  "opened": 528,
+  "closed": 529,
   "failures": 20
  },
  "totals": {
   "brands": 251,
-  "products": 4781,
-  "rates_open": 24506,
-  "deposit": 7058,
-  "lending": 17448
+  "products": 4761,
+  "rates_open": 24483,
+  "deposit": 7051,
+  "lending": 17432
  },
  "moves": [
   {
@@ -28,6 +28,294 @@
    "term": null,
    "was": 0.0799,
    "now": 0.02
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Velocity Black",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Velocity Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Qantas Black",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Qantas Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Black Rewards World Mastercard",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2099,
+   "now": 0.2398
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Velocity Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Rewards Signature",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Velocity Black",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "BankSA",
+   "product": "Amplify Rewards Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Qantas Black",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Qantas Platinum ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Black Rewards World Mastercard",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Westpac",
+   "product": "Altitude Qantas Platinum",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
+  },
+  {
+   "brand": "Bank of Melbourne",
+   "product": "Amplify Qantas Signature ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2199,
+   "now": 0.2399
   },
   {
    "brand": "ANZ",
@@ -47,306 +335,23 @@
   },
   {
    "brand": "ANZ",
-   "product": "ANZ Frequent Flyer Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ First",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "ANZ",
    "product": "ANZ First",
    "kind": "lending",
    "term": null,
    "was": 0.2199,
    "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Frequent Flyer Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Rewards Black",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Frequent Flyer Black",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "Beyond Bank Australia",
-   "product": "INV - 9 Mth Capitalise",
-   "kind": "deposit",
-   "term": "P9M",
-   "was": 0.038,
-   "now": 0.053
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Low Rate",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Rewards Black",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Rewards Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Frequent Flyer Black",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2199,
-   "now": 0.2349
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Rewards Platinum",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2099,
-   "now": 0.2249
-  },
-  {
-   "brand": "Beyond Bank Australia",
-   "product": "INV - 9 Mth Capitalise",
-   "kind": "deposit",
-   "term": "P9M",
-   "was": 0.0385,
-   "now": 0.053
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ Advance Notice Term Deposit",
-   "kind": "deposit",
-   "term": "P7M",
-   "was": 0.0355,
-   "now": 0.05
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01825,
-   "now": 0.03225
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02825,
-   "now": 0.04225
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02825,
-   "now": 0.04225
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01825,
-   "now": 0.03225
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03825,
-   "now": 0.05225
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03825,
-   "now": 0.05225
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P310D",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Online Term Deposit",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P310D",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Business Term Deposit",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P310D",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Regular Term Deposit",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P310D",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "NATIONAL SENIORS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0375,
-   "now": 0.051
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Online Term Deposit",
-   "kind": "deposit",
-   "term": "P8M",
-   "was": 0.038,
-   "now": 0.05
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "NATIONAL SENIORS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P8M",
-   "was": 0.038,
-   "now": 0.05
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P248D",
-   "was": 0.038,
-   "now": 0.05
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Bank First",
-    "product": "1 Year Term Deposit",
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Intermediary",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.055
    },
    {
@@ -360,13 +365,8 @@
     "rate": 0.055
    },
    {
-    "brand": "Alex.Bank",
-    "product": "Term Deposit - Intermediary",
-    "rate": 0.055
-   },
-   {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
     "rate": 0.055
    }
   ],
