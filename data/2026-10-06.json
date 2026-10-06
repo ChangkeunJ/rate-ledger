@@ -5,363 +5,363 @@
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-06T01:02:35.899Z",
-  "finished": "2026-10-06T01:12:25.723Z",
-  "brands": "246/250",
-  "products": 4717,
-  "opened": 226,
-  "closed": 219,
+  "started": "2026-10-06T23:27:24.193Z",
+  "finished": "2026-10-06T23:37:37.199Z",
+  "brands": "245/250",
+  "products": 4665,
+  "opened": 796,
+  "closed": 859,
   "failures": 20
  },
  "totals": {
   "brands": 251,
-  "products": 4757,
-  "rates_open": 24474,
-  "deposit": 7056,
-  "lending": 17418
+  "products": 4746,
+  "rates_open": 24311,
+  "deposit": 6992,
+  "lending": 17319
  },
  "moves": [
   {
-   "brand": "Unity Bank",
-   "product": "Fixed Rate Home Loan - Owner Occupier - P&I - 36 mths",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0615,
-   "now": 0.065
-  },
-  {
-   "brand": "BCU Bank",
-   "product": "55 Term Deposit - 12M Ftly",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.0415,
-   "now": 0.0445
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "brand": "loans.com.au",
+   "product": "Secured Variable Car Loan (Private Sale)",
    "kind": "lending",
    "term": null,
-   "was": 0.0599,
-   "now": 0.0629
+   "was": 0.0594,
+   "now": 0.1689
   },
   {
-   "brand": "BCU Bank",
-   "product": "12 Month Term Deposit",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.05,
-   "now": 0.053
-  },
-  {
-   "brand": "Unity Bank",
-   "product": "Fixed Rate Home Loan - Owner Occupier - P&I - 60 mths",
+   "brand": "loans.com.au",
+   "product": "Secured Fixed Car Loan (Private Sale)",
    "kind": "lending",
-   "term": "P60M",
-   "was": 0.0635,
-   "now": 0.0665
+   "term": "P7Y",
+   "was": 0.1599,
+   "now": 0.0749
   },
   {
-   "brand": "Unity Bank",
-   "product": "Fixed Rate Home Loan - Owner Occupier - P&I - 24 mths",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.062,
-   "now": 0.065
-  },
-  {
-   "brand": "BCU Bank",
-   "product": "12 Month Term Deposit -6 Mthly",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.0415,
-   "now": 0.0445
-  },
-  {
-   "brand": "Unity Bank",
-   "product": "Fixed Rate Home Loan - Owner Occupier - P&I - 48 mths",
-   "kind": "lending",
-   "term": "P48M",
-   "was": 0.0635,
-   "now": 0.0665
-  },
-  {
-   "brand": "BCU Bank",
-   "product": "12 Month Term Deposit - Mthly",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.041,
-   "now": 0.044
-  },
-  {
-   "brand": "BCU Bank",
-   "product": "12 Month Term Deposit - Qrtly",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.0402,
-   "now": 0.0432
-  },
-  {
-   "brand": "P&N Bank",
-   "product": "12 Month Term Deposit",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.05,
-   "now": 0.053
-  },
-  {
-   "brand": "Unity Bank",
-   "product": "Fixed Rate Home Loan - Owner Occupier - P&I - 12 mths",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.062,
-   "now": 0.065
-  },
-  {
-   "brand": "BCU Bank",
-   "product": "55 Term Deposit - 12M Mthly",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.042,
-   "now": 0.045
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Commercial Loan",
+   "brand": "loans.com.au",
+   "product": "Secured Variable Caravan Loan (Dealer)",
    "kind": "lending",
    "term": null,
-   "was": 0.0769,
-   "now": 0.0794
+   "was": 0.0724,
+   "now": 0.0874
   },
   {
-   "brand": "Thinktank by LMG",
-   "product": "Residential Loan",
+   "brand": "Zeus",
+   "product": "Zeus Build",
    "kind": "lending",
    "term": null,
-   "was": 0.0688,
-   "now": 0.0713
+   "was": 0.0768,
+   "now": 0.0693
   },
   {
-   "brand": "Thinktank by LMG",
-   "product": "Private Loan",
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0793,
+   "now": 0.0858
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0783,
+   "now": 0.0848
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0853,
+   "now": 0.0918
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0843,
+   "now": 0.0908
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0853,
+   "now": 0.0918
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0793,
+   "now": 0.0858
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0853,
+   "now": 0.0918
+  },
+  {
+   "brand": "Zeus",
+   "product": "Zeus Build",
    "kind": "lending",
    "term": null,
+   "was": 0.0738,
+   "now": 0.0673
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0843,
+   "now": 0.0908
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0783,
+   "now": 0.0848
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0783,
+   "now": 0.0848
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0793,
+   "now": 0.0858
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0843,
+   "now": 0.0908
+  },
+  {
+   "brand": "Zeus",
+   "product": "Zeus Build",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0743,
+   "now": 0.0683
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0863,
+   "now": 0.0918
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0853,
+   "now": 0.0908
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0793,
+   "now": 0.0848
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0863,
+   "now": 0.0918
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0853,
+   "now": 0.0908
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0803,
+   "now": 0.0858
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0793,
+   "now": 0.0848
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0803,
+   "now": 0.0858
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Low Rate Car or Personal Loan",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0799,
+   "now": 0.0849
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Flexi Car or Personal Loan",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.1249,
+   "now": 0.1299
+  },
+  {
+   "brand": "Zeus",
+   "product": "Zeus Build",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0713,
+   "now": 0.0663
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0883,
+   "now": 0.0928
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0823,
+   "now": 0.0868
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0893,
+   "now": 0.0938
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0823,
+   "now": 0.0868
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0883,
+   "now": 0.0928
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0823,
+   "now": 0.0868
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0883,
+   "now": 0.0928
+  },
+  {
+   "brand": "loans.com.au",
+   "product": "Secured Fixed Caravan Loan (Dealer)",
+   "kind": "lending",
+   "term": "P7Y",
    "was": 0.0874,
-   "now": 0.0899
+   "now": 0.0834
   },
   {
-   "brand": "Thinktank by LMG",
-   "product": "Residential Loan",
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0893,
+   "now": 0.0928
+  },
+  {
+   "brand": "Homestar Finance Pty Ltd",
+   "product": "Star Blue Commercial",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0893,
+   "now": 0.0928
+  },
+  {
+   "brand": "Zeus",
+   "product": "Zeus Build",
    "kind": "lending",
    "term": null,
-   "was": 0.0708,
-   "now": 0.0733
-  },
-  {
-   "brand": "Rate Money Elevate",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0698,
-   "now": 0.0723
-  },
-  {
-   "brand": "Thinktank by LMG",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0769,
-   "now": 0.0794
-  },
-  {
-   "brand": "Thinktank by LMG",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.0835
-  },
-  {
-   "brand": "YBR Lending Solutions",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.0835
-  },
-  {
-   "brand": "YBR Lending Solutions",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0769,
-   "now": 0.0794
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0708,
-   "now": 0.0733
-  },
-  {
-   "brand": "Rate Money Elevate",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.0835
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0688,
-   "now": 0.0713
-  },
-  {
-   "brand": "Thinktank by LMG",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0698,
-   "now": 0.0723
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Private Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0874,
-   "now": 0.0899
-  },
-  {
-   "brand": "Rate Money Elevate",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0769,
-   "now": 0.0794
-  },
-  {
-   "brand": "Connective Advance",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0769,
-   "now": 0.0794
-  },
-  {
-   "brand": "Connective Advance",
-   "product": "Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.0835
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0698,
-   "now": 0.0723
-  },
-  {
-   "brand": "YBR Lending Solutions",
-   "product": "Private Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0874,
-   "now": 0.0899
-  },
-  {
-   "brand": "YBR Lending Solutions",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0688,
-   "now": 0.0713
-  },
-  {
-   "brand": "AFG Commercial",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0678,
-   "now": 0.0703
-  },
-  {
-   "brand": "Rate Money Elevate",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0688,
-   "now": 0.0713
-  },
-  {
-   "brand": "UBank",
-   "product": "Save account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.051,
-   "now": 0.0535
-  },
-  {
-   "brand": "UBank",
-   "product": "Save account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.051,
-   "now": 0.0535
-  },
-  {
-   "brand": "YBR Lending Solutions",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0708,
-   "now": 0.0733
-  },
-  {
-   "brand": "Thinktank by LMG",
-   "product": "Residential Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0678,
-   "now": 0.0703
-  },
-  {
-   "brand": "UBank",
-   "product": "Save account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.051,
-   "now": 0.0535
+   "was": 0.0718,
+   "now": 0.0683
   }
  ],
  "best": {
   "term_deposit_1y": [
-   {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
-    "rate": 0.056
-   },
    {
     "brand": "Gateway Bank",
     "product": "Package TD 12 Months",
     "rate": 0.056
    },
    {
-    "brand": "Alex.Bank",
-    "product": "Term Deposit - Intermediary",
-    "rate": 0.0555
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
    },
    {
     "brand": "Heartland",
     "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Intermediary",
     "rate": 0.0555
    },
    {
@@ -377,6 +377,11 @@
     "rate": 0.115
    },
    {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
     "brand": "Rabobank",
     "product": "High Interest Savings Account",
     "rate": 0.059
@@ -390,11 +395,6 @@
     "brand": "Newcastle Permanent",
     "product": "Smart Saver Account (under 25)",
     "rate": 0.057
-   },
-   {
-    "brand": "MoveBank",
-    "product": "Growth Saver",
-    "rate": 0.0555
    }
   ]
  }
