@@ -5,20 +5,20 @@
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-09T00:03:34.754Z",
-  "finished": "2026-10-09T00:26:11.071Z",
-  "brands": "251/256",
-  "products": 4761,
-  "opened": 6513,
-  "closed": 6344,
-  "failures": 21
+  "started": "2026-10-09T23:42:43.592Z",
+  "finished": "2026-10-09T23:53:52.590Z",
+  "brands": "249/256",
+  "products": 4656,
+  "opened": 777,
+  "closed": 769,
+  "failures": 24
  },
  "totals": {
   "brands": 257,
-  "products": 4761,
+  "products": 4760,
   "rates_open": 24496,
-  "deposit": 6992,
-  "lending": 17504
+  "deposit": 7000,
+  "lending": 17496
  },
  "moves": [
   {
@@ -26,8 +26,56 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02625,
-   "now": 0.05825
+   "was": 0.06825,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.07825,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.06825,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05825,
+   "now": 0.01925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05825,
+   "now": 0.01925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.07825,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03625,
+   "now": 0.06825
   },
   {
    "brand": "CommBank",
@@ -39,19 +87,11 @@
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04625,
-   "now": 0.07825
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03625,
-   "now": 0.06825
+   "was": 0.02625,
+   "now": 0.05825
   },
   {
    "brand": "CommBank",
@@ -70,12 +110,12 @@
    "now": 0.05825
   },
   {
-   "brand": "Latitude Personal and Motor Loans",
-   "product": "Latitude Personal Loans",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0999,
-   "now": 0.0899
+   "was": 0.04625,
+   "now": 0.07825
   },
   {
    "brand": "Aussie Elevate",
@@ -89,33 +129,33 @@
    "brand": "Latitude Personal and Motor Loans",
    "product": "Latitude Personal Loans",
    "kind": "lending",
+   "term": null,
+   "was": 0.0999,
+   "now": 0.0899
+  },
+  {
+   "brand": "Latitude Personal and Motor Loans",
+   "product": "Latitude Personal Loans",
+   "kind": "lending",
    "term": "P7Y",
    "was": 0.0999,
    "now": 0.0899
   },
   {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
+   "brand": "Bankwest",
+   "product": "Hero Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0646,
-   "now": 0.0721
+   "was": 0.0445,
+   "now": 0.0525
   },
   {
    "brand": "AFG Home Loans - Retro",
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0688,
-   "now": 0.0763
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0676,
-   "now": 0.0751
+   "was": 0.0708,
+   "now": 0.0783
   },
   {
    "brand": "AFG Home Loans - Retro",
@@ -130,46 +170,6 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0666,
-   "now": 0.0741
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0795,
-   "now": 0.087
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0678,
-   "now": 0.0753
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0686,
-   "now": 0.0761
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0795,
-   "now": 0.087
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
    "was": 0.0688,
    "now": 0.0763
   },
@@ -186,8 +186,40 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0683,
-   "now": 0.0758
+   "was": 0.0688,
+   "now": 0.0763
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0688,
+   "now": 0.0763
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0688,
+   "now": 0.0763
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0713,
+   "now": 0.0788
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0713,
+   "now": 0.0788
   },
   {
    "brand": "AFG Home Loans - Retro",
@@ -202,38 +234,6 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0686,
-   "now": 0.0761
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0713,
-   "now": 0.0788
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0696,
-   "now": 0.0771
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0688,
-   "now": 0.0763
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
    "was": 0.0676,
    "now": 0.0751
   },
@@ -258,32 +258,8 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0676,
-   "now": 0.0751
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0723,
-   "now": 0.0798
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0713,
-   "now": 0.0788
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0688,
-   "now": 0.0763
+   "was": 0.0683,
+   "now": 0.0758
   },
   {
    "brand": "AFG Home Loans - Retro",
@@ -306,16 +282,8 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0708,
-   "now": 0.0783
-  },
-  {
-   "brand": "AFG Home Loans - Retro",
-   "product": "Retro Versa",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0658,
-   "now": 0.0733
+   "was": 0.0723,
+   "now": 0.0798
   },
   {
    "brand": "AFG Home Loans - Retro",
@@ -330,28 +298,60 @@
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0658,
-   "now": 0.0733
+   "was": 0.0795,
+   "now": 0.087
   },
   {
    "brand": "AFG Home Loans - Retro",
    "product": "Retro Versa",
    "kind": "lending",
    "term": null,
-   "was": 0.0693,
-   "now": 0.0768
+   "was": 0.0696,
+   "now": 0.0771
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0795,
+   "now": 0.087
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0686,
+   "now": 0.0761
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0676,
+   "now": 0.0751
+  },
+  {
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Versa",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0686,
+   "now": 0.0761
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
     "rate": 0.056
    },
    {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.056
    },
    {
@@ -377,24 +377,24 @@
     "rate": 0.115
    },
    {
-    "brand": "CommBank",
-    "product": "Foreign Currency Account (Retail)",
-    "rate": 0.07825
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
    },
    {
-    "brand": "CommBank",
-    "product": "Foreign Currency Account (Business)",
-    "rate": 0.07825
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
    },
    {
-    "brand": "CommBank",
-    "product": "Foreign Currency Account (Retail)",
-    "rate": 0.06825
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.059
    },
    {
-    "brand": "CommBank",
-    "product": "Foreign Currency Account (Business)",
-    "rate": 0.06825
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.0575
    }
   ]
  }
