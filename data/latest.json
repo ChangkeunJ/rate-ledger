@@ -1,345 +1,345 @@
 {
- "date": "2026-10-10",
+ "date": "2026-10-11",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-10T23:06:19.060Z",
-  "finished": "2026-10-10T23:15:55.165Z",
-  "brands": "249/256",
-  "products": 4704,
-  "opened": 56,
-  "closed": 48,
+  "started": "2026-10-11T23:19:18.233Z",
+  "finished": "2026-10-11T23:29:05.553Z",
+  "brands": "251/256",
+  "products": 4760,
+  "opened": 203,
+  "closed": 95,
   "failures": 22
  },
  "totals": {
   "brands": 257,
-  "products": 4761,
-  "rates_open": 24504,
+  "products": 4760,
+  "rates_open": 24555,
   "deposit": 7000,
-  "lending": 17504
+  "lending": 17555
  },
  "moves": [
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.06825,
-   "now": 0.02925
+   "term": "P9M",
+   "was": 0.039,
+   "now": 0.051
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.05825,
-   "now": 0.01925
+   "term": "P9M",
+   "was": 0.039,
+   "now": 0.051
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.07825,
-   "now": 0.03925
+   "term": "P9M",
+   "was": 0.0365,
+   "now": 0.047
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.06825,
-   "now": 0.02925
+   "term": "P9M",
+   "was": 0.0365,
+   "now": 0.047
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.05825,
-   "now": 0.01925
+   "term": "P12M",
+   "was": 0.049,
+   "now": 0.052
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Business Investment Account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.07825,
-   "now": 0.03925
+   "term": "P12M",
+   "was": 0.049,
+   "now": 0.052
   },
   {
-   "brand": "Bankwest",
-   "product": "Hero Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0445,
-   "now": 0.0525
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.063,
+   "now": 0.0655
   },
   {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS LOAN",
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
    "kind": "lending",
    "term": null,
-   "was": 0.0725,
-   "now": 0.0653
+   "was": 0.0699,
+   "now": 0.0724
   },
   {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS LOAN",
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
    "kind": "lending",
-   "term": null,
-   "was": 0.0775,
-   "now": 0.0713
+   "term": "P24M",
+   "was": 0.062,
+   "now": 0.0645
   },
   {
-   "brand": "Bankwest",
-   "product": "Hero Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0065,
-   "now": 0.001
-  },
-  {
-   "brand": "Bankwest",
-   "product": "Hero Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0065,
-   "now": 0.001
-  },
-  {
-   "brand": "Police Credit Union Ltd",
-   "product": "Low Rate Home Loan - Owner Occupied",
+   "brand": "TMCU",
+   "product": "REFI SPECIAL OWNER OCCUPIED",
    "kind": "lending",
    "term": null,
    "was": 0.0589,
-   "now": 0.0639
+   "now": 0.0614
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0698,
-   "now": 0.0743
+   "term": "P36M",
+   "was": 0.0624,
+   "now": 0.0649
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0698,
-   "now": 0.0743
+   "brand": "Horizon Bank",
+   "product": "SMSF SAVER",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0325
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0698,
-   "now": 0.0743
+   "brand": "TMCU",
+   "product": "24 MTHS [EDVEST]",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.033,
+   "now": 0.0355
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0708,
-   "now": 0.0753
+   "brand": "TMCU",
+   "product": "I24_12_TO_23_MTHS_INT_4_WKLY",
+   "kind": "deposit",
+   "term": "P23M",
+   "was": 0.032,
+   "now": 0.0345
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0708,
-   "now": 0.0753
+   "brand": "Horizon Bank",
+   "product": "TEEN ACCOUNT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.0425
   },
   {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0708,
-   "now": 0.0753
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS LOAN",
+   "brand": "TMCU",
+   "product": "STANDARD VARIABLE LOAN",
    "kind": "lending",
    "term": null,
-   "was": 0.0675,
-   "now": 0.0633
+   "was": 0.0649,
+   "now": 0.0674
   },
   {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS LOAN",
+   "brand": "Horizon Bank",
+   "product": "Fixed Personal Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0725,
-   "now": 0.0683
+   "term": "P60M",
+   "was": 0.0674,
+   "now": 0.0699
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
    "kind": "lending",
    "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0175,
+   "now": 0.02
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.025,
+   "now": 0.0275
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CASH MANAGEMENT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CASH MANAGEMENT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CHRISTMAS CLUB",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "TMCU",
+   "product": "3M TO LESS THAN 6M",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0335,
+   "now": 0.036
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "BASIC VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "HOME EQUITY LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0774
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0694,
+   "now": 0.0719
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": "P12M",
    "was": 0.0599,
-   "now": 0.0639
+   "now": 0.0624
   },
   {
-   "brand": "MA Money",
-   "product": "Expat Home Loan – Near Prime (≤$5m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0834,
-   "now": 0.0874
+   "brand": "TMCU",
+   "product": "TERM 12-23MTHS (EDV)",
+   "kind": "deposit",
+   "term": "P23M",
+   "was": 0.033,
+   "now": 0.0355
   },
   {
-   "brand": "MA Money",
-   "product": "Expat Home Loan – Near Prime (≤$5m)",
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
    "kind": "lending",
-   "term": null,
-   "was": 0.0824,
-   "now": 0.0864
-  },
-  {
-   "brand": "MA Money",
-   "product": "Expat Home Loan – Near Prime (≤$5m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0854,
-   "now": 0.0894
-  },
-  {
-   "brand": "MA Money",
-   "product": "SMSF Commercial Loan – Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0879,
-   "now": 0.0919
-  },
-  {
-   "brand": "MA Money",
-   "product": "SMSF Commercial Loan – Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0879,
-   "now": 0.0919
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Near Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0899,
-   "now": 0.0939
-  },
-  {
-   "brand": "MA Money",
-   "product": "Expat Home Loan – Near Prime (≤$5m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0804,
-   "now": 0.0844
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Near Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0899,
-   "now": 0.0939
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Near Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0899,
-   "now": 0.0939
-  },
-  {
-   "brand": "MA Money",
-   "product": "SMSF Commercial Loan – Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0879,
-   "now": 0.0919
-  },
-  {
-   "brand": "MA Money",
-   "product": "SMSF Commercial Loan – Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0879,
-   "now": 0.0919
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Near Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0899,
-   "now": 0.0939
-  },
-  {
-   "brand": "MA Money",
-   "product": "Non-Resident Home Loan – Prime (≤$2m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0824,
-   "now": 0.0864
-  },
-  {
-   "brand": "MA Money",
-   "product": "Expat Home Loan – Near Prime (≤$5m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0924,
-   "now": 0.0964
-  },
-  {
-   "brand": "MA Money",
-   "product": "Non-Resident Home Loan – Prime (≤$2m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0774,
-   "now": 0.0814
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0869,
-   "now": 0.0909
-  },
-  {
-   "brand": "MA Money",
-   "product": "Commercial Loan – Prime (≤$4m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0869,
-   "now": 0.0909
-  },
-  {
-   "brand": "MA Money",
-   "product": "Non-Resident Home Loan – Prime (≤$2m)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0794,
-   "now": 0.0834
-  },
-  {
-   "brand": "Homestar Finance Pty Ltd",
-   "product": "Star Classic",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0643,
-   "now": 0.0683
+   "term": "P36M",
+   "was": 0.0615,
+   "now": 0.064
   }
  ],
  "best": {
@@ -355,6 +355,11 @@
     "rate": 0.056
    },
    {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
+    "rate": 0.0555
+   },
+   {
     "brand": "Heartland",
     "product": "Broker Term Deposit - Business",
     "rate": 0.0555
@@ -362,11 +367,6 @@
    {
     "brand": "Heartland",
     "product": "Broker Term Deposit",
-    "rate": 0.0555
-   },
-   {
-    "brand": "Dnister",
-    "product": "Term Deposit - 12 Months",
     "rate": 0.0555
    }
   ],

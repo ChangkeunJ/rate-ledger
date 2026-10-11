@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-11",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-11T23:19:18.233Z",
+  "finished": "2026-10-11T23:29:05.553Z",
+  "brands": "251/256",
+  "products": 4760,
+  "opened": 203,
+  "closed": 95,
+  "failures": 22
+ },
+ "totals": {
+  "brands": 257,
+  "products": 4760,
+  "rates_open": 24555,
+  "deposit": 7000,
+  "lending": 17555
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.039,
+   "now": 0.051
+  },
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.039,
+   "now": 0.051
+  },
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0365,
+   "now": 0.047
+  },
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0365,
+   "now": 0.047
+  },
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.049,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Business Investment Account",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.049,
+   "now": 0.052
+  },
+  {
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.063,
+   "now": 0.0655
+  },
+  {
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.062,
+   "now": 0.0645
+  },
+  {
+   "brand": "TMCU",
+   "product": "REFI SPECIAL OWNER OCCUPIED",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "SMSF SAVER",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0325
+  },
+  {
+   "brand": "TMCU",
+   "product": "24 MTHS [EDVEST]",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.033,
+   "now": 0.0355
+  },
+  {
+   "brand": "TMCU",
+   "product": "I24_12_TO_23_MTHS_INT_4_WKLY",
+   "kind": "deposit",
+   "term": "P23M",
+   "was": 0.032,
+   "now": 0.0345
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "TEEN ACCOUNT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.0425
+  },
+  {
+   "brand": "TMCU",
+   "product": "STANDARD VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "Fixed Personal Loan",
+   "kind": "lending",
+   "term": "P60M",
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0175,
+   "now": 0.02
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.025,
+   "now": 0.0275
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CASH MANAGEMENT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CASH MANAGEMENT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "CHRISTMAS CLUB",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "TMCU",
+   "product": "3M TO LESS THAN 6M",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0335,
+   "now": 0.036
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "BASIC VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "HOME EQUITY LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0774
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0724
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0694,
+   "now": 0.0719
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0599,
+   "now": 0.0624
+  },
+  {
+   "brand": "TMCU",
+   "product": "TERM 12-23MTHS (EDV)",
+   "kind": "deposit",
+   "term": "P23M",
+   "was": 0.033,
+   "now": 0.0355
+  },
+  {
+   "brand": "bankWAW",
+   "product": "Flexible Choice Owner Occupied",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0615,
+   "now": 0.064
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.059
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.0575
+   }
+  ]
+ }
+}
