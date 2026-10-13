@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-13",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-13T01:44:12.688Z",
+  "finished": "2026-10-13T01:57:15.063Z",
+  "brands": "250/266",
+  "products": 4670,
+  "opened": 905,
+  "closed": 889,
+  "failures": 31
+ },
+ "totals": {
+  "brands": 267,
+  "products": 4769,
+  "rates_open": 24571,
+  "deposit": 7001,
+  "lending": 17570
+ },
+ "moves": [
+  {
+   "brand": "Credit Union SA",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.03,
+   "now": 0.053
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.0505,
+   "now": 0.03
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 10 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.055
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 11 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.053
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 7 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.052
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 8 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.051
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 4 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0425,
+   "now": 0.0525
+  },
+  {
+   "brand": "Great Southern Bank Business+",
+   "product": "Term Deposit 5 months",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0425,
+   "now": 0.0515
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Community Reward Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.037,
+   "now": 0.042
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0699,
+   "now": 0.0749
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0674,
+   "now": 0.0724
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0689,
+   "now": 0.0739
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Community Reward Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.038,
+   "now": 0.043
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0679,
+   "now": 0.0729
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Low Rate Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1199,
+   "now": 0.1249
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Beyond Bank Australia",
+   "product": "Low Rate Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1199,
+   "now": 0.1249
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0699,
+   "now": 0.0749
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0704,
+   "now": 0.0754
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0689,
+   "now": 0.0739
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0699,
+   "now": 0.0749
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0679,
+   "now": 0.0729
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0734
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0734
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0734
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0699,
+   "now": 0.0749
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0669,
+   "now": 0.0719
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0734
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0704,
+   "now": 0.0754
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0674,
+   "now": 0.0724
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.059
+   }
+  ]
+ }
+}
