@@ -5,20 +5,20 @@
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-13T01:44:12.688Z",
-  "finished": "2026-10-13T01:57:15.063Z",
-  "brands": "250/266",
-  "products": 4670,
-  "opened": 905,
-  "closed": 889,
-  "failures": 31
+  "started": "2026-10-13T23:31:50.811Z",
+  "finished": "2026-10-13T23:44:11.262Z",
+  "brands": "253/266",
+  "products": 4769,
+  "opened": 717,
+  "closed": 710,
+  "failures": 30
  },
  "totals": {
   "brands": 267,
   "products": 4769,
-  "rates_open": 24571,
-  "deposit": 7001,
-  "lending": 17570
+  "rates_open": 24576,
+  "deposit": 7000,
+  "lending": 17576
  },
  "moves": [
   {
@@ -86,68 +86,156 @@
    "now": 0.0515
   },
   {
-   "brand": "Beyond Bank Australia",
-   "product": "Community Reward Account",
+   "brand": "CommFCU",
+   "product": "BUSINESS LOAN - VARIABLE (Interest Only)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1019,
+   "now": 0.0944
+  },
+  {
+   "brand": "CommFCU",
+   "product": "BUSINESS LOAN - VARIABLE (Principal and Interest)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0919,
+   "now": 0.0844
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.037,
-   "now": 0.042
+   "was": 0.04025,
+   "now": 0.04625
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0699,
-   "now": 0.0749
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0674,
-   "now": 0.0724
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0689,
-   "now": 0.0739
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Beyond Bank Australia",
-   "product": "Community Reward Account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.038,
-   "now": 0.043
+   "was": 0.03025,
+   "now": 0.03625
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0679,
-   "now": 0.0729
-  },
-  {
-   "brand": "Beyond Bank Australia",
-   "product": "Low Rate Credit Card",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.1199,
-   "now": 0.1249
+   "was": 0.04025,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02025,
+   "now": 0.02625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.03625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02025,
+   "now": 0.02625
   },
   {
    "brand": "Mortgage Choice Freedom",
@@ -158,20 +246,12 @@
    "now": 0.0744
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
    "kind": "lending",
    "term": "P1Y",
    "was": 0.0694,
    "now": 0.0744
-  },
-  {
-   "brand": "Beyond Bank Australia",
-   "product": "Low Rate Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1199,
-   "now": 0.1249
   },
   {
    "brand": "Mortgage Choice Freedom",
@@ -182,36 +262,36 @@
    "now": 0.0744
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0699,
-   "now": 0.0749
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
    "kind": "lending",
    "term": "P1Y",
    "was": 0.0704,
    "now": 0.0754
   },
   {
+   "brand": "Mortgage Choice Freedom",
+   "product": "Mortgage Choice Freedom Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
    "brand": "Apollo",
    "product": "Apollo Max Fixed",
    "kind": "lending",
    "term": "P1Y",
-   "was": 0.0689,
-   "now": 0.0739
+   "was": 0.0694,
+   "now": 0.0744
   },
   {
    "brand": "Mortgage Choice Freedom",
    "product": "Mortgage Choice Freedom Fixed",
    "kind": "lending",
    "term": "P1Y",
-   "was": 0.0699,
-   "now": 0.0749
+   "was": 0.0684,
+   "now": 0.0734
   },
   {
    "brand": "Mortgage Choice Freedom",
@@ -222,52 +302,28 @@
    "now": 0.0729
   },
   {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0734
+  },
+  {
+   "brand": "Apollo",
+   "product": "Apollo Max Fixed",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0694,
+   "now": 0.0744
+  },
+  {
    "brand": "Mortgage Choice Freedom",
    "product": "Mortgage Choice Freedom Fixed",
    "kind": "lending",
    "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0699,
-   "now": 0.0749
+   "was": 0.0669,
+   "now": 0.0719
   },
   {
    "brand": "Apollo",
@@ -276,62 +332,6 @@
    "term": "P1Y",
    "was": 0.0669,
    "now": 0.0719
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0704,
-   "now": 0.0754
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
   },
   {
    "brand": "Mortgage Choice Freedom",
@@ -355,11 +355,6 @@
     "rate": 0.056
    },
    {
-    "brand": "Dnister",
-    "product": "Term Deposit - 12 Months",
-    "rate": 0.0555
-   },
-   {
     "brand": "Heartland",
     "product": "Broker Term Deposit",
     "rate": 0.0555
@@ -367,6 +362,11 @@
    {
     "brand": "Heartland",
     "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
     "rate": 0.0555
    }
   ],
@@ -382,6 +382,11 @@
     "rate": 0.0625
    },
    {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
     "brand": "RACQ Bank",
     "product": "Bonus Saver Account",
     "rate": 0.06
@@ -390,11 +395,6 @@
     "brand": "Newcastle Permanent",
     "product": "Smart Saver Account (under 25)",
     "rate": 0.0595
-   },
-   {
-    "brand": "Rabobank",
-    "product": "High Interest Savings Account",
-    "rate": 0.059
    }
   ]
  }
