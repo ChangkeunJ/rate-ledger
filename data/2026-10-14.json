@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-14",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-14T22:51:50.772Z",
+  "finished": "2026-10-14T23:05:50.818Z",
+  "brands": "253/276",
+  "products": 4671,
+  "opened": 627,
+  "closed": 627,
+  "failures": 39
+ },
+ "totals": {
+  "brands": 277,
+  "products": 4751,
+  "rates_open": 24540,
+  "deposit": 6987,
+  "lending": 17553
+ },
+ "moves": [
+  {
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Savings Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0275,
+   "now": 0.046
+  },
+  {
+   "brand": "CommFCU",
+   "product": "BUSINESS LOAN - VARIABLE (Principal and Interest)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0919,
+   "now": 0.0844
+  },
+  {
+   "brand": "CommFCU",
+   "product": "BUSINESS LOAN - VARIABLE (Interest Only)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1019,
+   "now": 0.0944
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04025,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02025,
+   "now": 0.02625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02025,
+   "now": 0.02625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04025,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.03625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.03625
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Resimac",
+   "product": "Prime Alt Doc - Resimac",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0814
+  },
+  {
+   "brand": "Resimac",
+   "product": "Prime Alt Doc - Resimac",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0744
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0599,
+   "now": 0.0639
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
+  },
+  {
+   "brand": "Darling Downs Bank",
+   "product": "CASH MANAGER ONLINE",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0275,
+   "now": 0.0315
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}

@@ -1,97 +1,33 @@
 {
- "date": "2026-10-13",
+ "date": "2026-10-14",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-13T23:31:50.811Z",
-  "finished": "2026-10-13T23:44:11.262Z",
-  "brands": "253/266",
-  "products": 4769,
-  "opened": 717,
-  "closed": 710,
-  "failures": 30
+  "started": "2026-10-14T22:51:50.772Z",
+  "finished": "2026-10-14T23:05:50.818Z",
+  "brands": "253/276",
+  "products": 4671,
+  "opened": 627,
+  "closed": 627,
+  "failures": 39
  },
  "totals": {
-  "brands": 267,
-  "products": 4769,
-  "rates_open": 24576,
-  "deposit": 7000,
-  "lending": 17576
+  "brands": 277,
+  "products": 4751,
+  "rates_open": 24540,
+  "deposit": 6987,
+  "lending": 17553
  },
  "moves": [
   {
-   "brand": "Credit Union SA",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.03,
-   "now": 0.053
-  },
-  {
-   "brand": "Credit Union SA",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P7M",
-   "was": 0.0505,
-   "now": 0.03
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 10 months",
+   "brand": "Macquarie Bank Limited",
+   "product": "Macquarie Savings Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.04,
-   "now": 0.055
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 11 months",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04,
-   "now": 0.053
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 7 months",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04,
-   "now": 0.052
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 8 months",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04,
-   "now": 0.051
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 4 months",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0425,
-   "now": 0.0525
-  },
-  {
-   "brand": "Great Southern Bank Business+",
-   "product": "Term Deposit 5 months",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0425,
-   "now": 0.0515
-  },
-  {
-   "brand": "CommFCU",
-   "product": "BUSINESS LOAN - VARIABLE (Interest Only)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1019,
-   "now": 0.0944
+   "was": 0.0275,
+   "now": 0.046
   },
   {
    "brand": "CommFCU",
@@ -102,8 +38,24 @@
    "now": 0.0844
   },
   {
+   "brand": "CommFCU",
+   "product": "BUSINESS LOAN - VARIABLE (Interest Only)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1019,
+   "now": 0.0944
+  },
+  {
    "brand": "RedZed",
    "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0889,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
    "kind": "lending",
    "term": null,
    "was": 0.0889,
@@ -134,16 +86,24 @@
    "now": 0.0828
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
    "kind": "lending",
    "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "was": 0.0839,
+   "now": 0.09
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
+   "brand": "RedZed",
+   "product": "SE Prime XL $3.5 - $5.0M",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.09
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
    "kind": "lending",
    "term": null,
    "was": 0.0889,
@@ -166,44 +126,12 @@
    "now": 0.0828
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
    "kind": "lending",
    "term": null,
    "was": 0.0889,
    "now": 0.0828
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $3.5 - $5.0M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.09
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $3.5 - $5.0M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.09
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04025,
-   "now": 0.04625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03025,
-   "now": 0.03625
   },
   {
    "brand": "CommBank",
@@ -226,6 +154,22 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
+   "was": 0.02025,
+   "now": 0.02625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04025,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
    "was": 0.03025,
    "now": 0.03625
   },
@@ -234,124 +178,180 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02025,
-   "now": 0.02625
+   "was": 0.03025,
+   "now": 0.03625
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "Commercial Prime",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "RedZed",
+   "product": "Commercial Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Connective Complete Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0874,
+   "now": 0.0828
+  },
+  {
+   "brand": "Resimac",
+   "product": "Prime Alt Doc - Resimac",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0814
+  },
+  {
+   "brand": "Resimac",
+   "product": "Prime Alt Doc - Resimac",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
    "now": 0.0744
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
+   "term": null,
+   "was": 0.0599,
+   "now": 0.0639
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0704,
-   "now": 0.0754
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0679,
-   "now": 0.0729
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0684,
-   "now": 0.0734
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
+   "brand": "RedZed",
+   "product": "SE Prime XL $2.5 - $3.5M",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0694,
-   "now": 0.0744
+   "term": null,
+   "was": 0.079,
+   "now": 0.075
   },
   {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0669,
-   "now": 0.0719
-  },
-  {
-   "brand": "Apollo",
-   "product": "Apollo Max Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0669,
-   "now": 0.0719
-  },
-  {
-   "brand": "Mortgage Choice Freedom",
-   "product": "Mortgage Choice Freedom Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0674,
-   "now": 0.0724
+   "brand": "Darling Downs Bank",
+   "product": "CASH MANAGER ONLINE",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0275,
+   "now": 0.0315
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
     "rate": 0.056
    },
    {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.056
    },
    {
@@ -365,8 +365,8 @@
     "rate": 0.0555
    },
    {
-    "brand": "Dnister",
-    "product": "Term Deposit - 12 Months",
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
     "rate": 0.0555
    }
   ],
