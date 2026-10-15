@@ -1,345 +1,345 @@
 {
- "date": "2026-10-14",
+ "date": "2026-10-15",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-14T22:51:50.772Z",
-  "finished": "2026-10-14T23:05:50.818Z",
-  "brands": "253/276",
-  "products": 4671,
-  "opened": 627,
-  "closed": 627,
-  "failures": 39
+  "started": "2026-10-15T22:47:20.283Z",
+  "finished": "2026-10-15T23:00:46.623Z",
+  "brands": "255/276",
+  "products": 4751,
+  "opened": 428,
+  "closed": 378,
+  "failures": 37
  },
  "totals": {
   "brands": 277,
   "products": 4751,
-  "rates_open": 24540,
-  "deposit": 6987,
-  "lending": 17553
+  "rates_open": 24577,
+  "deposit": 6999,
+  "lending": 17578
  },
  "moves": [
   {
-   "brand": "Macquarie Bank Limited",
-   "product": "Macquarie Savings Account",
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.03,
+   "now": 0.047
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P8M",
+   "was": 0.044,
+   "now": 0.035
+  },
+  {
+   "brand": "Dnister",
+   "product": "Bonus Saver",
    "kind": "deposit",
    "term": null,
-   "was": 0.0275,
-   "now": 0.046
+   "was": 0.045,
+   "now": 0.051
+  },
+  {
+   "brand": "Dnister",
+   "product": "Max Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.046,
+   "now": 0.052
   },
   {
    "brand": "CommFCU",
-   "product": "BUSINESS LOAN - VARIABLE (Principal and Interest)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0919,
-   "now": 0.0844
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
    "brand": "CommFCU",
-   "product": "BUSINESS LOAN - VARIABLE (Interest Only)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1019,
-   "now": 0.0944
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
-   "brand": "RedZed",
-   "product": "SE Prime XL $3.5 - $5.0M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.09
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "RedZed",
-   "product": "SE Prime XL $3.5 - $5.0M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.09
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "RedZed",
-   "product": "SE Prime XL $3.5 - $5.0M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.09
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "was": 0.024,
+   "now": 0.029
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
-   "kind": "lending",
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "was": 0.024,
+   "now": 0.029
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
+   "brand": "Coastline Bank",
+   "product": "Interest Only (Commercial)",
    "kind": "lending",
    "term": null,
-   "was": 0.0889,
-   "now": 0.0828
+   "was": 0.1036,
+   "now": 0.1086
+  },
+  {
+   "brand": "Fire Service Credit Union",
+   "product": "L6 Investment Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
+  },
+  {
+   "brand": "Bank of Sydney",
+   "product": "Resisec Business Overdraft",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1408,
+   "now": 0.1458
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04025,
-   "now": 0.04625
+   "was": 0.04425,
+   "now": 0.04925
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02025,
-   "now": 0.02625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02025,
-   "now": 0.02625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04025,
-   "now": 0.04625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03025,
-   "now": 0.03625
+   "brand": "Credit Union SA",
+   "product": "Green Loan Unsecured",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0829,
+   "now": 0.0879
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03025,
-   "now": 0.03625
+   "was": 0.03425,
+   "now": 0.03925
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
+   "brand": "Bank of Sydney",
+   "product": "Resisec Commercial Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.106,
+   "now": 0.111
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.02425,
+   "now": 0.02925
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.04425,
+   "now": 0.04925
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Property Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.1076,
+   "now": 0.1126
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.029,
+   "now": 0.034
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.02425,
+   "now": 0.02925
   },
   {
-   "brand": "RedZed",
-   "product": "Commercial Prime",
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Prop Int Only",
    "kind": "lending",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.1076,
+   "now": 0.1126
   },
   {
-   "brand": "Connective Complete",
-   "product": "Connective Complete Commercial",
+   "brand": "Bank of Sydney",
+   "product": "Resisec Commercial Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0828
+   "was": 0.106,
+   "now": 0.111
   },
   {
-   "brand": "Resimac",
-   "product": "Prime Alt Doc - Resimac",
+   "brand": "Credit Union SA",
+   "product": "Green Loan Secured",
    "kind": "lending",
-   "term": null,
-   "was": 0.0769,
-   "now": 0.0814
-  },
-  {
-   "brand": "Resimac",
-   "product": "Prime Alt Doc - Resimac",
-   "kind": "lending",
-   "term": null,
+   "term": "P7Y",
    "was": 0.0699,
-   "now": 0.0744
+   "now": 0.0749
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0599,
-   "now": 0.0639
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "RedZed",
-   "product": "SE Prime XL $2.5 - $3.5M",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.075
-  },
-  {
-   "brand": "Darling Downs Bank",
-   "product": "CASH MANAGER ONLINE",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0275,
+   "was": 0.03425,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0465,
+   "now": 0.051
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0465,
+   "now": 0.051
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0465,
+   "now": 0.051
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0465,
+   "now": 0.051
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Dnister",
+   "product": "iSaver",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.027,
    "now": 0.0315
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0475,
+   "now": 0.052
   }
  ],
  "best": {
@@ -355,6 +355,11 @@
     "rate": 0.056
    },
    {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
+    "rate": 0.0555
+   },
+   {
     "brand": "Heartland",
     "product": "Broker Term Deposit",
     "rate": 0.0555
@@ -362,11 +367,6 @@
    {
     "brand": "Heartland",
     "product": "Broker Term Deposit - Business",
-    "rate": 0.0555
-   },
-   {
-    "brand": "Judo Bank",
-    "product": "SMSF Term Deposits",
     "rate": 0.0555
    }
   ],
