@@ -1,24 +1,24 @@
 {
- "date": "2026-10-15",
+ "date": "2026-10-16",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-15T22:47:20.283Z",
-  "finished": "2026-10-15T23:00:46.623Z",
-  "brands": "255/276",
-  "products": 4751,
-  "opened": 428,
-  "closed": 378,
-  "failures": 37
+  "started": "2026-10-16T22:20:25.830Z",
+  "finished": "2026-10-16T22:32:16.392Z",
+  "brands": "251/276",
+  "products": 4650,
+  "opened": 152,
+  "closed": 75,
+  "failures": 35
  },
  "totals": {
   "brands": 277,
-  "products": 4751,
-  "rates_open": 24577,
-  "deposit": 6999,
-  "lending": 17578
+  "products": 4757,
+  "rates_open": 24594,
+  "deposit": 7008,
+  "lending": 17586
  },
  "moves": [
   {
@@ -38,12 +38,52 @@
    "now": 0.035
   },
   {
-   "brand": "Dnister",
-   "product": "Bonus Saver",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.045,
-   "now": 0.051
+   "was": 0.02925,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03325
   },
   {
    "brand": "Dnister",
@@ -54,156 +94,100 @@
    "now": 0.052
   },
   {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0465,
-   "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0475,
-   "now": 0.053
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0465,
-   "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0465,
-   "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0475,
-   "now": 0.053
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0465,
-   "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0475,
-   "now": 0.053
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0475,
-   "now": 0.053
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0465,
-   "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.0475,
-   "now": 0.053
-  },
-  {
    "brand": "Dnister",
-   "product": "Pensioner Savings",
+   "product": "Bonus Saver",
    "kind": "deposit",
    "term": null,
-   "was": 0.024,
-   "now": 0.029
+   "was": 0.045,
+   "now": 0.051
   },
   {
-   "brand": "Dnister",
-   "product": "Pensioner Savings",
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
    "kind": "deposit",
-   "term": null,
-   "was": 0.024,
-   "now": 0.029
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "Coastline Bank",
-   "product": "Interest Only (Commercial)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1036,
-   "now": 0.1086
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
   },
   {
-   "brand": "Fire Service Credit Union",
-   "product": "L6 Investment Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0619,
-   "now": 0.0669
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
-   "brand": "Bank of Sydney",
-   "product": "Resisec Business Overdraft",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1408,
-   "now": 0.1458
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04425,
-   "now": 0.04925
-  },
-  {
-   "brand": "Credit Union SA",
-   "product": "Green Loan Unsecured",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.0829,
-   "now": 0.0879
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
    "was": 0.03425,
    "now": 0.03925
-  },
-  {
-   "brand": "Bank of Sydney",
-   "product": "Resisec Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.106,
-   "now": 0.111
   },
   {
    "brand": "CommBank",
@@ -218,16 +202,16 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04425,
-   "now": 0.04925
+   "was": 0.02425,
+   "now": 0.02925
   },
   {
-   "brand": "Coastline Bank",
-   "product": "Business SMSF Property Loan",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.1076,
-   "now": 0.1126
+   "was": 0.04425,
+   "now": 0.04925
   },
   {
    "brand": "Dnister",
@@ -238,20 +222,28 @@
    "now": 0.034
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
    "kind": "deposit",
    "term": null,
-   "was": 0.02425,
-   "now": 0.02925
+   "was": 0.024,
+   "now": 0.029
   },
   {
-   "brand": "Coastline Bank",
-   "product": "Business SMSF Prop Int Only",
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.024,
+   "now": 0.029
+  },
+  {
+   "brand": "Bank of Sydney",
+   "product": "Resisec Commercial Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.1076,
-   "now": 0.1126
+   "was": 0.106,
+   "now": 0.111
   },
   {
    "brand": "Bank of Sydney",
@@ -270,44 +262,68 @@
    "now": 0.0749
   },
   {
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Property Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1076,
+   "now": 0.1126
+  },
+  {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
    "was": 0.03425,
    "now": 0.03925
   },
   {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0465,
-   "now": 0.051
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Prop Int Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1076,
+   "now": 0.1126
   },
   {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0465,
-   "now": 0.051
+   "brand": "Coastline Bank",
+   "product": "Interest Only (Commercial)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1036,
+   "now": 0.1086
   },
   {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0465,
-   "now": 0.051
+   "term": null,
+   "was": 0.04425,
+   "now": 0.04925
   },
   {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 36 MONTHS INTEREST MONTHLY",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0465,
-   "now": 0.051
+   "brand": "Bank of Sydney",
+   "product": "Resisec Business Overdraft",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1408,
+   "now": 0.1458
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Green Loan Unsecured",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0829,
+   "now": 0.0879
+  },
+  {
+   "brand": "Fire Service Credit Union",
+   "product": "L6 Investment Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
   },
   {
    "brand": "CommFCU",
@@ -316,22 +332,6 @@
    "term": "P36M",
    "was": 0.0475,
    "now": 0.052
-  },
-  {
-   "brand": "CommFCU",
-   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Dnister",
-   "product": "iSaver",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.027,
-   "now": 0.0315
   },
   {
    "brand": "CommFCU",
@@ -355,8 +355,8 @@
     "rate": 0.056
    },
    {
-    "brand": "Dnister",
-    "product": "Term Deposit - 12 Months",
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
     "rate": 0.0555
    },
    {

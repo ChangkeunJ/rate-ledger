@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-16",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-16T22:20:25.830Z",
+  "finished": "2026-10-16T22:32:16.392Z",
+  "brands": "251/276",
+  "products": 4650,
+  "opened": 152,
+  "closed": 75,
+  "failures": 35
+ },
+ "totals": {
+  "brands": 277,
+  "products": 4757,
+  "rates_open": 24594,
+  "deposit": 7008,
+  "lending": 17586
+ },
+ "moves": [
+  {
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.03,
+   "now": 0.047
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P8M",
+   "was": 0.044,
+   "now": 0.035
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03325
+  },
+  {
+   "brand": "Dnister",
+   "product": "Max Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.046,
+   "now": 0.052
+  },
+  {
+   "brand": "Dnister",
+   "product": "Bonus Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.045,
+   "now": 0.051
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0475,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 24 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.0465,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03425,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02425,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02425,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04425,
+   "now": 0.04925
+  },
+  {
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.029,
+   "now": 0.034
+  },
+  {
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.024,
+   "now": 0.029
+  },
+  {
+   "brand": "Dnister",
+   "product": "Pensioner Savings",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.024,
+   "now": 0.029
+  },
+  {
+   "brand": "Bank of Sydney",
+   "product": "Resisec Commercial Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.106,
+   "now": 0.111
+  },
+  {
+   "brand": "Bank of Sydney",
+   "product": "Resisec Commercial Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.106,
+   "now": 0.111
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Green Loan Secured",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0699,
+   "now": 0.0749
+  },
+  {
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Property Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1076,
+   "now": 0.1126
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03425,
+   "now": 0.03925
+  },
+  {
+   "brand": "Coastline Bank",
+   "product": "Business SMSF Prop Int Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1076,
+   "now": 0.1126
+  },
+  {
+   "brand": "Coastline Bank",
+   "product": "Interest Only (Commercial)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1036,
+   "now": 0.1086
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04425,
+   "now": 0.04925
+  },
+  {
+   "brand": "Bank of Sydney",
+   "product": "Resisec Business Overdraft",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1408,
+   "now": 0.1458
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Green Loan Unsecured",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0829,
+   "now": 0.0879
+  },
+  {
+   "brand": "Fire Service Credit Union",
+   "product": "L6 Investment Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 36 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0475,
+   "now": 0.052
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
