@@ -1,98 +1,26 @@
 {
- "date": "2026-10-17",
+ "date": "2026-10-18",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-17T21:52:47.169Z",
-  "finished": "2026-10-17T22:05:42.575Z",
-  "brands": "255/276",
-  "products": 4758,
-  "opened": 72,
-  "closed": 12,
-  "failures": 31
+  "started": "2026-10-18T22:03:58.286Z",
+  "finished": "2026-10-18T22:15:07.618Z",
+  "brands": "254/276",
+  "products": 4721,
+  "opened": 101,
+  "closed": 45,
+  "failures": 30
  },
  "totals": {
   "brands": 277,
-  "products": 4758,
-  "rates_open": 24653,
+  "products": 4761,
+  "rates_open": 24709,
   "deposit": 7062,
-  "lending": 17591
+  "lending": 17647
  },
  "moves": [
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02925,
-   "now": 0.02325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.03325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.03325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04925,
-   "now": 0.04325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04925,
-   "now": 0.04325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02925,
-   "now": 0.02325
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0609
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0659
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0659
-  },
   {
    "brand": "MoveBank",
    "product": "Offset Home Loan",
@@ -102,235 +30,243 @@
    "now": 0.0629
   },
   {
-   "brand": "CommFCU",
-   "product": "FIRSTBIZ ONLINE SAVER",
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
    "kind": "deposit",
-   "term": null,
-   "was": 0.0325,
-   "now": 0.035
+   "term": "P1Y6M",
+   "was": 0.051,
+   "now": 0.054
   },
   {
-   "brand": "CommFCU",
-   "product": "Everyday Plus",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.025,
-   "now": 0.0275
+   "was": 0.017,
+   "now": 0.0195
   },
   {
-   "brand": "CommFCU",
-   "product": "Online Saver",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.0375,
-   "now": 0.04
+   "was": 0.022,
+   "now": 0.0245
   },
   {
-   "brand": "CommFCU",
-   "product": "FIRSTBIZ ONLINE SAVER",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0275,
-   "now": 0.03
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Wildlife Saver account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0325,
-   "now": 0.035
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Everyday Plus",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.015,
-   "now": 0.0175
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Santa Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0485,
-   "now": 0.051
-  },
-  {
-   "brand": "CommFCU",
-   "product": "FIRSTBIZ ONLINE SAVER",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0225,
-   "now": 0.025
-  },
-  {
-   "brand": "Bank First",
-   "product": "Strong Start Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0425,
-   "now": 0.045
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Everyday Plus",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
    "was": 0.025,
    "now": 0.0275
   },
   {
-   "brand": "Bank First",
-   "product": "Strong Start Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.054,
-   "now": 0.0565
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Online Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0325,
-   "now": 0.035
-  },
-  {
-   "brand": "CommFCU",
-   "product": "Everyday Plus",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.015,
-   "now": 0.0175
-  },
-  {
-   "brand": "Easy Street",
-   "product": "3 YEAR FIXED HOME LOAN - OWNER-OCCUPIED (Principal and Interest)",
+   "brand": "QBANK",
+   "product": "Bluey Visa Credit Card",
    "kind": "lending",
-   "term": "P36M",
-   "was": 0.0624,
-   "now": 0.0644
+   "term": null,
+   "was": 0.1249,
+   "now": 0.1274
   },
   {
-   "brand": "Easy Street",
-   "product": "2 YEAR FIXED HOME LOAN - OWNER-OCCUPIED (Principal and Interest)",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0634,
-   "now": 0.0654
-  },
-  {
-   "brand": "Easy Street",
-   "product": "1 YEAR FIXED HOME LOAN - OWNER-OCCUPIED (Principal and Interest)",
+   "brand": "QBANK",
+   "product": "Bluey Visa Credit Card",
    "kind": "lending",
    "term": "P12M",
-   "was": 0.0634,
-   "now": 0.0654
+   "was": 0.12489,
+   "now": 0.12739
   },
   {
-   "brand": "Easy Street",
-   "product": "STREET SMART VARIABLE HOME LOAN - INVESTMENT (Principal and Interest)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo EasySaver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0355,
+   "now": 0.038
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Reward Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0465,
+   "now": 0.049
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Reward Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0465,
+   "now": 0.049
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo PiggySaver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0355,
+   "now": 0.038
+  },
+  {
+   "brand": "QBANK",
+   "product": "Bluey Visa Credit Card",
    "kind": "lending",
    "term": null,
-   "was": 0.0609,
-   "now": 0.0629
+   "was": 0.1249,
+   "now": 0.1274
   },
   {
-   "brand": "Easy Street",
-   "product": "STREET SMART VARIABLE HOME LOAN - INVESTMENT (Interest Only)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0624,
-   "now": 0.0644
+   "brand": "The Mac",
+   "product": "YOUTH SAVER TERM DEP.",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.05,
+   "now": 0.052
   },
   {
-   "brand": "Easy Street",
-   "product": "STREET SMART VARIABLE HOME LOAN - OWNER-OCCUPIED  (Principal and Interest)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0609,
-   "now": 0.0629
+   "brand": "The Mac",
+   "product": "TERM SAVINGS I4",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.048,
+   "now": 0.05
   },
   {
-   "brand": "Easy Street",
-   "product": "3 YEAR FIXED HOME LOAN - INVESTMENT (Principal and Interest)",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0624,
-   "now": 0.0644
-  },
-  {
-   "brand": "Easy Street",
-   "product": "3 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0654,
-   "now": 0.0674
-  },
-  {
-   "brand": "Easy Street",
-   "product": "STREET SMART VARIABLE HOME LOAN - OWNER-OCCUPIED  (Interest Only)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0624,
-   "now": 0.0644
-  },
-  {
-   "brand": "Easy Street",
-   "product": "2 YEAR FIXED HOME LOAN - INVESTMENT (Principal and Interest)",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0634,
-   "now": 0.0654
-  },
-  {
-   "brand": "Easy Street",
-   "product": "2 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0664,
-   "now": 0.0684
+   "brand": "The Mac",
+   "product": "TERM SAVINGS I4",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.05,
+   "now": 0.052
   },
   {
    "brand": "AAA FINANCIAL CORPORATION",
    "product": "Commercial Easy Refinance",
    "kind": "lending",
    "term": null,
-   "was": 0.0819,
-   "now": 0.0839
+   "was": 0.0839,
+   "now": 0.0819
   },
   {
-   "brand": "Easy Street",
-   "product": "1 YEAR FIXED HOME LOAN - INVESTMENT (Principal and Interest)",
-   "kind": "lending",
+   "brand": "The Mac",
+   "product": "MINI MAC TERM DEPOSIT",
+   "kind": "deposit",
    "term": "P12M",
-   "was": 0.0634,
-   "now": 0.0654
+   "was": 0.05,
+   "now": 0.052
   },
   {
-   "brand": "Easy Street",
-   "product": "1 YEAR FIXED HOME LOAN - INVESTMENT (Interest Only)",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0664,
-   "now": 0.0684
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Business EasySaver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.013,
+   "now": 0.015
   },
   {
    "brand": "MoveBank",
    "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0644,
-   "now": 0.0659
+   "was": 0.0654,
+   "now": 0.0669
   },
   {
    "brand": "MoveBank",
    "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0679,
+   "was": 0.0664,
+   "now": 0.0679
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0644
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P5Y",
+   "was": 0.052,
+   "now": 0.053
+  },
+  {
+   "brand": "The Mac",
+   "product": "TERM SAVINGS I4",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.049
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0649,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0684,
+   "now": 0.0694
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0619
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0639
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0654,
+   "now": 0.0644
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0694,
+   "now": 0.0684
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0674,
    "now": 0.0664
   },
   {
@@ -338,25 +274,65 @@
    "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0644,
-   "now": 0.0659
+   "was": 0.0659,
+   "now": 0.0649
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P2Y",
+   "was": 0.052,
+   "now": 0.053
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P1Y",
+   "was": 0.055,
+   "now": 0.0555
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.011,
+   "now": 0.011
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0205,
+   "now": 0.0205
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.024,
+   "now": 0.024
   }
  ],
  "best": {
   "term_deposit_1y": [
-   {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
-    "rate": 0.056
-   },
    {
     "brand": "CommFCU",
     "product": "12 Month Term Deposit Special",
     "rate": 0.056
    },
    {
-    "brand": "Heartland",
-    "product": "Broker Term Deposit - Business",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
     "rate": 0.0555
    },
    {
@@ -365,8 +341,8 @@
     "rate": 0.0555
    },
    {
-    "brand": "Judo Bank",
-    "product": "SMSF Term Deposits",
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
     "rate": 0.0555
    }
   ],
