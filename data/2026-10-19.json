@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-19",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-19T23:13:06.999Z",
+  "finished": "2026-10-19T23:24:23.533Z",
+  "brands": "257/286",
+  "products": 4720,
+  "opened": 121,
+  "closed": 120,
+  "failures": 38
+ },
+ "totals": {
+  "brands": 287,
+  "products": 4760,
+  "rates_open": 24710,
+  "deposit": 7062,
+  "lending": 17648
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.04425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.03425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.05425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.04425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.03425
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.05425
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Unsecured Fixed Rate Personal Loan",
+   "kind": "lending",
+   "term": "P7Y",
+   "was": 0.0949,
+   "now": 0.0899
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P118D",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P118D",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P118D",
+   "was": 0.0475,
+   "now": 0.052
+  },
+  {
+   "brand": "Resimac Asset Finance",
+   "product": "Personal Fixed Rate Auto Loan",
+   "kind": "lending",
+   "term": "P1M",
+   "was": 0.0719,
+   "now": 0.0754
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0649
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P208D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Firstmac",
+   "product": "Bridging Home Loan",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0869,
+   "now": 0.0844
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Educator+ Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.015,
+   "now": 0.0175
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "Port+ Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.015,
+   "now": 0.0175
+  },
+  {
+   "brand": "loans.com.au",
+   "product": "Bridging Home Loan",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0844,
+   "now": 0.0819
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P298D",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0644
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P298D",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P298D",
+   "was": 0.051,
+   "now": 0.0535
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P208D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P208D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0649
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Direct",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.049,
+   "now": 0.051
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Partners",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.049,
+   "now": 0.051
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P07M",
+   "was": 0.0525,
+   "now": 0.051
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P07M",
+   "was": 0.0525,
+   "now": 0.051
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P238D",
+   "was": 0.0525,
+   "now": 0.051
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P07M",
+   "was": 0.0525,
+   "now": 0.051
+  },
+  {
+   "brand": "Bank of us",
+   "product": "FIXED TERM INVESTMENT",
+   "kind": "deposit",
+   "term": "P238D",
+   "was": 0.0525,
+   "now": 0.051
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
