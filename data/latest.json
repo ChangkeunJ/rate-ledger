@@ -1,33 +1,153 @@
 {
- "date": "2026-10-19",
+ "date": "2026-10-20",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-19T23:13:06.999Z",
-  "finished": "2026-10-19T23:24:23.533Z",
-  "brands": "257/286",
-  "products": 4720,
-  "opened": 121,
-  "closed": 120,
-  "failures": 38
+  "started": "2026-10-20T22:50:07.040Z",
+  "finished": "2026-10-20T23:03:27.087Z",
+  "brands": "258/286",
+  "products": 4761,
+  "opened": 114,
+  "closed": 93,
+  "failures": 37
  },
  "totals": {
   "brands": 287,
-  "products": 4760,
-  "rates_open": 24710,
-  "deposit": 7062,
-  "lending": 17648
+  "products": 4761,
+  "rates_open": 24731,
+  "deposit": 7063,
+  "lending": 17668
  },
  "moves": [
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Australian Military Bank",
+   "product": "Income Plus",
    "kind": "deposit",
-   "term": null,
-   "was": 0.03325,
-   "now": 0.04425
+   "term": "P12M",
+   "was": 0.035,
+   "now": 0.053
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Income Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Investment Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Capital Guaranteed Pension Account",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Teen Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Member Income Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": " Capital Guaranteed Super",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Investment Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Member Investment Plus",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.036,
+   "now": 0.054
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Teen Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Income Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Income Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.039,
+   "now": 0.0535
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "Investment Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Member Income Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Member Investment Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Investment Plus",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.04,
+   "now": 0.0545
   },
   {
    "brand": "CommBank",
@@ -39,7 +159,7 @@
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
    "was": 0.04325,
@@ -58,288 +178,168 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02325,
-   "now": 0.03425
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
    "was": 0.04325,
    "now": 0.05425
   },
   {
-   "brand": "Alex.Bank",
-   "product": "Unsecured Fixed Rate Personal Loan",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.0949,
-   "now": 0.0899
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
-   "term": "P118D",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P118D",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P118D",
-   "was": 0.0475,
-   "now": 0.052
-  },
-  {
-   "brand": "Resimac Asset Finance",
-   "product": "Personal Fixed Rate Auto Loan",
-   "kind": "lending",
-   "term": "P1M",
-   "was": 0.0719,
-   "now": 0.0754
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
    "term": null,
-   "was": 0.0619,
-   "now": 0.0649
+   "was": 0.03325,
+   "now": 0.04425
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.05,
-   "now": 0.0525
+   "term": null,
+   "was": 0.02325,
+   "now": 0.03425
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.05,
-   "now": 0.0525
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P208D",
-   "was": 0.05,
-   "now": 0.0525
-  },
-  {
-   "brand": "Firstmac",
-   "product": "Bridging Home Loan",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0869,
-   "now": 0.0844
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "Australian Military Bank",
+   "product": "Teen Plus",
    "kind": "deposit",
    "term": "P9M",
-   "was": 0.051,
+   "was": 0.043,
    "now": 0.0535
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Income Plus",
    "kind": "deposit",
    "term": "P9M",
-   "was": 0.051,
+   "was": 0.043,
    "now": 0.0535
   },
   {
-   "brand": "Credit Union SA",
-   "product": "Educator+ Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.015,
-   "now": 0.0175
-  },
-  {
-   "brand": "Credit Union SA",
-   "product": "Port+ Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.015,
-   "now": 0.0175
-  },
-  {
-   "brand": "loans.com.au",
-   "product": "Bridging Home Loan",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0844,
-   "now": 0.0819
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P298D",
-   "was": 0.051,
-   "now": 0.0535
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0669,
-   "now": 0.0644
-  },
-  {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Member Investment Plus",
    "kind": "deposit",
    "term": "P9M",
-   "was": 0.051,
+   "was": 0.043,
    "now": 0.0535
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "Australian Military Bank",
+   "product": "Income Plus",
    "kind": "deposit",
-   "term": "P298D",
-   "was": 0.051,
+   "term": "P9M",
+   "was": 0.042,
+   "now": 0.0525
+  },
+  {
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Investment Plus",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.043,
    "now": 0.0535
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "Australian Military Bank",
+   "product": "Investment Plus",
    "kind": "deposit",
-   "term": "P298D",
-   "was": 0.051,
+   "term": "P9M",
+   "was": 0.043,
    "now": 0.0535
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Member Income Plus",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.05,
-   "now": 0.0525
+   "term": "P9M",
+   "was": 0.043,
+   "now": 0.0535
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "Australian Military Bank",
+   "product": "Teen Plus",
    "kind": "deposit",
-   "term": "P208D",
-   "was": 0.05,
-   "now": 0.0525
+   "term": "P7M",
+   "was": 0.044,
+   "now": 0.054
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "Australian Military Bank",
+   "product": "Income Plus",
    "kind": "deposit",
-   "term": "P208D",
-   "was": 0.05,
-   "now": 0.0525
+   "term": "P7M",
+   "was": 0.043,
+   "now": 0.053
   },
   {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "SMSF Commercial",
    "kind": "lending",
    "term": null,
-   "was": 0.0629,
-   "now": 0.0649
+   "was": 0.0848,
+   "now": 0.0948
   },
   {
-   "brand": "Alex.Bank",
-   "product": "Term Deposit - Direct",
+   "brand": "Australian Military Bank",
+   "product": "Investment Plus",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.049,
-   "now": 0.051
+   "term": "P7M",
+   "was": 0.044,
+   "now": 0.054
   },
   {
-   "brand": "Alex.Bank",
-   "product": "Term Deposit - Partners",
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Investment Plus",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.049,
-   "now": 0.051
+   "term": "P7M",
+   "was": 0.047,
+   "now": 0.054
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Member Income Plus",
    "kind": "deposit",
-   "term": "P07M",
-   "was": 0.0525,
-   "now": 0.051
+   "term": "P7M",
+   "was": 0.047,
+   "now": 0.054
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Sub-Branch Income Plus",
    "kind": "deposit",
-   "term": "P07M",
-   "was": 0.0525,
-   "now": 0.051
+   "term": "P7M",
+   "was": 0.047,
+   "now": 0.054
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
+   "brand": "RSL Money",
+   "product": "RSL Member Investment Plus",
    "kind": "deposit",
-   "term": "P238D",
-   "was": 0.0525,
-   "now": 0.051
+   "term": "P7M",
+   "was": 0.047,
+   "now": 0.054
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P07M",
-   "was": 0.0525,
-   "now": 0.051
+   "brand": "Liberty Financial",
+   "product": "Unsecured personal loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.063,
+   "now": 0.0689
   },
   {
-   "brand": "Bank of us",
-   "product": "FIXED TERM INVESTMENT",
-   "kind": "deposit",
-   "term": "P238D",
-   "was": 0.0525,
-   "now": 0.051
+   "brand": "MoneyPlace",
+   "product": "Unsecured personal loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.063,
+   "now": 0.0689
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Secured personal loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0567,
+   "now": 0.062
   }
  ],
  "best": {
@@ -355,18 +355,18 @@
     "rate": 0.056
    },
    {
-    "brand": "Heartland",
-    "product": "Broker Term Deposit",
-    "rate": 0.0555
-   },
-   {
     "brand": "Judo Bank",
     "product": "Business Term Deposits",
     "rate": 0.0555
    },
    {
-    "brand": "Judo Bank",
-    "product": "SMSF Term Deposits",
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Intermediary",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
     "rate": 0.0555
    }
   ],
