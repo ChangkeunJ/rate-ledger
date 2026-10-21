@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-21",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-21T22:54:17.802Z",
+  "finished": "2026-10-21T23:06:08.084Z",
+  "brands": "257/291",
+  "products": 4762,
+  "opened": 477,
+  "closed": 422,
+  "failures": 41
+ },
+ "totals": {
+  "brands": 292,
+  "products": 4762,
+  "rates_open": 24782,
+  "deposit": 7063,
+  "lending": 17719
+ },
+ "moves": [
+  {
+   "brand": "Virgin Money",
+   "product": "Virgin Money Boost Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0415,
+   "now": 0.0525
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0405,
+   "now": 0.0505
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Stow It Term Deposit Account",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0405,
+   "now": 0.0505
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "SMSF Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0948,
+   "now": 0.0848
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Stow It Term Deposit Account",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.0445,
+   "now": 0.0505
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.0445,
+   "now": 0.0505
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "FTD - 30 to 36 months",
+   "kind": "deposit",
+   "term": "P30M",
+   "was": 0.0495,
+   "now": 0.0445
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0594,
+   "now": 0.0629
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0495,
+   "now": 0.0525
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Stow It Term Deposit Account",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0495,
+   "now": 0.0525
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0683,
+   "now": 0.0708
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0683,
+   "now": 0.0708
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0625,
+   "now": 0.065
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0634
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0744
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0634
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0698,
+   "now": 0.0723
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0694,
+   "now": 0.0719
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0652,
+   "now": 0.0677
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0677,
+   "now": 0.0702
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0704,
+   "now": 0.0729
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.061,
+   "now": 0.0635
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.065,
+   "now": 0.0675
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0635,
+   "now": 0.066
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0645,
+   "now": 0.067
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0615,
+   "now": 0.064
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.064,
+   "now": 0.0665
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0673,
+   "now": 0.0698
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0589,
+   "now": 0.0614
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0704,
+   "now": 0.0729
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.063,
+   "now": 0.0655
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.063,
+   "now": 0.0655
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0635,
+   "now": 0.066
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Offset)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0645,
+   "now": 0.067
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0644
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Intermediary",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Judo Bank",
+    "product": "SMSF Term Deposits",
+    "rate": 0.0555
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
