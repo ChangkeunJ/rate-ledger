@@ -1,24 +1,24 @@
 {
- "date": "2026-10-22",
+ "date": "2026-10-23",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-22T22:52:54.829Z",
-  "finished": "2026-10-22T23:06:15.201Z",
-  "brands": "257/293",
-  "products": 4767,
-  "opened": 304,
-  "closed": 251,
-  "failures": 43
+  "started": "2026-10-23T22:45:38.510Z",
+  "finished": "2026-10-23T22:55:24.668Z",
+  "brands": "255/293",
+  "products": 4708,
+  "opened": 55,
+  "closed": 54,
+  "failures": 45
  },
  "totals": {
   "brands": 294,
   "products": 4767,
-  "rates_open": 24833,
+  "rates_open": 24834,
   "deposit": 7063,
-  "lending": 17770
+  "lending": 17771
  },
  "moves": [
   {
@@ -26,320 +26,320 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04325,
-   "now": 0.02925
+   "was": 0.01925,
+   "now": 0.02525
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03325,
-   "now": 0.01925
+   "was": 0.03925,
+   "now": 0.04525
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.05325,
-   "now": 0.03925
+   "was": 0.02925,
+   "now": 0.03525
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03325,
-   "now": 0.01925
+   "was": 0.01925,
+   "now": 0.02525
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P1096D",
+   "was": 0.0315,
+   "now": 0.0375
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04325,
-   "now": 0.02925
+   "was": 0.02925,
+   "now": 0.03525
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.05325,
-   "now": 0.03925
+   "was": 0.03925,
+   "now": 0.04525
   },
   {
-   "brand": "IMB Bank",
-   "product": "Term Deposit",
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
    "kind": "deposit",
-   "term": "P24M",
-   "was": 0.045,
-   "now": 0.05
+   "term": "P36M",
+   "was": 0.0315,
+   "now": 0.0375
   },
   {
    "brand": "MoveBank",
    "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0639,
-   "now": 0.0609
+   "was": 0.0609,
+   "now": 0.0639
   },
   {
    "brand": "MoveBank",
-   "product": "Offset Home Loan",
+   "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0659,
-   "now": 0.0629
+   "was": 0.0649,
+   "now": 0.0619
   },
   {
-   "brand": "TMCU",
-   "product": "GREENROAD",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0689,
-   "now": 0.0714
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P23M",
+   "was": 0.0475,
+   "now": 0.05
   },
   {
-   "brand": "Great Southern Bank Business+",
-   "product": "Business+ Account",
-   "kind": "lending",
-   "term": null,
-   "was": 0.107,
-   "now": 0.1095
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.045,
+   "now": 0.0475
   },
   {
-   "brand": "IMB Bank",
-   "product": "Fully Drawn Commercial Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0685,
-   "now": 0.071
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Secured Business Overdraft",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0784,
-   "now": 0.0809
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Unsecured Business Overdraft",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1084,
-   "now": 0.1109
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Commercial Credit line",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0799,
-   "now": 0.0824
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Cash Management Account",
+   "brand": "Cairns bank",
+   "product": "Pensioner Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.0145,
-   "now": 0.017
+   "was": 0.0275,
+   "now": 0.03
   },
   {
-   "brand": "IMB Bank",
-   "product": "Cash Management Account",
+   "brand": "Regional Australia Bank",
+   "product": "Accelerator Car Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1174,
+   "now": 0.1199
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Enviro Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.072,
+   "now": 0.0745
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Personal Touch Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1024,
+   "now": 0.1049
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Personal Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1599,
+   "now": 0.1624
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "HORIZON DIRECT",
    "kind": "deposit",
    "term": null,
-   "was": 0.0165,
-   "now": 0.019
+   "was": 0.035,
+   "now": 0.0325
   },
   {
-   "brand": "IMB Bank",
-   "product": "Cash Management Account",
+   "brand": "Cairns bank",
+   "product": "Term deposits 1mth under $500,000",
+   "kind": "deposit",
+   "term": "P729D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 3mths under $500,000",
+   "kind": "deposit",
+   "term": "P1094D",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P729D",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P1094D",
+   "was": 0.045,
+   "now": 0.0475
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Christmas Saver Account",
    "kind": "deposit",
    "term": null,
    "was": 0.02,
    "now": 0.0225
   },
   {
-   "brand": "IMB Bank",
-   "product": "Zoo Account",
+   "brand": "Cairns bank",
+   "product": "Pensioner Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.044,
-   "now": 0.0465
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "DIY Super Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0265,
-   "now": 0.029
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Christmas Club Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0325,
-   "now": 0.035
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ V2 PLUS",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.041,
-   "now": 0.0435
-  },
-  {
-   "brand": "ANZ",
-   "product": "ANZ V2 PLUS",
-   "kind": "lending",
-   "term": null,
-   "was": 0.207,
-   "now": 0.2095
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Car Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0724,
-   "now": 0.0749
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Personal Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0699,
-   "now": 0.0724
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Premium Variable Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0609,
-   "now": 0.0634
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Business Plus Overdraft",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1129,
-   "now": 0.1154
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Business Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0859,
-   "now": 0.0884
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Basic Variable Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0589,
-   "now": 0.0614
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "ECO Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0604,
-   "now": 0.0629
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Basic Variable Investment Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0609,
-   "now": 0.0634
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "ECO Investment Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0609,
-   "now": 0.0634
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Equity Extra Investment Overdr",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1029,
-   "now": 0.1054
-  },
-  {
-   "brand": "Summerland Bank",
-   "product": "Premium Variable Investment Ln",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0699,
-   "now": 0.0724
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Everyday 50PLUS Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.025,
-   "now": 0.027
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0649
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Everyday 50PLUS Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0225,
-   "now": 0.0245
-  },
-  {
-   "brand": "IMB Bank",
-   "product": "Everyday 50PLUS Account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0175,
-   "now": 0.0195
+   "was": 0.015,
+   "now": 0.017
   },
   {
    "brand": "MoveBank",
    "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0629,
-   "now": 0.0649
+   "was": 0.0659,
+   "now": 0.0644
   },
   {
    "brand": "MoveBank",
    "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0659,
-   "now": 0.0644
+   "was": 0.0644,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0664
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0649,
+   "now": 0.0659
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Childrens saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.031,
+   "now": 0.032
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0679,
+   "now": 0.0689
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0649,
+   "now": 0.0659
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Regional Australia Bank Home Loan (Non Offset) ",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0619
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0709,
+   "now": 0.0699
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Childrens saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.005,
+   "now": 0.006
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0946,
+   "now": 0.0951
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0946,
+   "now": 0.0951
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0946,
+   "now": 0.0951
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0946,
+   "now": 0.0951
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0956,
+   "now": 0.0953
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0956,
+   "now": 0.0953
   }
  ],
  "best": {
@@ -355,18 +355,18 @@
     "rate": 0.056
    },
    {
+    "brand": "Judo Bank",
+    "product": "Business Term Deposits",
+    "rate": 0.0555
+   },
+   {
+    "brand": "Alex.Bank",
+    "product": "Term Deposit - Intermediary",
+    "rate": 0.0555
+   },
+   {
     "brand": "Dnister",
     "product": "Term Deposit - 12 Months",
-    "rate": 0.0555
-   },
-   {
-    "brand": "AMP Bank GO",
-    "product": "AMP Bank GO 12 Month Business Term Deposit",
-    "rate": 0.0555
-   },
-   {
-    "brand": "AMP Bank GO",
-    "product": "AMP Bank GO 12 Month Term Deposit",
     "rate": 0.0555
    }
   ],
