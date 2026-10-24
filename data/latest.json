@@ -1,16 +1,16 @@
 {
- "date": "2026-10-23",
+ "date": "2026-10-24",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-23T22:45:38.510Z",
-  "finished": "2026-10-23T22:55:24.668Z",
+  "started": "2026-10-24T22:07:36.639Z",
+  "finished": "2026-10-24T22:17:13.435Z",
   "brands": "255/293",
-  "products": 4708,
-  "opened": 55,
-  "closed": 54,
+  "products": 4710,
+  "opened": 9,
+  "closed": 9,
   "failures": 45
  },
  "totals": {
@@ -70,6 +70,14 @@
    "now": 0.03525
   },
   {
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0315,
+   "now": 0.0375
+  },
+  {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
@@ -78,12 +86,12 @@
    "now": 0.04525
   },
   {
-   "brand": "Cairns bank",
-   "product": "Term deposits 12mths over $500,000 mthly interest",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0315,
-   "now": 0.0375
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0659
   },
   {
    "brand": "MoveBank",
@@ -102,20 +110,12 @@
    "now": 0.0619
   },
   {
-   "brand": "Cairns bank",
-   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "brand": "Horizon Bank",
+   "product": "HORIZON DIRECT",
    "kind": "deposit",
-   "term": "P23M",
-   "was": 0.0475,
-   "now": 0.05
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "Term deposits 12mths over $500,000 mthly interest",
-   "kind": "deposit",
-   "term": "P35M",
-   "was": 0.045,
-   "now": 0.0475
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
    "brand": "Cairns bank",
@@ -124,6 +124,14 @@
    "term": null,
    "was": 0.0275,
    "now": 0.03
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Christmas Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02,
+   "now": 0.0225
   },
   {
    "brand": "Regional Australia Bank",
@@ -199,11 +207,19 @@
   },
   {
    "brand": "Cairns bank",
-   "product": "Christmas Saver Account",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
    "kind": "deposit",
-   "term": null,
-   "was": 0.02,
-   "now": 0.0225
+   "term": "P23M",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 12mths over $500,000 mthly interest",
+   "kind": "deposit",
+   "term": "P35M",
+   "was": 0.045,
+   "now": 0.0475
   },
   {
    "brand": "Cairns bank",
@@ -242,6 +258,30 @@
    "product": "Everyday Home Loan",
    "kind": "lending",
    "term": "P2Y",
+   "was": 0.0684,
+   "now": 0.0694
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
    "was": 0.0649,
    "now": 0.0659
   },
@@ -250,8 +290,8 @@
    "product": "Childrens saver account",
    "kind": "deposit",
    "term": null,
-   "was": 0.031,
-   "now": 0.032
+   "was": 0.005,
+   "now": 0.006
   },
   {
    "brand": "MoveBank",
@@ -270,6 +310,14 @@
    "now": 0.0659
   },
   {
+   "brand": "Cairns bank",
+   "product": "Childrens saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.031,
+   "now": 0.032
+  },
+  {
    "brand": "Regional Australia Bank",
    "product": "Regional Australia Bank Home Loan (Non Offset) ",
    "kind": "lending",
@@ -286,73 +334,30 @@
    "now": 0.0699
   },
   {
-   "brand": "Cairns bank",
-   "product": "Childrens saver account",
-   "kind": "deposit",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
    "term": null,
-   "was": 0.005,
-   "now": 0.006
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0946,
-   "now": 0.0951
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0946,
-   "now": 0.0951
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0946,
-   "now": 0.0951
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0946,
-   "now": 0.0951
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0956,
-   "now": 0.0953
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Home Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0956,
-   "now": 0.0953
+   "was": 0.0659,
+   "now": 0.0654
   }
  ],
  "best": {
   "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
    {
     "brand": "CommFCU",
     "product": "12 Month Term Deposit Special",
     "rate": 0.056
    },
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
-    "rate": 0.056
+    "brand": "Dnister",
+    "product": "Term Deposit - 12 Months",
+    "rate": 0.0555
    },
    {
     "brand": "Judo Bank",
@@ -360,13 +365,8 @@
     "rate": 0.0555
    },
    {
-    "brand": "Alex.Bank",
-    "product": "Term Deposit - Intermediary",
-    "rate": 0.0555
-   },
-   {
-    "brand": "Dnister",
-    "product": "Term Deposit - 12 Months",
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Term Deposit",
     "rate": 0.0555
    }
   ],
