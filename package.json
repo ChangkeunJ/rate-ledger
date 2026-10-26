@@ -20,7 +20,7 @@
     "rba": "tsc && node dist/src/rba.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.2.0",
@@ -29,14 +29,14 @@
     "react-dom": "^19.3.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20260702.1",
+    "@cloudflare/workers-types": "^5.20261026.1",
     "@types/node": "^22.10.2",
     "@types/pg": "^8.11.10",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "typescript": "^5.7.2",
-    "vite": "^8.3.4",
+    "vite": "^8.3.5",
     "wrangler": "^4.152.0"
   }
 }
