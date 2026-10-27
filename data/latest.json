@@ -1,72 +1,72 @@
 {
- "date": "2026-10-26",
+ "date": "2026-10-27",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-26T23:28:15.653Z",
-  "finished": "2026-10-26T23:38:28.523Z",
-  "brands": "257/299",
-  "products": 4710,
-  "opened": 365,
-  "closed": 279,
-  "failures": 50
+  "started": "2026-10-27T23:21:40.314Z",
+  "finished": "2026-10-27T23:32:33.857Z",
+  "brands": "254/297",
+  "products": 4624,
+  "opened": 352,
+  "closed": 296,
+  "failures": 51
  },
  "totals": {
   "brands": 300,
-  "products": 4774,
-  "rates_open": 24915,
+  "products": 4776,
+  "rates_open": 24952,
   "deposit": 7051,
-  "lending": 17864
+  "lending": 17901
  },
  "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
   {
    "brand": "MyState Bank",
    "product": "Special Residential Variable Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0634,
-   "now": 0.0754
-  },
-  {
-   "brand": "Maitland Mutual Limited",
-   "product": "Package Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0709,
-   "now": 0.0639
-  },
-  {
-   "brand": "Maitland Mutual Limited",
-   "product": "Package Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0709,
-   "now": 0.0639
+   "was": 0.0754,
+   "now": 0.0654
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04525,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03525,
-   "now": 0.04125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03525,
+   "was": 0.05125,
    "now": 0.04125
   },
   {
@@ -74,183 +74,23 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02525,
-   "now": 0.03125
+   "was": 0.05125,
+   "now": 0.04125
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04525,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02525,
-   "now": 0.03125
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Used Car Loan",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0639,
-   "now": 0.0689
+   "was": 0.0649,
+   "now": 0.0609
   },
   {
-   "brand": "Defence Bank",
-   "product": "New Car Loan",
+   "brand": "Broken Hill Bank",
+   "product": "Choice Investment Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0639,
-   "now": 0.0689
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "HOME LOAN PLUS",
-   "kind": "lending",
-   "term": "P30Y",
-   "was": 0.0714,
-   "now": 0.0754
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials I/O Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0669,
-   "now": 0.0704
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials Fixed",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0639,
-   "now": 0.0674
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Fix",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0639,
-   "now": 0.0674
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essential Inv Fixed",
-   "kind": "lending",
-   "term": "P1Y",
    "was": 0.0659,
-   "now": 0.0694
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials Fixed",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0655,
-   "now": 0.0689
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Fix",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0655,
-   "now": 0.0689
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essential Inv Fixed",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0675,
-   "now": 0.0709
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials I/O Fixed",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0685,
-   "now": 0.0719
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Fix",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0655,
-   "now": 0.0687
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials I/O Fixed",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0685,
-   "now": 0.0717
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Fix",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0655,
-   "now": 0.0687
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essential Inv Fixed",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0675,
-   "now": 0.0707
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials Fixed",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0655,
-   "now": 0.0687
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essential Inv Fixed",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0675,
-   "now": 0.0707
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials I/O Fixed",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0685,
-   "now": 0.0717
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials Fixed",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0655,
-   "now": 0.0687
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Construction (OO)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0669,
    "now": 0.0699
   },
   {
@@ -258,102 +98,252 @@
    "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
+   "was": 0.0659,
+   "now": 0.0629
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Standard Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0744,
+   "now": 0.0774
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0629
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR <60 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L29 Occupied Housing",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0714
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR 80-90 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0644,
+   "now": 0.0669
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE >90 PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L460 Invest House Int. Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0794
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR 60-80 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
    "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 3mths under $500,000",
+   "kind": "deposit",
+   "term": "P1094D",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR >90 PI",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE 60-80 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0664
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Online Saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0275
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE <60 LVR",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
    "now": 0.0659
   },
   {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essential Inv Fixed",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR 80-90 LVR PI",
    "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0669,
-   "now": 0.0696
+   "term": "P36M",
+   "was": 0.0659,
+   "now": 0.0684
   },
   {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials I/O Fixed",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR <60 LVR PI",
    "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0679,
-   "now": 0.0706
+   "term": "P12M",
+   "was": 0.0619,
+   "now": 0.0644
   },
   {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials Fixed",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR <60 LVR PI",
    "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0649,
-   "now": 0.0676
+   "term": "P36M",
+   "was": 0.0634,
+   "now": 0.0659
   },
   {
-   "brand": "Defence Bank",
-   "product": "Ultimate Essentials DHOAS Fix",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0649,
-   "now": 0.0676
-  },
-  {
-   "brand": "Defence Bank",
-   "product": "Premier Investor Home Loan",
+   "brand": "Broken Hill Bank",
+   "product": "L26 Investment Housing",
    "kind": "lending",
    "term": null,
-   "was": 0.0669,
-   "now": 0.0694
+   "was": 0.0769,
+   "now": 0.0794
   },
   {
-   "brand": "Auswide Bank Ltd",
-   "product": "HOME LOAN PLUS",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR 60-80 LVR PI",
    "kind": "lending",
-   "term": "P30Y",
+   "term": "P36M",
+   "was": 0.0639,
+   "now": 0.0664
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR 80-90 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
    "was": 0.0649,
    "now": 0.0674
   },
   {
-   "brand": "Defence Bank",
-   "product": "Premier Investor Low Rate",
+   "brand": "Broken Hill Bank",
+   "product": "L70 Mortgage Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.082,
+   "now": 0.0845
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Investment Int Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR 60-80 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "480 - Housing Interest Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0779
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 1mth under $500,000",
+   "kind": "deposit",
+   "term": "P729D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE 80-90 LVR PI",
    "kind": "lending",
    "term": null,
    "was": 0.0659,
    "now": 0.0684
   },
   {
-   "brand": "Defence Bank",
-   "product": "DHOAS Premier Low Rate",
+   "brand": "Broken Hill Bank",
+   "product": "Choice Home Loan Interest Only",
    "kind": "lending",
    "term": null,
-   "was": 0.0644,
-   "now": 0.0669
+   "was": 0.0659,
+   "now": 0.0684
   },
   {
-   "brand": "Auswide Bank Ltd",
-   "product": "HOME LOAN PLUS",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR >90 LVR PI",
    "kind": "lending",
-   "term": "P30Y",
-   "was": 0.0649,
-   "now": 0.0674
+   "term": "P24M",
+   "was": 0.0669,
+   "now": 0.0694
   },
   {
-   "brand": "Defence Bank",
-   "product": "Premier Low Rate",
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR >90 LVR PI",
    "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
+   "term": "P12M",
+   "was": 0.0664,
+   "now": 0.0689
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Standard Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0984,
+   "now": 0.1004
   }
  ],
  "best": {
   "term_deposit_1y": [
-   {
-    "brand": "Bank Australia",
-    "product": "Term Deposit 12 months",
-    "rate": 0.056
-   },
-   {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
-    "rate": 0.056
-   },
    {
     "brand": "Gateway Bank",
     "product": "Package TD 12 Months",
@@ -362,6 +352,16 @@
    {
     "brand": "Bank Australia",
     "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
     "rate": 0.056
    },
    {

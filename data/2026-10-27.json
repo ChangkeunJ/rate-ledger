@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-27",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-27T23:21:40.314Z",
+  "finished": "2026-10-27T23:32:33.857Z",
+  "brands": "254/297",
+  "products": 4624,
+  "opened": 352,
+  "closed": 296,
+  "failures": 51
+ },
+ "totals": {
+  "brands": 300,
+  "products": 4776,
+  "rates_open": 24952,
+  "deposit": 7051,
+  "lending": 17901
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Special Residential Variable Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0654
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0609
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Investment Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0699
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0629
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Standard Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0744,
+   "now": 0.0774
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0629
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR <60 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L29 Occupied Housing",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0714
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR 80-90 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0644,
+   "now": 0.0669
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE >90 PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L460 Invest House Int. Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0794
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR 60-80 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 3mths under $500,000",
+   "kind": "deposit",
+   "term": "P1094D",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR >90 PI",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE 60-80 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0664
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Online Saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0275
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE <60 LVR",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0659
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR 80-90 LVR PI",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0659,
+   "now": 0.0684
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR <60 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0619,
+   "now": 0.0644
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR <60 LVR PI",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0634,
+   "now": 0.0659
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L26 Investment Housing",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0794
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 3YR 60-80 LVR PI",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0639,
+   "now": 0.0664
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR 80-90 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "L70 Mortgage Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.082,
+   "now": 0.0845
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Investment Int Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR 60-80 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "480 - Housing Interest Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0779
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Term deposits 1mth under $500,000",
+   "kind": "deposit",
+   "term": "P729D",
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN VARIABLE 80-90 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0684
+  },
+  {
+   "brand": "Broken Hill Bank",
+   "product": "Choice Home Loan Interest Only",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0684
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 2YR >90 LVR PI",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0669,
+   "now": 0.0694
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "PLUS HOME LOAN FIXED 1YR >90 LVR PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0664,
+   "now": 0.0689
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Standard Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0984,
+   "now": 0.1004
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.056
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
