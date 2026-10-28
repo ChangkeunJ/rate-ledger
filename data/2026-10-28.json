@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-28",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-28T23:44:26.547Z",
+  "finished": "2026-10-28T23:54:34.396Z",
+  "brands": "256/305",
+  "products": 4690,
+  "opened": 278,
+  "closed": 190,
+  "failures": 57
+ },
+ "totals": {
+  "brands": 308,
+  "products": 4801,
+  "rates_open": 25040,
+  "deposit": 7051,
+  "lending": 17989
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02125,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02125,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.03925
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Personal Term Deposits",
+   "kind": "deposit",
+   "term": "P10M",
+   "was": 0.0495,
+   "now": 0.0565
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 5 year fixed - Residentially Secured P&I",
+   "kind": "lending",
+   "term": "P60M",
+   "was": 0.0739,
+   "now": 0.08
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 5 Year fixed - Commercially secured P&I",
+   "kind": "lending",
+   "term": "P60M",
+   "was": 0.0789,
+   "now": 0.085
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 5 Year Fixed - Residentially Secured IO",
+   "kind": "lending",
+   "term": "P60M",
+   "was": 0.0739,
+   "now": 0.08
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 5 Year Fixed - Commercially Secured IO",
+   "kind": "lending",
+   "term": "P60M",
+   "was": 0.0789,
+   "now": 0.085
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "Business Term Deposits",
+   "kind": "deposit",
+   "term": "P10M",
+   "was": 0.0495,
+   "now": 0.0555
+  },
+  {
+   "brand": "Judo Bank",
+   "product": "SMSF Term Deposits",
+   "kind": "deposit",
+   "term": "P10M",
+   "was": 0.0495,
+   "now": 0.0555
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 2 year fixed - Residentially Secured P&I",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0714,
+   "now": 0.0765
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 2 Year fixed - Commercially secured P&I",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0764,
+   "now": 0.0815
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 2 Year Fixed - Commercially Secured IO",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0764,
+   "now": 0.0815
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 2 Year Fixed - Residentially Secured IO",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0714,
+   "now": 0.0765
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 3 Year Fixed - Residentially Secured IO",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0719,
+   "now": 0.0765
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 3 Year fixed - Commercially secured P&I",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0769,
+   "now": 0.0815
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 3 Year Fixed - Commercially Secured IO",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0769,
+   "now": 0.0815
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 3 year fixed - Residentially Secured P&I",
+   "kind": "lending",
+   "term": "P36M",
+   "was": 0.0719,
+   "now": 0.0765
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 1 Year Fixed - Residentially Secured IO",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0709,
+   "now": 0.075
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 1 Year Fixed - Commercially Secured IO",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0759,
+   "now": 0.08
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 1 Year fixed - Commercially secured P&I",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0759,
+   "now": 0.08
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial 1 year fixed - Residentially Secured P&I",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0709,
+   "now": 0.075
+  },
+  {
+   "brand": "La Trobe Financial",
+   "product": "Everyday Heroes Lite Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0664,
+   "now": 0.0704
+  },
+  {
+   "brand": "La Trobe Financial",
+   "product": "Everyday Heroes Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0684
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0639
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC INVESTMENT HL BRIDGING VARIABLE <60 LVR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0854,
+   "now": 0.0879
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE >90 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0694
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "INVESTMENT PLUS HL FIXED 1YR <60 LVR IO",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE 80-90 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE 60-80 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "INVESTMENT PLUS HL FIXED 1YR 60-80 LVR IO",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE <60 LVR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE >90 LVR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0714
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "HORIZON DIRECT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE >80-90 LVR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0694
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "CLASSIC HOME LOAN VARIABLE 60-80 LVR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "INVESTMENT PLUS HL FIXED 1YR 80-90 LVR IO",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0674,
+   "now": 0.0699
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.056
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
