@@ -1,345 +1,329 @@
 {
- "date": "2026-10-28",
+ "date": "2026-10-29",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-28T23:44:26.547Z",
-  "finished": "2026-10-28T23:54:34.396Z",
-  "brands": "256/305",
-  "products": 4690,
-  "opened": 278,
-  "closed": 190,
-  "failures": 57
+  "started": "2026-10-29T23:42:50.292Z",
+  "finished": "2026-10-29T23:52:24.284Z",
+  "brands": "257/305",
+  "products": 4707,
+  "opened": 319,
+  "closed": 300,
+  "failures": 56
  },
  "totals": {
   "brands": 308,
   "products": 4801,
-  "rates_open": 25040,
+  "rates_open": 25059,
   "deposit": 7051,
-  "lending": 17989
+  "lending": 18008
  },
  "moves": [
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
    "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.04
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.0405
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.041
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
    "term": null,
-   "was": 0.02125,
-   "now": 0.02925
+   "was": 0.0629,
+   "now": 0.0659
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Cairns bank",
+   "product": "Term deposits 1mth under $500,000",
    "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.04925
+   "term": "P729D",
+   "was": 0.05,
+   "now": 0.0525
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
    "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.04925
+   "term": "P3M",
+   "was": 0.0505,
+   "now": 0.048
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
    "kind": "deposit",
-   "term": null,
-   "was": 0.02125,
-   "now": 0.02925
+   "term": "P3M",
+   "was": 0.0505,
+   "now": 0.048
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
    "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.03925
+   "term": "P3M",
+   "was": 0.0505,
+   "now": 0.048
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Cairns bank",
+   "product": "Term deposits 3mths under $500,000",
    "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.03925
+   "term": "P1094D",
+   "was": 0.0475,
+   "now": 0.05
   },
   {
-   "brand": "Judo Bank",
-   "product": "Personal Term Deposits",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0495,
-   "now": 0.0565
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 5 year fixed - Residentially Secured P&I",
-   "kind": "lending",
-   "term": "P60M",
-   "was": 0.0739,
-   "now": 0.08
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 5 Year fixed - Commercially secured P&I",
-   "kind": "lending",
-   "term": "P60M",
-   "was": 0.0789,
-   "now": 0.085
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 5 Year Fixed - Residentially Secured IO",
-   "kind": "lending",
-   "term": "P60M",
-   "was": 0.0739,
-   "now": 0.08
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 5 Year Fixed - Commercially Secured IO",
-   "kind": "lending",
-   "term": "P60M",
-   "was": 0.0789,
-   "now": 0.085
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "Business Term Deposits",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0495,
-   "now": 0.0555
-  },
-  {
-   "brand": "Judo Bank",
-   "product": "SMSF Term Deposits",
-   "kind": "deposit",
-   "term": "P10M",
-   "was": 0.0495,
-   "now": 0.0555
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 2 year fixed - Residentially Secured P&I",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0714,
-   "now": 0.0765
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 2 Year fixed - Commercially secured P&I",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0764,
-   "now": 0.0815
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 2 Year Fixed - Commercially Secured IO",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0764,
-   "now": 0.0815
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 2 Year Fixed - Residentially Secured IO",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0714,
-   "now": 0.0765
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 3 Year Fixed - Residentially Secured IO",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0719,
-   "now": 0.0765
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 3 Year fixed - Commercially secured P&I",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0769,
-   "now": 0.0815
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 3 Year Fixed - Commercially Secured IO",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0769,
-   "now": 0.0815
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 3 year fixed - Residentially Secured P&I",
-   "kind": "lending",
-   "term": "P36M",
-   "was": 0.0719,
-   "now": 0.0765
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 1 Year Fixed - Residentially Secured IO",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0709,
-   "now": 0.075
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 1 Year Fixed - Commercially Secured IO",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0759,
-   "now": 0.08
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 1 Year fixed - Commercially secured P&I",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0759,
-   "now": 0.08
-  },
-  {
-   "brand": "Great Southern Bank",
-   "product": "Commercial 1 year fixed - Residentially Secured P&I",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0709,
-   "now": 0.075
-  },
-  {
-   "brand": "La Trobe Financial",
-   "product": "Everyday Heroes Lite Doc",
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
    "was": 0.0664,
-   "now": 0.0704
+   "now": 0.0679
   },
   {
-   "brand": "La Trobe Financial",
-   "product": "Everyday Heroes Full Doc",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0649,
-   "now": 0.0684
+   "was": 0.03925,
+   "now": 0.04025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.05025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.05025
   },
   {
    "brand": "MoveBank",
    "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0609,
+   "was": 0.0654,
+   "now": 0.0644
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0674,
+   "now": 0.0664
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0694,
+   "now": 0.0684
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0679,
+   "now": 0.0689
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03025
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Direct",
+   "kind": "deposit",
+   "term": "P1Y",
+   "was": 0.054,
+   "now": 0.053
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Partners",
+   "kind": "deposit",
+   "term": "P1Y",
+   "was": 0.054,
+   "now": 0.053
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P2Y",
+   "was": 0.053,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04025
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
    "now": 0.0639
   },
   {
-   "brand": "Cairns bank",
-   "product": "CLASSIC INVESTMENT HL BRIDGING VARIABLE <60 LVR IO",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0854,
-   "now": 0.0879
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE >90 LVR PI",
-   "kind": "lending",
-   "term": null,
+   "term": "P3Y",
    "was": 0.0669,
-   "now": 0.0694
+   "now": 0.0659
   },
   {
-   "brand": "Cairns bank",
-   "product": "INVESTMENT PLUS HL FIXED 1YR <60 LVR IO",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE 80-90 LVR PI",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE 60-80 LVR PI",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0654
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "INVESTMENT PLUS HL FIXED 1YR 60-80 LVR IO",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0654,
-   "now": 0.0679
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE <60 LVR PI",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0624,
+   "was": 0.0639,
    "now": 0.0649
   },
   {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE >90 LVR IO",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0689,
-   "now": 0.0714
+   "brand": "Gateway Bank",
+   "product": "Term Deposit 12 Months",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.055,
+   "now": 0.0555
   },
   {
-   "brand": "Horizon Bank",
-   "product": "HORIZON DIRECT",
+   "brand": "Gateway Bank",
+   "product": "Package TD 12 Months",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.056,
+   "now": 0.0565
+  },
+  {
+   "brand": "Gateway Bank",
+   "product": "Term Deposit 3 Months",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0505,
+   "now": 0.051
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P1Y6M",
+   "was": 0.054,
+   "now": 0.0535
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P1Y",
+   "was": 0.0555,
+   "now": 0.055
+  },
+  {
+   "brand": "Gateway Bank",
+   "product": "Package TD 3 Months",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0515,
+   "now": 0.052
+  },
+  {
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.0325,
-   "now": 0.035
+   "was": 0.011,
+   "now": 0.011
   },
   {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE >80-90 LVR IO",
-   "kind": "lending",
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0669,
-   "now": 0.0694
+   "was": 0.024,
+   "now": 0.024
   },
   {
-   "brand": "Cairns bank",
-   "product": "CLASSIC HOME LOAN VARIABLE 60-80 LVR IO",
-   "kind": "lending",
+   "brand": "Credit Union SA",
+   "product": "55+ Account",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "INVESTMENT PLUS HL FIXED 1YR 80-90 LVR IO",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0674,
-   "now": 0.0699
+   "was": 0.0205,
+   "now": 0.0205
   }
  ],
  "best": {
@@ -347,7 +331,7 @@
    {
     "brand": "Gateway Bank",
     "product": "Package TD 12 Months",
-    "rate": 0.056
+    "rate": 0.0565
    },
    {
     "brand": "CommFCU",
