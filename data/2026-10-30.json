@@ -1,0 +1,401 @@
+{
+ "date": "2026-10-30",
+ "cash_rate": {
+  "target": 0.046,
+  "since": "2026-09-30"
+ },
+ "run": {
+  "started": "2026-10-30T23:23:16.886Z",
+  "finished": "2026-10-30T23:36:25.468Z",
+  "brands": "258/305",
+  "products": 4793,
+  "opened": 345,
+  "closed": 199,
+  "failures": 55
+ },
+ "totals": {
+  "brands": 308,
+  "products": 4794,
+  "rates_open": 25198,
+  "deposit": 7050,
+  "lending": 18148
+ },
+ "moves": [
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.04
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.0405
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.052,
+   "now": 0.041
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05025,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05025,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04025,
+   "now": 0.03325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.02325
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04025,
+   "now": 0.03325
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.048,
+   "now": 0.0525
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0609
+  },
+  {
+   "brand": "The Mac",
+   "product": "GOVT LOW DEP 1YR FIXED OOC PI",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0629,
+   "now": 0.0659
+  },
+  {
+   "brand": "The Mac",
+   "product": "MORTGAGE 1YR FIXED OWNER OCCUPIED P&I",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0629,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0659
+  },
+  {
+   "brand": "The Mac",
+   "product": "LOW LVR OOC P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "The Mac",
+   "product": "LOW LVR INV P&I HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0704,
+   "now": 0.0729
+  },
+  {
+   "brand": "Police Credit Union Ltd",
+   "product": "CONTACT TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.049,
+   "now": 0.0515
+  },
+  {
+   "brand": "The Mac",
+   "product": "LOW LVR INV IO HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "The Mac",
+   "product": "FIRST HOME BUYERS OWNER OCCUPIED P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0592,
+   "now": 0.0617
+  },
+  {
+   "brand": "Police Credit Union Ltd",
+   "product": "CONTACT TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P48M",
+   "was": 0.049,
+   "now": 0.0515
+  },
+  {
+   "brand": "The Mac",
+   "product": "BRIDGING LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0862,
+   "now": 0.0887
+  },
+  {
+   "brand": "The Mac",
+   "product": "2 YEAR DISCOUNTED BASIC VARIABLE LOAN OWNER OCCUPIED P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0592,
+   "now": 0.0617
+  },
+  {
+   "brand": "The Mac",
+   "product": "GOVT LOW DEP VARIABLE OOC PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0592,
+   "now": 0.0617
+  },
+  {
+   "brand": "The Mac",
+   "product": "MORTGAGE OFFSET OWNER OCCUPIED P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0792,
+   "now": 0.0817
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN INVESTOR P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0792,
+   "now": 0.0817
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0792,
+   "now": 0.0817
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I 250K TO 500K",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0782,
+   "now": 0.0807
+  },
+  {
+   "brand": "The Mac",
+   "product": "MORTGAGE OFFSET INVESTOR PI",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0792,
+   "now": 0.0817
+  },
+  {
+   "brand": "The Mac",
+   "product": "MORTGAGE OFFSET INVESTOR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0812,
+   "now": 0.0837
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN INVESTOR IO",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0812,
+   "now": 0.0837
+  },
+  {
+   "brand": "Horizon Bank",
+   "product": "HORIZON DIRECT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.035,
+   "now": 0.0325
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I >750K",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0762,
+   "now": 0.0787
+  },
+  {
+   "brand": "The Mac",
+   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I 500K TO 750K",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0772,
+   "now": 0.0797
+  },
+  {
+   "brand": "Cairns bank",
+   "product": "Online Saver account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0275
+  },
+  {
+   "brand": "Police Credit Union Ltd",
+   "product": "Commercial Development Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.0815
+  },
+  {
+   "brand": "Police Credit Union Ltd",
+   "product": "Commercial Vehicle Variable Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0738,
+   "now": 0.0763
+  },
+  {
+   "brand": "Police Credit Union Ltd",
+   "product": "MARION TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.049,
+   "now": 0.0515
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.0565
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.056
+   },
+   {
+    "brand": "CommFCU",
+    "product": "12 Month Term Deposit Special",
+    "rate": 0.056
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
+    "rate": 0.056
+   },
+   {
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
+    "rate": 0.056
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
