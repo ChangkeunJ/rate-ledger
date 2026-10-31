@@ -1,73 +1,97 @@
 {
- "date": "2026-10-30",
+ "date": "2026-10-31",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-30T23:23:16.886Z",
-  "finished": "2026-10-30T23:36:25.468Z",
-  "brands": "258/305",
-  "products": 4793,
-  "opened": 345,
-  "closed": 199,
-  "failures": 55
+  "started": "2026-10-31T22:56:30.176Z",
+  "finished": "2026-10-31T23:06:21.947Z",
+  "brands": "257/305",
+  "products": 4730,
+  "opened": 296,
+  "closed": 176,
+  "failures": 56
  },
  "totals": {
   "brands": 308,
-  "products": 4794,
-  "rates_open": 25198,
-  "deposit": 7050,
-  "lending": 18148
+  "products": 4796,
+  "rates_open": 25314,
+  "deposit": 7054,
+  "lending": 18260
  },
  "moves": [
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P7M",
-   "was": 0.052,
-   "now": 0.04
+   "brand": "Qudos Bank",
+   "product": "Lifestyle Plus",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1585,
+   "now": 0.1974
   },
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P7M",
-   "was": 0.052,
-   "now": 0.0405
+   "brand": "Qudos Bank",
+   "product": "Lifestyle Plus",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1585,
+   "now": 0.1974
   },
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P7M",
-   "was": 0.052,
-   "now": 0.041
+   "brand": "Qudos Bank",
+   "product": "Lifestyle Plus",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1585,
+   "now": 0.1974
+  },
+  {
+   "brand": "Qudos Bank",
+   "product": "VISA Platinum Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1899,
+   "now": 0.2099
+  },
+  {
+   "brand": "Qudos Bank",
+   "product": "VISA Platinum Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1899,
+   "now": 0.2099
+  },
+  {
+   "brand": "Qudos Bank",
+   "product": "VISA Platinum Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1899,
+   "now": 0.2099
+  },
+  {
+   "brand": "Bank Australia",
+   "product": "Platinum Visa Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2024,
+   "now": 0.2099
+  },
+  {
+   "brand": "Bank Australia",
+   "product": "Platinum Visa Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2024,
+   "now": 0.2099
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.05025,
-   "now": 0.04325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03025,
-   "now": 0.02325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.05025,
-   "now": 0.04325
+   "was": 0.04025,
+   "now": 0.03325
   },
   {
    "brand": "CommBank",
@@ -87,35 +111,59 @@
   },
   {
    "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05025,
+   "now": 0.04325
+  },
+  {
+   "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04025,
-   "now": 0.03325
+   "was": 0.05025,
+   "now": 0.04325
   },
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.048,
-   "now": 0.0525
+   "term": null,
+   "was": 0.03025,
+   "now": 0.02325
   },
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.048,
-   "now": 0.0525
+   "brand": "Bank Australia",
+   "product": "Low Rate Visa Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1299,
+   "now": 0.1234
   },
   {
-   "brand": "Suncorp Bank",
-   "product": "Term Deposit",
+   "brand": "Bank Australia",
+   "product": "Low Rate Visa Credit Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1299,
+   "now": 0.1234
+  },
+  {
+   "brand": "Australian Military Bank",
+   "product": "DIY Super Saver",
    "kind": "deposit",
-   "term": "P6M",
-   "was": 0.048,
-   "now": 0.0525
+   "term": null,
+   "was": 0.0375,
+   "now": 0.0435
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0649
   },
   {
    "brand": "MoveBank",
@@ -126,220 +174,172 @@
    "now": 0.0609
   },
   {
-   "brand": "The Mac",
-   "product": "GOVT LOW DEP 1YR FIXED OOC PI",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Consumer Loan",
    "kind": "lending",
-   "term": "P12M",
-   "was": 0.0629,
-   "now": 0.0659
+   "term": "P6Y",
+   "was": 0.1054,
+   "now": 0.1084
   },
   {
-   "brand": "The Mac",
-   "product": "MORTGAGE 1YR FIXED OWNER OCCUPIED P&I",
+   "brand": "Automotive Finance",
+   "product": "Automotive Finance - Consumer Loan",
    "kind": "lending",
-   "term": "P12M",
-   "was": 0.0629,
-   "now": 0.0659
+   "term": "P2Y",
+   "was": 0.1054,
+   "now": 0.1084
   },
   {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
+   "brand": "Automotive Finance",
+   "product": "Automotive Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0659,
-   "now": 0.0629
+   "term": "P3Y",
+   "was": 0.0954,
+   "now": 0.0984
   },
   {
-   "brand": "MoveBank",
-   "product": "Offset Home Loan",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0629,
-   "now": 0.0659
+   "term": "P4Y",
+   "was": 0.0954,
+   "now": 0.0984
   },
   {
-   "brand": "The Mac",
-   "product": "LOW LVR OOC P&I",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0674,
-   "now": 0.0699
+   "term": "P3Y",
+   "was": 0.0784,
+   "now": 0.0814
   },
   {
-   "brand": "The Mac",
-   "product": "LOW LVR INV P&I HOME LOAN",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0704,
-   "now": 0.0729
+   "term": "P3Y",
+   "was": 0.0954,
+   "now": 0.0984
   },
   {
-   "brand": "Police Credit Union Ltd",
-   "product": "CONTACT TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.049,
-   "now": 0.0515
-  },
-  {
-   "brand": "The Mac",
-   "product": "LOW LVR INV IO HOME LOAN",
+   "brand": "Automotive Finance",
+   "product": "Automotive Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0724,
-   "now": 0.0749
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.0984
   },
   {
-   "brand": "The Mac",
-   "product": "FIRST HOME BUYERS OWNER OCCUPIED P&I",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0592,
-   "now": 0.0617
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.0984
   },
   {
-   "brand": "Police Credit Union Ltd",
-   "product": "CONTACT TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P48M",
-   "was": 0.049,
-   "now": 0.0515
-  },
-  {
-   "brand": "The Mac",
-   "product": "BRIDGING LOAN",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0862,
-   "now": 0.0887
+   "term": "P4Y",
+   "was": 0.0784,
+   "now": 0.0814
   },
   {
-   "brand": "The Mac",
-   "product": "2 YEAR DISCOUNTED BASIC VARIABLE LOAN OWNER OCCUPIED P&I",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0592,
-   "now": 0.0617
+   "term": "P3Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "GOVT LOW DEP VARIABLE OOC PI",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0592,
-   "now": 0.0617
+   "term": "P2Y",
+   "was": 0.1054,
+   "now": 0.1084
   },
   {
-   "brand": "The Mac",
-   "product": "MORTGAGE OFFSET OWNER OCCUPIED P&I",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0792,
-   "now": 0.0817
+   "term": "P5Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN INVESTOR P&I",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0792,
-   "now": 0.0817
+   "term": "P2Y",
+   "was": 0.0884,
+   "now": 0.0914
   },
   {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0792,
-   "now": 0.0817
+   "term": "P4Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I 250K TO 500K",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0782,
-   "now": 0.0807
+   "term": "P2Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "MORTGAGE OFFSET INVESTOR PI",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0792,
-   "now": 0.0817
+   "term": "P6Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "MORTGAGE OFFSET INVESTOR IO",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0812,
-   "now": 0.0837
+   "term": "P4Y",
+   "was": 0.085,
+   "now": 0.088
   },
   {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN INVESTOR IO",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0812,
-   "now": 0.0837
+   "term": "P5Y",
+   "was": 0.085,
+   "now": 0.088
   },
   {
-   "brand": "Horizon Bank",
-   "product": "HORIZON DIRECT",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.035,
-   "now": 0.0325
-  },
-  {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I >750K",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0762,
-   "now": 0.0787
+   "term": "P7Y",
+   "was": 0.095,
+   "now": 0.098
   },
   {
-   "brand": "The Mac",
-   "product": "BASIC VARIABLE LOAN OWNER OCCUPIED P&I 500K TO 750K",
+   "brand": "Chery Motor Finance",
+   "product": "Chery Motor Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0772,
-   "now": 0.0797
+   "term": "P7Y",
+   "was": 0.0884,
+   "now": 0.0914
   },
   {
-   "brand": "Cairns bank",
-   "product": "Online Saver account",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03,
-   "now": 0.0275
-  },
-  {
-   "brand": "Police Credit Union Ltd",
-   "product": "Commercial Development Loan",
+   "brand": "Polestar Finance",
+   "product": "Polestar Finance - Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.0815
-  },
-  {
-   "brand": "Police Credit Union Ltd",
-   "product": "Commercial Vehicle Variable Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0738,
-   "now": 0.0763
-  },
-  {
-   "brand": "Police Credit Union Ltd",
-   "product": "MARION TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.049,
-   "now": 0.0515
+   "term": "P3Y",
+   "was": 0.085,
+   "now": 0.088
   }
  ],
  "best": {
@@ -350,23 +350,23 @@
     "rate": 0.0565
    },
    {
-    "brand": "Qudos Bank",
-    "product": "Term Deposits",
-    "rate": 0.056
-   },
-   {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
-    "rate": 0.056
-   },
-   {
-    "brand": "Heartland",
-    "product": "Broker Term Deposit - Business",
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
     "rate": 0.056
    },
    {
     "brand": "Bank Australia",
     "product": "Term Deposit 12 months",
+    "rate": 0.056
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.056
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
     "rate": 0.056
    }
   ],
