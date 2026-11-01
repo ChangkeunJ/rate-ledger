@@ -1,345 +1,345 @@
 {
- "date": "2026-10-31",
+ "date": "2026-11-01",
  "cash_rate": {
   "target": 0.046,
   "since": "2026-09-30"
  },
  "run": {
-  "started": "2026-10-31T22:56:30.176Z",
-  "finished": "2026-10-31T23:06:21.947Z",
-  "brands": "257/305",
-  "products": 4730,
-  "opened": 296,
-  "closed": 176,
-  "failures": 56
+  "started": "2026-11-01T23:14:16.130Z",
+  "finished": "2026-11-01T23:24:22.066Z",
+  "brands": "258/305",
+  "products": 4797,
+  "opened": 131,
+  "closed": 101,
+  "failures": 55
  },
  "totals": {
   "brands": 308,
-  "products": 4796,
-  "rates_open": 25314,
+  "products": 4798,
+  "rates_open": 25344,
   "deposit": 7054,
-  "lending": 18260
+  "lending": 18290
  },
  "moves": [
   {
-   "brand": "Qudos Bank",
-   "product": "Lifestyle Plus",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1585,
-   "now": 0.1974
-  },
-  {
-   "brand": "Qudos Bank",
-   "product": "Lifestyle Plus",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1585,
-   "now": 0.1974
-  },
-  {
-   "brand": "Qudos Bank",
-   "product": "Lifestyle Plus",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1585,
-   "now": 0.1974
-  },
-  {
-   "brand": "Qudos Bank",
-   "product": "VISA Platinum Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1899,
-   "now": 0.2099
-  },
-  {
-   "brand": "Qudos Bank",
-   "product": "VISA Platinum Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1899,
-   "now": 0.2099
-  },
-  {
-   "brand": "Qudos Bank",
-   "product": "VISA Platinum Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1899,
-   "now": 0.2099
-  },
-  {
-   "brand": "Bank Australia",
-   "product": "Platinum Visa Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2024,
-   "now": 0.2099
-  },
-  {
-   "brand": "Bank Australia",
-   "product": "Platinum Visa Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2024,
-   "now": 0.2099
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Unity Bank",
+   "product": "Christmas Saver Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.04025,
-   "now": 0.03325
+   "was": 0.005,
+   "now": 0.011
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "The Mac",
+   "product": "CHRISTMAS SAVER",
    "kind": "deposit",
    "term": null,
-   "was": 0.04025,
-   "now": 0.03325
+   "was": 0.015,
+   "now": 0.02
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Unity Bank",
+   "product": "Pensioner Plus Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.03025,
-   "now": 0.02325
+   "was": 0.0225,
+   "now": 0.026
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Police Credit Union Ltd",
+   "product": "Focus Saver Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.05025,
-   "now": 0.04325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.05025,
-   "now": 0.04325
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03025,
-   "now": 0.02325
-  },
-  {
-   "brand": "Bank Australia",
-   "product": "Low Rate Visa Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1299,
-   "now": 0.1234
-  },
-  {
-   "brand": "Bank Australia",
-   "product": "Low Rate Visa Credit Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1299,
-   "now": 0.1234
-  },
-  {
-   "brand": "Australian Military Bank",
-   "product": "DIY Super Saver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0375,
-   "now": 0.0435
+   "was": 0.05,
+   "now": 0.0535
   },
   {
    "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "product": "Offset Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0609,
-   "now": 0.0649
+   "was": 0.0629,
+   "now": 0.0659
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
+   "brand": "Bank First",
+   "product": "Bonus Saver Account",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0649,
-   "now": 0.0609
+   "was": 0.0495,
+   "now": 0.0525
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P6Y",
-   "was": 0.1054,
-   "now": 0.1084
+   "brand": "Unity Bank",
+   "product": "Pensioner Plus Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0365,
+   "now": 0.039
   },
   {
-   "brand": "Automotive Finance",
-   "product": "Automotive Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.1054,
-   "now": 0.1084
+   "brand": "Unity Bank",
+   "product": "Bonus Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.045,
+   "now": 0.0475
   },
   {
-   "brand": "Automotive Finance",
-   "product": "Automotive Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0954,
-   "now": 0.0984
+   "brand": "Unity Bank",
+   "product": "Self-Managed Superfund Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03,
+   "now": 0.0325
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0954,
-   "now": 0.0984
+   "brand": "BCU Bank",
+   "product": "Business iSaver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.016,
+   "now": 0.0185
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0784,
-   "now": 0.0814
+   "brand": "P&N Bank",
+   "product": "Savvy Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0505,
+   "now": 0.053
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0954,
-   "now": 0.0984
+   "brand": "Regional Australia Bank",
+   "product": "Internet Maximiser Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
-   "brand": "Automotive Finance",
-   "product": "Automotive Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0954,
-   "now": 0.0984
+   "brand": "P&N Bank",
+   "product": "Business Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0135,
+   "now": 0.016
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0954,
-   "now": 0.0984
+   "brand": "Regional Australia Bank",
+   "product": "Savings Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0784,
-   "now": 0.0814
+   "brand": "BCU Bank",
+   "product": "Business iSaver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0135,
+   "now": 0.016
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "BCU Bank",
+   "product": "Boss Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0505,
+   "now": 0.053
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.1054,
-   "now": 0.1084
+   "brand": "BCU Bank",
+   "product": "Scoot Super Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0215,
+   "now": 0.024
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "Maitland Mutual Limited",
+   "product": "Internet Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0884,
-   "now": 0.0914
+   "brand": "P&N Bank",
+   "product": "Way Cool Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0355,
+   "now": 0.038
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "Maitland Mutual Limited",
+   "product": "Internet Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "Maitland Mutual Limited",
+   "product": "Mighty Mutual Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0425,
+   "now": 0.045
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P6Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "Regional Australia Bank",
+   "product": "Freedom Retirement Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0275,
+   "now": 0.03
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.085,
-   "now": 0.088
+   "brand": "gmcu",
+   "product": "Advantage Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0454,
+   "now": 0.0479
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.085,
-   "now": 0.088
+   "brand": "gmcu",
+   "product": "Advantage Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0454,
+   "now": 0.0479
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Consumer Loan",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.095,
-   "now": 0.098
+   "brand": "Horizon Bank",
+   "product": "HORIZON DIRECT",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
   },
   {
-   "brand": "Chery Motor Finance",
-   "product": "Chery Motor Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.0884,
-   "now": 0.0914
+   "brand": "Horizon Bank",
+   "product": "SUPER SAVERS",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0225,
+   "now": 0.025
   },
   {
-   "brand": "Polestar Finance",
-   "product": "Polestar Finance - Chattel Mortgage",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.085,
-   "now": 0.088
+   "brand": "Horizon Bank",
+   "product": "YOUTH REWARD SAVER",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0225,
+   "now": 0.025
+  },
+  {
+   "brand": "Regional Australia Bank",
+   "product": "Savings Booster Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "BCU Bank",
+   "product": "Power Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.046,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommFCU",
+   "product": "Goal Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.043,
+   "now": 0.0455
+  },
+  {
+   "brand": "Bank First",
+   "product": "Bonus Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0495,
+   "now": 0.052
+  },
+  {
+   "brand": "Maitland Mutual Limited",
+   "product": "Internet Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "Bank First",
+   "product": "First Home Bonus Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05,
+   "now": 0.0525
+  },
+  {
+   "brand": "Maitland Mutual Limited",
+   "product": "Bonus Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.0425
+  },
+  {
+   "brand": "P&N Bank",
+   "product": "Business Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.016,
+   "now": 0.0185
+  },
+  {
+   "brand": "P&N Bank",
+   "product": "Smart Saver Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.046,
+   "now": 0.0485
+  },
+  {
+   "brand": "Maitland Mutual Limited",
+   "product": "Internet Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "BCU Bank",
+   "product": "Scoot Super Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "Maitland Mutual Limited",
+   "product": "Internet Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0325,
+   "now": 0.035
+  },
+  {
+   "brand": "Unity Bank",
+   "product": "MoneyMAX",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.045,
+   "now": 0.0475
   }
  ],
  "best": {
@@ -350,13 +350,13 @@
     "rate": 0.0565
    },
    {
-    "brand": "Bank Australia",
-    "product": "Term Deposit 12 months",
+    "brand": "Heartland",
+    "product": "Broker Term Deposit - Business",
     "rate": 0.056
    },
    {
-    "brand": "Bank Australia",
-    "product": "Term Deposit 12 months",
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
     "rate": 0.056
    },
    {
@@ -365,8 +365,8 @@
     "rate": 0.056
    },
    {
-    "brand": "Heartland",
-    "product": "Broker Term Deposit",
+    "brand": "Bank Australia",
+    "product": "Term Deposit 12 months",
     "rate": 0.056
    }
   ],
