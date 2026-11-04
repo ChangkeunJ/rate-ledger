@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-04",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-04T00:17:18.264Z",
+  "finished": "2026-11-04T00:27:58.628Z",
+  "brands": "257/306",
+  "products": 4720,
+  "opened": 134,
+  "closed": 128,
+  "failures": 58
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4803,
+  "rates_open": 25453,
+  "deposit": 7054,
+  "lending": 18399
+ },
+ "moves": [
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Expat Standard Home Loan",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.9114,
+   "now": 0.0914
+  },
+  {
+   "brand": "Bank First",
+   "product": "Green Car Loan Personal Lending Variable Unsecured",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0929,
+   "now": 0.0629
+  },
+  {
+   "brand": "Bank First",
+   "product": "Used Car Loan Personal Lending Variable Unsecured",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1079,
+   "now": 0.0779
+  },
+  {
+   "brand": "Bank First",
+   "product": "Green Car Loan Personal Lending 1-5 Years Fixed Unsecured",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0929,
+   "now": 0.0629
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 2-12 months",
+   "kind": "deposit",
+   "term": "P8M",
+   "was": 0.0385,
+   "now": 0.052
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 1-12 months",
+   "kind": "deposit",
+   "term": "P8M",
+   "was": 0.0395,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.03825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.01825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04925,
+   "now": 0.03825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.02825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.01825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.02825
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 1-12 months",
+   "kind": "deposit",
+   "term": "P5M",
+   "was": 0.044,
+   "now": 0.052
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 2-12 months",
+   "kind": "deposit",
+   "term": "P5M",
+   "was": 0.043,
+   "now": 0.051
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 2-12 months",
+   "kind": "deposit",
+   "term": "P11M",
+   "was": 0.0455,
+   "now": 0.0535
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Standard Rate Term Deposit 1-12 months",
+   "kind": "deposit",
+   "term": "P11M",
+   "was": 0.0465,
+   "now": 0.0545
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04325,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02325,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03325,
+   "now": 0.03925
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "Super Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0435,
+   "now": 0.0485
+  },
+  {
+   "brand": "AAA FINANCIAL CORPORATION",
+   "product": "Expat Standard Home Loan",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0834,
+   "now": 0.0874
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0634,
+   "now": 0.0669
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0639,
+   "now": 0.0674
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0639,
+   "now": 0.0674
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0634,
+   "now": 0.0669
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Goldrate Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0644,
+   "now": 0.0679
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0609,
+   "now": 0.0644
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0649,
+   "now": 0.0684
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0609,
+   "now": 0.0644
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Customs Value Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Goldrate Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0634,
+   "now": 0.0669
+  },
+  {
+   "brand": "Border Bank",
+   "product": "Goldrate Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0649,
+   "now": 0.0684
+  },
+  {
+   "brand": "Border Bank",
+   "product": "First Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0624,
+   "now": 0.0659
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Term Deposit",
+    "rate": 0.057
+   },
+   {
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Business Term Deposit",
+    "rate": 0.057
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.0565
+   },
+   {
+    "brand": "Heartland",
+    "product": "Broker Term Deposit",
+    "rate": 0.056
+   },
+   {
+    "brand": "Qudos Bank",
+    "product": "Term Deposits",
+    "rate": 0.056
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
