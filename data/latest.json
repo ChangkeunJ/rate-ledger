@@ -1,358 +1,363 @@
 {
- "date": "2026-11-05",
+ "date": "2026-11-06",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-05T00:39:01.871Z",
-  "finished": "2026-11-05T00:52:36.531Z",
+  "started": "2026-11-06T00:37:43.899Z",
+  "finished": "2026-11-06T00:55:54.096Z",
   "brands": "258/306",
-  "products": 4788,
-  "opened": 454,
-  "closed": 437,
+  "products": 5037,
+  "opened": 10739,
+  "closed": 376,
   "failures": 56
  },
  "totals": {
   "brands": 309,
-  "products": 4806,
-  "rates_open": 25468,
-  "deposit": 7055,
-  "lending": 18413
+  "products": 5055,
+  "rates_open": 35754,
+  "deposit": 7073,
+  "lending": 28681
  },
  "moves": [
   {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Standard Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0884,
-   "now": 0.0709
-  },
-  {
-   "brand": "Alex.Bank",
-   "product": "Unsecured Fixed Rate Personal Loan",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.0899,
-   "now": 0.0989
-  },
-  {
-   "brand": "Alex.Bank",
-   "product": "Secured Fixed Rate Personal Loan",
-   "kind": "lending",
-   "term": "P7Y",
-   "was": 0.0849,
-   "now": 0.0939
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Standard Lender Paid LMI",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0695,
-   "now": 0.0745
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0669,
-   "now": 0.0709
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0699,
-   "now": 0.0739
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0679,
-   "now": 0.0719
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0679,
-   "now": 0.0719
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0699,
-   "now": 0.0739
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0679,
-   "now": 0.0719
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0669,
-   "now": 0.0709
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0679,
-   "now": 0.0719
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0679,
-   "now": 0.0719
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0699,
-   "now": 0.0739
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Non-Res Standard Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0913,
-   "now": 0.0948
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0659,
-   "now": 0.0689
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0699,
-   "now": 0.0729
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0699,
-   "now": 0.0729
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0669,
-   "now": 0.0699
-  },
-  {
-   "brand": "BankVic",
-   "product": "12 Month Regular Income",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
-   "term": "P12M",
-   "was": 0.0495,
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.01025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.01025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0445,
    "now": 0.0525
   },
   {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Investment Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0669,
-   "now": 0.0699
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P4Y",
-   "was": 0.0679,
-   "now": 0.0709
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0679,
-   "now": 0.0709
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0659,
-   "now": 0.0689
-  },
-  {
-   "brand": "BankVic",
-   "product": "Term Deposit 12 Months",
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
    "kind": "deposit",
-   "term": "P12M",
-   "was": 0.05,
+   "term": "P34M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.045,
    "now": 0.053
   },
   {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Interest Only Repayment)",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0699,
-   "now": 0.0729
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Fixed Rate Home Loan (With Principal and Interest Repayment)",
-   "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0679,
-   "now": 0.0709
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0829,
-   "now": 0.0854
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0889,
-   "now": 0.0914
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.0864
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0819,
-   "now": 0.0844
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0869,
-   "now": 0.0894
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0909,
-   "now": 0.0934
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0819,
-   "now": 0.0844
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "Online Saver account",
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
    "kind": "deposit",
-   "term": null,
-   "was": 0.0275,
-   "now": 0.03
+   "term": "P34M",
+   "was": 0.045,
+   "now": 0.053
   },
   {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0829,
-   "now": 0.0854
-  },
-  {
-   "brand": "AAA FINANCIAL CORPORATION",
-   "product": "Commercial Easy Refinance",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0869,
-   "now": 0.0894
-  },
-  {
-   "brand": "Cairns bank",
-   "product": "Term deposits 3mths under $500,000",
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
    "kind": "deposit",
-   "term": "P1094D",
-   "was": 0.05,
-   "now": 0.0475
+   "term": "P34M",
+   "was": 0.045,
+   "now": 0.053
   },
   {
-   "brand": "Cairns bank",
-   "product": "Term deposits 1mth under $500,000",
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
    "kind": "deposit",
-   "term": "P729D",
-   "was": 0.0525,
-   "now": 0.05
+   "term": "P36M",
+   "was": 0.0445,
+   "now": 0.0525
   },
   {
-   "brand": "Hume Bank",
-   "product": "Hume Bank SMSF Account",
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
    "kind": "deposit",
-   "term": null,
-   "was": 0.046,
+   "term": "P36M",
+   "was": 0.045,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.044,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.0435,
    "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.0435,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.044,
+   "now": 0.049
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Investment Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Owner Occupied Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Investment Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Owner Occupied Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.0445,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.0445,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.044,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.044,
+   "now": 0.0485
+  },
+  {
+   "brand": "Unity Bank",
+   "product": "Advantage Home Loan - Investment - Variable P&I - Without Offset",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0679
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "Business Term Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0785
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.037,
+   "now": 0.0405
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.038,
+   "now": 0.0415
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.039,
+   "now": 0.0425
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.0435
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Unity Bank",
+   "product": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0699
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "AMP Bank GO",
-    "product": "AMP Bank GO 12 Month Term Deposit",
-    "rate": 0.057
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
    },
    {
-    "brand": "AMP Bank GO",
-    "product": "AMP Bank GO 12 Month Business Term Deposit",
-    "rate": 0.057
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
    },
    {
     "brand": "Gateway Bank",
@@ -360,14 +365,9 @@
     "rate": 0.057
    },
    {
-    "brand": "CommFCU",
-    "product": "12 Month Term Deposit Special",
-    "rate": 0.056
-   },
-   {
-    "brand": "Gateway Bank",
-    "product": "Term Deposit 12 Months",
-    "rate": 0.056
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Business Term Deposit",
+    "rate": 0.057
    }
   ],
   "savings": [

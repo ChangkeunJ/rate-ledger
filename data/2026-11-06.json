@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-06",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-06T00:37:43.899Z",
+  "finished": "2026-11-06T00:55:54.096Z",
+  "brands": "258/306",
+  "products": 5037,
+  "opened": 10739,
+  "closed": 376,
+  "failures": 56
+ },
+ "totals": {
+  "brands": 309,
+  "products": 5055,
+  "rates_open": 35754,
+  "deposit": 7073,
+  "lending": 28681
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.01025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.02025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.01025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.045,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.045,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.045,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.045,
+   "now": 0.053
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.0445,
+   "now": 0.0525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.044,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.0435,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.0435,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P13M",
+   "was": 0.044,
+   "now": 0.049
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Investment Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Owner Occupied Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Investment Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Bridging Loan Owner Occupied Variable",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0799
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.0445,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.0445,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.044,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P18M",
+   "was": 0.044,
+   "now": 0.0485
+  },
+  {
+   "brand": "Unity Bank",
+   "product": "Advantage Home Loan - Investment - Variable P&I - Without Offset",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0679
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "Business Term Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0785
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.048,
+   "now": 0.052
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.037,
+   "now": 0.0405
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.038,
+   "now": 0.0415
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.039,
+   "now": 0.0425
+  },
+  {
+   "brand": "Laboratories Credit Union",
+   "product": "Savvy Saver",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04,
+   "now": 0.0435
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.054,
+   "now": 0.0575
+  },
+  {
+   "brand": "Unity Bank",
+   "product": "Advantage Home Loan- Investment - Variable - Interest Only - Without Offset",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0699
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.057
+   },
+   {
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Business Term Deposit",
+    "rate": 0.057
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
