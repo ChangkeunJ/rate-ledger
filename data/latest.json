@@ -5,20 +5,20 @@
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-06T23:53:00.563Z",
-  "finished": "2026-11-07T00:07:29.511Z",
+  "started": "2026-11-07T23:15:38.333Z",
+  "finished": "2026-11-07T23:26:06.734Z",
   "brands": "259/306",
-  "products": 5020,
-  "opened": 3307,
-  "closed": 3223,
-  "failures": 55
+  "products": 5021,
+  "opened": 20,
+  "closed": 17,
+  "failures": 54
  },
  "totals": {
   "brands": 309,
-  "products": 5021,
-  "rates_open": 35444,
+  "products": 5022,
+  "rates_open": 35447,
   "deposit": 7071,
-  "lending": 28373
+  "lending": 28376
  },
  "moves": [
   {
@@ -26,30 +26,6 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03025,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02025,
-   "now": 0.04125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03025,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
    "was": 0.02025,
    "now": 0.04125
   },
@@ -68,6 +44,30 @@
    "term": null,
    "was": 0.01025,
    "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.05125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02025,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03025,
+   "now": 0.05125
   },
   {
    "brand": "Bank of Queensland Limited",
@@ -76,230 +76,6 @@
    "term": null,
    "was": 0.0782,
    "now": 0.0653
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.03025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.03025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02925,
-   "now": 0.02025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02925,
-   "now": 0.02025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01925,
-   "now": 0.01025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01925,
-   "now": 0.01025
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.045,
-   "now": 0.053
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.045,
-   "now": 0.053
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P34M",
-   "was": 0.045,
-   "now": 0.053
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P34M",
-   "was": 0.045,
-   "now": 0.053
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0445,
-   "now": 0.0525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P36M",
-   "was": 0.0445,
-   "now": 0.0525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P34M",
-   "was": 0.0445,
-   "now": 0.0525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P34M",
-   "was": 0.0445,
-   "now": 0.0525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P13M",
-   "was": 0.044,
-   "now": 0.049
-  },
-  {
-   "brand": "Laboratories Credit Union",
-   "product": "Bridging Loan Investment Variable",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0749,
-   "now": 0.0799
-  },
-  {
-   "brand": "Laboratories Credit Union",
-   "product": "Bridging Loan Investment Variable",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0749,
-   "now": 0.0799
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P13M",
-   "was": 0.0435,
-   "now": 0.0485
-  },
-  {
-   "brand": "Laboratories Credit Union",
-   "product": "Bridging Loan Owner Occupied Variable",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0749,
-   "now": 0.0799
-  },
-  {
-   "brand": "Laboratories Credit Union",
-   "product": "Bridging Loan Owner Occupied Variable",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0749,
-   "now": 0.0799
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P13M",
-   "was": 0.044,
-   "now": 0.049
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P13M",
-   "was": 0.0435,
-   "now": 0.0485
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P18M",
-   "was": 0.0445,
-   "now": 0.049
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P18M",
-   "was": 0.044,
-   "now": 0.0485
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P18M",
-   "was": 0.0445,
-   "now": 0.049
-  },
-  {
-   "brand": "Unity Bank",
-   "product": "Advantage Home Loan - Investment - Variable P&I - Without Offset",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0634,
-   "now": 0.0679
-  },
-  {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P18M",
-   "was": 0.044,
-   "now": 0.0485
-  },
-  {
-   "brand": "Bank of Queensland Limited",
-   "product": "Business Term Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0829,
-   "now": 0.0785
   },
   {
    "brand": "Heartland",
@@ -318,28 +94,252 @@
    "now": 0.053
   },
   {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.048,
-   "now": 0.052
+   "brand": "MoveBank",
+   "product": "Offset Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0629
   },
   {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
+   "brand": "Cairns bank",
+   "product": "Online Saver account",
    "kind": "deposit",
-   "term": "P12M",
-   "was": 0.048,
-   "now": 0.052
+   "term": null,
+   "was": 0.03,
+   "now": 0.0275
   },
   {
-   "brand": "CommBank",
-   "product": "Standard Term Deposit",
+   "brand": "Cairns bank",
+   "product": "Term deposits 3mths under $500,000",
    "kind": "deposit",
-   "term": "P12M",
-   "was": 0.048,
-   "now": 0.052
+   "term": "P1094D",
+   "was": 0.0475,
+   "now": 0.05
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank EconoME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0754
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0708,
+   "now": 0.0733
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0754
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0668,
+   "now": 0.0693
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP Superedge Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "BOQ Plus Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0814,
+   "now": 0.0839
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0774
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0688,
+   "now": 0.0713
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank EconoME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0896,
+   "now": 0.0921
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0684
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0764
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1032,
+   "now": 0.1057
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank EconoME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0654
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1057,
+   "now": 0.1082
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0799,
+   "now": 0.0824
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0714,
+   "now": 0.0739
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0714,
+   "now": 0.0739
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0764
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP First Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0738,
+   "now": 0.0763
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0764
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0744
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "Professional Package",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0684,
+   "now": 0.0709
+  },
+  {
+   "brand": "AMP - My AMP",
+   "product": "AMP Essential Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0669
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "BOQ Plus Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "BOQ Plus Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0937,
+   "now": 0.0962
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank EconoME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0853,
+   "now": 0.0878
   }
  ],
  "best": {
@@ -360,13 +360,13 @@
     "rate": 0.0575
    },
    {
-    "brand": "AMP Bank GO",
-    "product": "AMP Bank GO 12 Month Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.057
    },
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Business Term Deposit",
     "rate": 0.057
    }
   ],
