@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-10",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-10T02:28:10.219Z",
+  "finished": "2026-11-10T02:41:57.704Z",
+  "brands": "258/305",
+  "products": 4904,
+  "opened": 3282,
+  "closed": 3183,
+  "failures": 56
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4942,
+  "rates_open": 34008,
+  "deposit": 7059,
+  "lending": 26949
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.00525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.01525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.01525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.02525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.02525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.00525
+  },
+  {
+   "brand": "Bank of Queensland Limited",
+   "product": "BOQ Essential Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0653,
+   "now": 0.0807
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0744,
+   "now": 0.0779
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0824,
+   "now": 0.0859
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0774
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0804
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0754
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0789
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0784
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0789
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0699,
+   "now": 0.0734
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0759
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0744,
+   "now": 0.0779
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0774
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0824,
+   "now": 0.0859
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0774
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0764
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0784
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0789
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0809,
+   "now": 0.0844
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0754
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.0874
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Commercial Alt Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0799,
+   "now": 0.0834
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0759
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0774
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0759,
+   "now": 0.0794
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0759
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0784
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0769
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Prime Alt Doc (BNK)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0754
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "AMP Bank GO",
+    "product": "AMP Bank GO 12 Month Term Deposit",
+    "rate": 0.057
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.057
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.0625
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.0595
+   }
+  ]
+ }
+}
