@@ -1,349 +1,354 @@
 {
- "date": "2026-11-11",
+ "date": "2026-11-12",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-11T00:19:34.564Z",
-  "finished": "2026-11-11T00:32:02.142Z",
-  "brands": "258/305",
-  "products": 4936,
-  "opened": 918,
-  "closed": 949,
-  "failures": 55
+  "started": "2026-11-12T01:44:49.655Z",
+  "finished": "2026-11-12T01:59:24.877Z",
+  "brands": "259/305",
+  "products": 4947,
+  "opened": 2924,
+  "closed": 2923,
+  "failures": 53
  },
  "totals": {
   "brands": 309,
-  "products": 4945,
-  "rates_open": 33977,
+  "products": 4947,
+  "rates_open": 33978,
   "deposit": 7071,
-  "lending": 26906
+  "lending": 26907
  },
  "moves": [
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "MyState Bank",
+   "product": "Hello Saver account",
    "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.01525
+   "term": "P4M",
+   "was": 0.0565,
+   "now": 0.003
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.05125,
-   "now": 0.02525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.01525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.00525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.00525
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.05125,
-   "now": 0.02525
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid monthly",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.03,
-   "now": 0.0485
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid monthly",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.03,
-   "now": 0.0485
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid monthly",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.03,
-   "now": 0.0485
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid monthly",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.03,
-   "now": 0.0485
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid monthly",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.03,
-   "now": 0.0485
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Northern Inland Credit Union Limited",
-   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
-   "kind": "deposit",
-   "term": "P3M",
-   "was": 0.0325,
-   "now": 0.051
-  },
-  {
-   "brand": "Bank of Queensland Limited",
-   "product": "BOQ Essential Home Loan",
+   "brand": "Porsche Financial Services",
+   "product": "Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0653,
-   "now": 0.0807
+   "term": "P5Y",
+   "was": 0.0963,
+   "now": 0.0782
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02525,
-   "now": 0.03925
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01525,
-   "now": 0.02925
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.00525,
-   "now": 0.01925
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.00525,
-   "now": 0.01925
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01525,
-   "now": 0.02925
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02525,
-   "now": 0.03925
-  },
-  {
-   "brand": "ORDE Financial",
-   "product": "Vacant Land Prime",
+   "brand": "Porsche Financial Services",
+   "product": "Porsche Chattel Mortgage- Gauranteed Future Value",
    "kind": "lending",
-   "term": null,
-   "was": 0.1024,
-   "now": 0.0949
+   "term": "P5Y",
+   "was": 0.0963,
+   "now": 0.0782
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential SMSF Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0819,
-   "now": 0.0869
-  },
-  {
-   "brand": "ORDE Financial",
-   "product": "Residential Non-Resident",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0809,
-   "now": 0.0859
-  },
-  {
-   "brand": "Bank of China",
-   "product": "Term Deposit AUD 1M",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0375,
-   "now": 0.0425
-  },
-  {
-   "brand": "ORDE Financial",
-   "product": "Commercial SMSF Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0854,
-   "now": 0.0904
-  },
-  {
-   "brand": "ORDE Financial",
-   "product": "Residential Full Doc Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0844,
-   "now": 0.0884
-  },
-  {
-   "brand": "ORDE Financial",
-   "product": "Residential Full Doc Prime",
+   "brand": "Liberty Financial",
+   "product": "Business car loan",
    "kind": "lending",
    "term": null,
    "was": 0.0829,
-   "now": 0.0869
+   "now": 0.0979
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential Full Doc Prime",
+   "brand": "Liberty Financial",
+   "product": "Low doc car loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0814,
-   "now": 0.0854
+   "was": 0.0829,
+   "now": 0.0979
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential Alt Doc Prime",
+   "brand": "Jaguar Financial Services",
+   "product": "Consumer Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0809,
-   "now": 0.0849
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.11
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential Alt Doc Prime",
+   "brand": "Jaguar Financial Services",
+   "product": "Consumer Loan - Jaguar Guaranteed Future Value",
    "kind": "lending",
-   "term": null,
-   "was": 0.0824,
-   "now": 0.0864
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.11
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential Alt Doc Prime",
+   "brand": "Bentley Financial Services Australia",
+   "product": "Chattel Mortgage",
    "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.0879
+   "term": "P5Y",
+   "was": 0.0927,
+   "now": 0.0789
   },
   {
-   "brand": "ORDE Financial",
-   "product": "Residential Alt Doc Prime",
+   "brand": "ŠKODA Financial Services",
+   "product": "Chattel Mortgage with ŠKODA Choice - Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0985,
+   "now": 0.0873
+  },
+  {
+   "brand": "ŠKODA Financial Services",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0985,
+   "now": 0.0873
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Porsche Consumer Loan - Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0903,
+   "now": 0.0794
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Consumer Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0903,
+   "now": 0.0794
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03925
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Flexible car loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0854,
-   "now": 0.0894
+   "was": 0.0899,
+   "now": 0.0979
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Fresh start car loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1249,
+   "now": 0.1324
+  },
+  {
+   "brand": "Ducati Financial Services",
+   "product": "Consumer Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0918,
+   "now": 0.0853
+  },
+  {
+   "brand": "CUPRA Financial Services",
+   "product": "Consumer Loan with CUPRA Choice -Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0942,
+   "now": 0.0877
+  },
+  {
+   "brand": "CUPRA Financial Services",
+   "product": "Consumer Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0942,
+   "now": 0.0877
+  },
+  {
+   "brand": "Ducati Financial Services",
+   "product": "Ducati Consumer Loan - Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0918,
+   "now": 0.0853
+  },
+  {
+   "brand": "CUPRA Financial Services",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0844,
+   "now": 0.0902
+  },
+  {
+   "brand": "CUPRA Financial Services",
+   "product": "Chattel Mortgage with CUPRA Choice -Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0844,
+   "now": 0.0902
+  },
+  {
+   "brand": "UniBank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0704,
+   "now": 0.0749
+  },
+  {
+   "brand": "Teachers Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0704,
+   "now": 0.0749
+  },
+  {
+   "brand": "Alex.Bank",
+   "product": "Term Deposit - Intermediary",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.049,
+   "now": 0.0535
+  },
+  {
+   "brand": "Australian Mutual Bank LTD",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0704,
+   "now": 0.0749
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0704,
+   "now": 0.0749
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0704,
+   "now": 0.0749
+  },
+  {
+   "brand": "Jaguar Financial Services",
+   "product": "Jaguar-Chattel Mortage Gauranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0836,
+   "now": 0.0799
+  },
+  {
+   "brand": "Jaguar Financial Services",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0836,
+   "now": 0.0799
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.051,
+   "now": 0.0545
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.051,
+   "now": 0.0545
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.051,
+   "now": 0.0545
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P209D",
+   "was": 0.051,
+   "now": 0.0545
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P209D",
+   "was": 0.051,
+   "now": 0.0545
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P209D",
+   "was": 0.051,
+   "now": 0.0545
   }
  ],
  "best": {
   "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
    {
     "brand": "Gateway Bank",
     "product": "Package TD 12 Months",
@@ -363,11 +368,6 @@
     "brand": "Suncorp Bank",
     "product": "Term Deposit",
     "rate": 0.0575
-   },
-   {
-    "brand": "Gateway Bank",
-    "product": "Term Deposit 12 Months",
-    "rate": 0.057
    }
   ],
   "savings": [
