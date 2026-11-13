@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-13",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-13T00:48:12.428Z",
+  "finished": "2026-11-13T01:05:20.723Z",
+  "brands": "257/305",
+  "products": 4840,
+  "opened": 5597,
+  "closed": 5585,
+  "failures": 55
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4947,
+  "rates_open": 33990,
+  "deposit": 7071,
+  "lending": 26919
+ },
+ "moves": [
+  {
+   "brand": "MyState Bank",
+   "product": "Hello Saver account",
+   "kind": "deposit",
+   "term": "P4M",
+   "was": 0.0565,
+   "now": 0.003
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Porsche Chattel Mortgage- Gauranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0963,
+   "now": 0.0782
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0963,
+   "now": 0.0782
+  },
+  {
+   "brand": "P&N Bank",
+   "product": "9 Month Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.038,
+   "now": 0.054
+  },
+  {
+   "brand": "BCU Bank",
+   "product": "9 Month Term Deposit - Mthly",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0375,
+   "now": 0.053
+  },
+  {
+   "brand": "BCU Bank",
+   "product": "9 Month Term Deposit",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0385,
+   "now": 0.054
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Low doc car loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0979
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Business car loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0979
+  },
+  {
+   "brand": "Jaguar Financial Services",
+   "product": "Consumer Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.11
+  },
+  {
+   "brand": "Jaguar Financial Services",
+   "product": "Consumer Loan - Jaguar Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0954,
+   "now": 0.11
+  },
+  {
+   "brand": "Bentley Financial Services Australia",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0927,
+   "now": 0.0789
+  },
+  {
+   "brand": "ŠKODA Financial Services",
+   "product": "Chattel Mortgage with ŠKODA Choice - Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0985,
+   "now": 0.0873
+  },
+  {
+   "brand": "ŠKODA Financial Services",
+   "product": "Chattel Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0985,
+   "now": 0.0873
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Porsche Consumer Loan - Guaranteed Future Value",
+   "kind": "lending",
+   "term": "P4Y",
+   "was": 0.0903,
+   "now": 0.0794
+  },
+  {
+   "brand": "Porsche Financial Services",
+   "product": "Consumer Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0903,
+   "now": 0.0794
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.02925
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04925
+  },
+  {
+   "brand": "P&N Bank",
+   "product": "4 Month Term Deposit",
+   "kind": "deposit",
+   "term": "P4M",
+   "was": 0.043,
+   "now": 0.052
+  },
+  {
+   "brand": "Liberty Financial",
+   "product": "Flexible car loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0899,
+   "now": 0.0979
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "12 MTHS MONTHLY CHQ",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0425,
+   "now": 0.05
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  },
+  {
+   "brand": "Central Murray Bank",
+   "product": "TERM DEPOSIT 12 MONTHS",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.045,
+   "now": 0.0525
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   }
+  ]
+ }
+}
