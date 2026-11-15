@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-15",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-15T23:39:18.983Z",
+  "finished": "2026-11-15T23:52:28.566Z",
+  "brands": "259/305",
+  "products": 4947,
+  "opened": 116,
+  "closed": 94,
+  "failures": 53
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4947,
+  "rates_open": 33990,
+  "deposit": 7071,
+  "lending": 26919
+ },
+ "moves": [
+  {
+   "brand": "Heartland",
+   "product": "MySavings account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.015,
+   "now": 0.04
+  },
+  {
+   "brand": "Teachers Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "Heartland",
+   "product": "MySavings account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0455,
+   "now": 0.05
+  },
+  {
+   "brand": "Heartland",
+   "product": "MySavings account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0455,
+   "now": 0.05
+  },
+  {
+   "brand": "Australian Mutual Bank LTD",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "UniBank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths P&I Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0753,
+   "now": 0.0778
+  },
+  {
+   "brand": "St.George Bank",
+   "product": "Margin Lending",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1008,
+   "now": 0.1033
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0803,
+   "now": 0.0828
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "All Purpose Personal Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1199,
+   "now": 0.1224
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "New Car Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0714
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0713,
+   "now": 0.0738
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0664,
+   "now": 0.0689
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Car Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0999,
+   "now": 0.1024
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0683,
+   "now": 0.0708
+  },
+  {
+   "brand": "Teachers Mutual Bank",
+   "product": "All Purpose Personal Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1199,
+   "now": 0.1224
+  },
+  {
+   "brand": "Teachers Mutual Bank",
+   "product": "Car Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0999,
+   "now": 0.1024
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0664,
+   "now": 0.0689
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0684
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "Car Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0999,
+   "now": 0.1024
+  },
+  {
+   "brand": "Firefighters Mutual Bank",
+   "product": "All Purpose Personal Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1199,
+   "now": 0.1224
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0669
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0643,
+   "now": 0.0668
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths Interest Only Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths P&I Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths P&I Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths Interest Only Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0663,
+   "now": 0.0688
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths P&I Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths Interest Only Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths P&I Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths Interest Only Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths P&I Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths Interest Only Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths Interest Only Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.0615
+   },
+   {
+    "brand": "RACQ Bank",
+    "product": "Bonus Saver Account",
+    "rate": 0.06
+   }
+  ]
+ }
+}

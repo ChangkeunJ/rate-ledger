@@ -1,357 +1,357 @@
 {
- "date": "2026-11-14",
+ "date": "2026-11-15",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-14T23:30:42.639Z",
-  "finished": "2026-11-14T23:43:52.838Z",
-  "brands": "258/305",
-  "products": 4854,
-  "opened": 9,
-  "closed": 9,
-  "failures": 57
+  "started": "2026-11-15T23:39:18.983Z",
+  "finished": "2026-11-15T23:52:28.566Z",
+  "brands": "259/305",
+  "products": 4947,
+  "opened": 116,
+  "closed": 94,
+  "failures": 53
  },
  "totals": {
   "brands": 309,
-  "products": 4944,
-  "rates_open": 33968,
-  "deposit": 7055,
-  "lending": 26913
+  "products": 4947,
+  "rates_open": 33990,
+  "deposit": 7071,
+  "lending": 26919
  },
  "moves": [
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Heartland",
+   "product": "MySavings account",
    "kind": "deposit",
    "term": null,
-   "was": 0.03925,
-   "now": 0.02925
+   "was": 0.015,
+   "now": 0.04
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Teachers Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "Health Professionals Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
+  },
+  {
+   "brand": "Heartland",
+   "product": "MySavings account",
    "kind": "deposit",
    "term": null,
-   "was": 0.02925,
-   "now": 0.01925
+   "was": 0.0455,
+   "now": 0.05
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Heartland",
+   "product": "MySavings account",
    "kind": "deposit",
    "term": null,
-   "was": 0.02925,
-   "now": 0.01925
+   "was": 0.0455,
+   "now": 0.05
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.02925
+   "brand": "Australian Mutual Bank LTD",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04925,
-   "now": 0.03925
+   "brand": "UniBank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04925,
-   "now": 0.03925
+   "brand": "Firefighters Mutual Bank",
+   "product": "Your Way Plus Fixed Home Loan Investor",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0749,
+   "now": 0.0704
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save 3 Years Fixed - Investment",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths P&I Owner Occupied",
    "kind": "lending",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0739
+   "was": 0.0654,
+   "now": 0.0679
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save – 1 Year Fixed – Investment",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0739
+   "was": 0.0753,
+   "now": 0.0778
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save - 2 Years Fixed - Investment",
+   "brand": "St.George Bank",
+   "product": "Margin Lending",
    "kind": "lending",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0739
+   "was": 0.1008,
+   "now": 0.1033
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save - 3 Years Fixed - Owner Occupied",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0679,
-   "now": 0.0709
+   "was": 0.0803,
+   "now": 0.0828
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save - 5 Years Fixed - Investment",
+   "brand": "Health Professionals Bank",
+   "product": "All Purpose Personal Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0739,
-   "now": 0.0769
+   "was": 0.1199,
+   "now": 0.1224
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save – 2 Years Fixed – Owner Occupied",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0679,
-   "now": 0.0709
+   "was": 0.0649,
+   "now": 0.0674
   },
   {
-   "brand": "Mortgage House",
-   "product": "Fix & Save – 1 Year Fixed – Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0709
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Executive Home Loan 80",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0619,
-   "now": 0.0644
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Freedom Low Doc Home Loan 60",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0709,
-   "now": 0.0734
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Executive Home Loan 60 (with offset)",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0614,
-   "now": 0.0639
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Gold Non Resident Loan 70",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0824,
-   "now": 0.0849
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon Freedom Low Doc Home Loan 80",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0739,
-   "now": 0.0764
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Gold SMSF Loan 80 (Combo)",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "New Car Loan",
    "kind": "lending",
    "term": null,
    "was": 0.0689,
    "now": 0.0714
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Platinum Home Loan 80 (OO)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0894,
-   "now": 0.0919
+   "was": 0.0713,
+   "now": 0.0738
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Solutions Home Loan 80",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.078,
-   "now": 0.0805
+   "was": 0.0664,
+   "now": 0.0689
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Freedom Home Loan 90",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0714,
-   "now": 0.0739
+   "was": 0.0649,
+   "now": 0.0674
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Gold SMSF Loan 80",
+   "brand": "Health Professionals Bank",
+   "product": "Car Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0714
+   "was": 0.0999,
+   "now": 0.1024
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Solutions Home Loan 60",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0759,
-   "now": 0.0784
+   "was": 0.0683,
+   "now": 0.0708
   },
   {
-   "brand": "Mortgage House",
-   "product": "New Car - Special - Secured - PAYG",
+   "brand": "Teachers Mutual Bank",
+   "product": "All Purpose Personal Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0954,
-   "now": 0.0979
+   "was": 0.1199,
+   "now": 0.1224
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Freedom Home Loan 60",
+   "brand": "Teachers Mutual Bank",
+   "product": "Car Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0639,
-   "now": 0.0664
+   "was": 0.0999,
+   "now": 0.1024
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Executive Investment Home Loan 80",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0669,
-   "now": 0.0694
+   "was": 0.0664,
+   "now": 0.0689
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Freedom Home Loan 80",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0644,
-   "now": 0.0669
-  },
-  {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Executive Investment Home Loan 60",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
    "was": 0.0659,
    "now": 0.0684
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon  - Platinum Home Loan 80 (INV)",
+   "brand": "Firefighters Mutual Bank",
+   "product": "Car Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0929,
-   "now": 0.0954
+   "was": 0.0999,
+   "now": 0.1024
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Platinum Home Loan 60 (OO)",
+   "brand": "Firefighters Mutual Bank",
+   "product": "All Purpose Personal Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0874,
-   "now": 0.0899
+   "was": 0.1199,
+   "now": 0.1224
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon Commercial - Pure Commercial 80",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0879,
-   "now": 0.0904
+   "was": 0.0644,
+   "now": 0.0669
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon Commercial - Pure Commercial 50",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0794,
-   "now": 0.0819
+   "was": 0.0643,
+   "now": 0.0668
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Platinum Home Loan 60 (INV)",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths Interest Only Investment",
    "kind": "lending",
    "term": null,
-   "was": 0.0909,
-   "now": 0.0934
+   "was": 0.0679,
+   "now": 0.0704
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Pure Commercial Low Doc 50",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths P&I Investment",
    "kind": "lending",
    "term": null,
-   "was": 0.0844,
-   "now": 0.0869
+   "was": 0.0679,
+   "now": 0.0704
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon Gold SMSF Loan 90",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths P&I Investment",
    "kind": "lending",
    "term": null,
-   "was": 0.0779,
-   "now": 0.0804
+   "was": 0.0679,
+   "now": 0.0704
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Gold Low Doc Investment 80",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths Interest Only Investment",
    "kind": "lending",
    "term": null,
-   "was": 0.0959,
-   "now": 0.0984
+   "was": 0.0679,
+   "now": 0.0704
   },
   {
-   "brand": "Mortgage House",
-   "product": "Chameleon - Executive Home Loan 60",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Flex Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0614,
-   "now": 0.0639
+   "was": 0.0663,
+   "now": 0.0688
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Business Everyday Account ($10 Monthly Fee Option)",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths P&I Owner Occupied",
    "kind": "lending",
    "term": null,
-   "was": 0.1566,
-   "now": 0.1591
+   "was": 0.0654,
+   "now": 0.0679
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Business Interest Account",
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths Interest Only Owner Occupied",
    "kind": "lending",
    "term": null,
-   "was": 0.1566,
-   "now": 0.1591
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 24 mths P&I Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths Interest Only Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths P&I Investment",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0679,
+   "now": 0.0704
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 36 mths Interest Only Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Fixed 12 mths Interest Only Owner Occupied",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0679
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
     "rate": 0.058
    },
    {
-    "brand": "Unity Bank",
-    "product": "Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.058
    },
    {
