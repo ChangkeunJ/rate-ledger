@@ -1,357 +1,357 @@
 {
- "date": "2026-11-15",
+ "date": "2026-11-17",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-15T23:39:18.983Z",
-  "finished": "2026-11-15T23:52:28.566Z",
-  "brands": "259/305",
-  "products": 4947,
-  "opened": 116,
-  "closed": 94,
-  "failures": 53
+  "started": "2026-11-17T02:42:06.373Z",
+  "finished": "2026-11-17T02:52:44.232Z",
+  "brands": "258/304",
+  "products": 4912,
+  "opened": 963,
+  "closed": 952,
+  "failures": 51
  },
  "totals": {
   "brands": 309,
-  "products": 4947,
-  "rates_open": 33990,
-  "deposit": 7071,
+  "products": 4950,
+  "rates_open": 34001,
+  "deposit": 7082,
   "lending": 26919
  },
  "moves": [
   {
-   "brand": "Heartland",
-   "product": "MySavings account",
+   "brand": "MyState Bank",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Regular Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Online Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Regular Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Online Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "NATIONAL SENIORS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "NATIONAL SENIORS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Arab Bank Australia Limited",
+   "product": "Business Overdraft",
+   "kind": "lending",
+   "term": null,
+   "was": 0.219,
+   "now": 0.1815
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Rewards Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2174,
+   "now": 0.2299
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Travel Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2174,
+   "now": 0.2299
+  },
+  {
+   "brand": "Revolut",
+   "product": "Revolut Credit Card",
+   "kind": "lending",
+   "term": "P44D",
+   "was": 0.2099,
+   "now": 0.2199
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.015,
-   "now": 0.04
+   "was": 0.02925,
+   "now": 0.03725
   },
   {
-   "brand": "Teachers Mutual Bank",
-   "product": "Your Way Plus Fixed Home Loan Investor",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0749,
-   "now": 0.0704
-  },
-  {
-   "brand": "Health Professionals Bank",
-   "product": "Your Way Plus Fixed Home Loan Investor",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0749,
-   "now": 0.0704
-  },
-  {
-   "brand": "Heartland",
-   "product": "MySavings account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0455,
-   "now": 0.05
+   "was": 0.01925,
+   "now": 0.02725
   },
   {
-   "brand": "Heartland",
-   "product": "MySavings account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0455,
-   "now": 0.05
+   "was": 0.03925,
+   "now": 0.04725
   },
   {
-   "brand": "Australian Mutual Bank LTD",
-   "product": "Your Way Plus Fixed Home Loan Investor",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0749,
-   "now": 0.0704
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04725
   },
   {
-   "brand": "UniBank",
-   "product": "Your Way Plus Fixed Home Loan Investor",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0749,
-   "now": 0.0704
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.02725
   },
   {
-   "brand": "Firefighters Mutual Bank",
-   "product": "Your Way Plus Fixed Home Loan Investor",
-   "kind": "lending",
-   "term": "P2Y",
-   "was": 0.0749,
-   "now": 0.0704
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03725
   },
   {
    "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 36 mths P&I Owner Occupied",
-   "kind": "lending",
+   "product": "ONLINE SAVER",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0654,
-   "now": 0.0679
+   "was": 0.046,
+   "now": 0.0525
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
+   "brand": "bankWAW",
+   "product": "Green Car Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.0753,
-   "now": 0.0778
+   "was": 0.0579,
+   "now": 0.063
   },
   {
-   "brand": "St.George Bank",
-   "product": "Margin Lending",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1008,
-   "now": 0.1033
+   "brand": "Defence Bank",
+   "product": "Term Deposit 11 month",
+   "kind": "deposit",
+   "term": "P11M",
+   "was": 0.05,
+   "now": 0.055
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
+   "brand": "Bank of Sydney",
+   "product": "Business Overdraft Account",
    "kind": "lending",
    "term": null,
-   "was": 0.0803,
-   "now": 0.0828
+   "was": 0.1458,
+   "now": 0.1508
   },
   {
-   "brand": "Health Professionals Bank",
-   "product": "All Purpose Personal Loan",
+   "brand": "Beyond Bank Australia",
+   "product": "Business Overdraft (Unsec)",
    "kind": "lending",
    "term": null,
-   "was": 0.1199,
-   "now": 0.1224
+   "was": 0.1299,
+   "now": 0.1349
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
+   "brand": "Beyond Bank Australia",
+   "product": "Business Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "New Car Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0689,
-   "now": 0.0714
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0713,
-   "now": 0.0738
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0664,
-   "now": 0.0689
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "Health Professionals Bank",
-   "product": "Car Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0999,
-   "now": 0.1024
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0683,
-   "now": 0.0708
-  },
-  {
-   "brand": "Teachers Mutual Bank",
-   "product": "All Purpose Personal Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1199,
-   "now": 0.1224
-  },
-  {
-   "brand": "Teachers Mutual Bank",
-   "product": "Car Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0999,
-   "now": 0.1024
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0664,
-   "now": 0.0689
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0659,
-   "now": 0.0684
-  },
-  {
-   "brand": "Firefighters Mutual Bank",
-   "product": "Car Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0999,
-   "now": 0.1024
-  },
-  {
-   "brand": "Firefighters Mutual Bank",
-   "product": "All Purpose Personal Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1199,
-   "now": 0.1224
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0644,
-   "now": 0.0669
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0643,
-   "now": 0.0668
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 12 mths Interest Only Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 12 mths P&I Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 24 mths P&I Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 24 mths Interest Only Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Flex Home Loan",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0663,
-   "now": 0.0688
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 12 mths P&I Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0654,
-   "now": 0.0679
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 24 mths Interest Only Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0654,
-   "now": 0.0679
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 24 mths P&I Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0654,
-   "now": 0.0679
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 36 mths Interest Only Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 36 mths P&I Investment",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0679,
-   "now": 0.0704
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 36 mths Interest Only Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0654,
-   "now": 0.0679
-  },
-  {
-   "brand": "ORANGE CREDIT UNION LTD",
-   "product": "Premium Home Loan Fixed 12 mths Interest Only Owner Occupied",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0654,
-   "now": 0.0679
+   "term": "P7Y",
+   "was": 0.135,
+   "now": 0.14
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Unity Bank",
-    "product": "Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.058
    },
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
     "rate": 0.058
    },
    {
@@ -382,19 +382,19 @@
     "rate": 0.065
    },
    {
-    "brand": "Newcastle Permanent",
-    "product": "Smart Saver Account (under 25)",
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
     "rate": 0.062
    },
    {
-    "brand": "Rabobank",
-    "product": "High Interest Savings Account",
-    "rate": 0.0615
-   },
-   {
-    "brand": "RACQ Bank",
-    "product": "Bonus Saver Account",
-    "rate": 0.06
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
    }
   ]
  }
