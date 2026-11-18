@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-18",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-18T01:57:56.962Z",
+  "finished": "2026-11-18T02:11:36.954Z",
+  "brands": "258/304",
+  "products": 4919,
+  "opened": 452,
+  "closed": 304,
+  "failures": 50
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4957,
+  "rates_open": 34041,
+  "deposit": 7082,
+  "lending": 26959
+ },
+ "moves": [
+  {
+   "brand": "MyState Bank",
+   "product": "Regular Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Online Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Business Term Deposit",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Regular Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "MyState Bank",
+   "product": "Online Term Deposit",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.005,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P31D",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "NATIONAL SENIORS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P1M",
+   "was": 0.0075,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "NATIONAL SENIORS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P2M",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Auswide Bank Ltd",
+   "product": "MATURITY TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P62D",
+   "was": 0.01,
+   "now": 0.0485
+  },
+  {
+   "brand": "Arab Bank Australia Limited",
+   "product": "Business Overdraft",
+   "kind": "lending",
+   "term": null,
+   "was": 0.219,
+   "now": 0.1815
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Rewards Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2174,
+   "now": 0.2299
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Travel Card",
+   "kind": "lending",
+   "term": null,
+   "was": 0.2174,
+   "now": 0.2299
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03725,
+   "now": 0.02525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02725,
+   "now": 0.01525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04725,
+   "now": 0.03525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03725,
+   "now": 0.02525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.04,
+   "now": 0.052
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04725,
+   "now": 0.03525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02725,
+   "now": 0.01525
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.0405,
+   "now": 0.052
+  },
+  {
+   "brand": "Suncorp Bank",
+   "product": "Term Deposit",
+   "kind": "deposit",
+   "term": "P7M",
+   "was": 0.041,
+   "now": 0.052
+  },
+  {
+   "brand": "Revolut",
+   "product": "Revolut Credit Card",
+   "kind": "lending",
+   "term": "P44D",
+   "was": 0.2099,
+   "now": 0.2199
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.03725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.04725
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
+    "rate": 0.062
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   }
+  ]
+ }
+}
