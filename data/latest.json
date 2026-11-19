@@ -1,253 +1,53 @@
 {
- "date": "2026-11-18",
+ "date": "2026-11-19",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-18T01:57:56.962Z",
-  "finished": "2026-11-18T02:11:36.954Z",
-  "brands": "258/304",
-  "products": 4919,
-  "opened": 452,
-  "closed": 304,
-  "failures": 50
+  "started": "2026-11-19T01:34:26.371Z",
+  "finished": "2026-11-19T01:46:24.729Z",
+  "brands": "257/304",
+  "products": 4909,
+  "opened": 486,
+  "closed": 378,
+  "failures": 51
  },
  "totals": {
   "brands": 309,
-  "products": 4957,
-  "rates_open": 34041,
-  "deposit": 7082,
-  "lending": 26959
+  "products": 4956,
+  "rates_open": 34026,
+  "deposit": 7069,
+  "lending": 26957
  },
  "moves": [
   {
-   "brand": "MyState Bank",
-   "product": "Regular Term Deposit",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Online Term Deposit",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Business Term Deposit",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Business Term Deposit",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Regular Term Deposit",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "MyState Bank",
-   "product": "Online Term Deposit",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.005,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P31D",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P31D",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P31D",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P31D",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "NATIONAL SENIORS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P1M",
-   "was": 0.0075,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P62D",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "NATIONAL SENIORS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P2M",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P62D",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P62D",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Auswide Bank Ltd",
-   "product": "MATURITY TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P62D",
-   "was": 0.01,
-   "now": 0.0485
-  },
-  {
-   "brand": "Arab Bank Australia Limited",
-   "product": "Business Overdraft",
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB iSaver",
    "kind": "lending",
    "term": null,
-   "was": 0.219,
-   "now": 0.1815
+   "was": 0.1541,
+   "now": 0.2
   },
   {
    "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Rewards Card",
+   "product": "NAB Reward Saver",
    "kind": "lending",
    "term": null,
-   "was": 0.2174,
-   "now": 0.2299
-  },
-  {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Travel Card",
-   "kind": "lending",
-   "term": null,
-   "was": 0.2174,
-   "now": 0.2299
+   "was": 0.1541,
+   "now": 0.2
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03725,
-   "now": 0.02525
+   "was": 0.02725,
+   "now": 0.01525
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
    "was": 0.02725,
@@ -264,6 +64,14 @@
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03725,
+   "now": 0.02525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
    "was": 0.03725,
@@ -286,14 +94,6 @@
    "now": 0.03525
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02725,
-   "now": 0.01525
-  },
-  {
    "brand": "Suncorp Bank",
    "product": "Term Deposit",
    "kind": "deposit",
@@ -310,36 +110,236 @@
    "now": 0.052
   },
   {
-   "brand": "Revolut",
-   "product": "Revolut Credit Card",
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Statutory Trust Account",
    "kind": "lending",
-   "term": "P44D",
-   "was": 0.2099,
-   "now": 0.2199
+   "term": null,
+   "was": 0.1516,
+   "now": 0.1591
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "Victorian Retail Lease Account",
+   "kind": "lending",
    "term": null,
-   "was": 0.03925,
-   "now": 0.04725
+   "was": 0.1516,
+   "now": 0.1591
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
+   "brand": "Bank of us",
+   "product": "TOPLINE HOME LOAN",
+   "kind": "lending",
    "term": null,
-   "was": 0.02925,
-   "now": 0.03725
+   "was": 0.0624,
+   "now": 0.0684
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
+   "brand": "Bank of us",
+   "product": "Flexidiscount Home Loan",
+   "kind": "lending",
    "term": null,
-   "was": 0.03925,
-   "now": 0.04725
+   "was": 0.0619,
+   "now": 0.0679
+  },
+  {
+   "brand": "ORANGE CREDIT UNION LTD",
+   "product": "Premium Home Loan Variable",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0674,
+   "now": 0.0729
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0659,
+   "now": 0.0709
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0689
+  },
+  {
+   "brand": "gmcu",
+   "product": "Standard Variable Plus",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0659
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0684
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0689
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0699
+  },
+  {
+   "brand": "gmcu",
+   "product": "Standard Variable Plus",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0674
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0684
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0694
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0694
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0654,
+   "now": 0.0704
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0664,
+   "now": 0.0714
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0694
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0629,
+   "now": 0.0679
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0694
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0659
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0689
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "SIMPLE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0599,
+   "now": 0.0649
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0624,
+   "now": 0.0674
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0669,
+   "now": 0.0719
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "COMPLETE PACKAGE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0619,
+   "now": 0.0669
   }
  ],
  "best": {
@@ -387,13 +387,13 @@
     "rate": 0.064
    },
    {
-    "brand": "Bank of Queensland Limited",
-    "product": "Future Saver Account",
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
     "rate": 0.062
    },
    {
-    "brand": "Newcastle Permanent",
-    "product": "Smart Saver Account (under 25)",
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
     "rate": 0.062
    }
   ]
