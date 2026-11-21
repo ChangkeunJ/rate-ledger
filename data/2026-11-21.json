@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-21",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-21T00:59:50.500Z",
+  "finished": "2026-11-21T01:13:03.511Z",
+  "brands": "258/304",
+  "products": 4924,
+  "opened": 200,
+  "closed": 196,
+  "failures": 50
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4962,
+  "rates_open": 34041,
+  "deposit": 7069,
+  "lending": 26972
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.05125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03925,
+   "now": 0.05125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02925,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01925,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.087
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.087
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0824,
+   "now": 0.0749
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0824,
+   "now": 0.0749
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank EconoME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0819,
+   "now": 0.0744
+  },
+  {
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0824,
+   "now": 0.0749
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.081,
+   "now": 0.088
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.081,
+   "now": 0.088
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.086
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.086
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.081,
+   "now": 0.088
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0835
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0835
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.081,
+   "now": 0.087
+  },
+  {
+   "brand": "RedZed",
+   "product": "Recharge",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0989,
+   "now": 0.1045
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Specialist",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0989,
+   "now": 0.1045
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0815,
+   "now": 0.087
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.0845
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0825
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0815,
+   "now": 0.087
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0825
+  },
+  {
+   "brand": "RedZed",
+   "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.0845
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Specialist",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0969,
+   "now": 0.102
+  },
+  {
+   "brand": "RedZed",
+   "product": "Recharge",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0969,
+   "now": 0.102
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Specialist",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0894,
+   "now": 0.094
+  },
+  {
+   "brand": "RedZed",
+   "product": "Recharge",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0894,
+   "now": 0.094
+  },
+  {
+   "brand": "RedZed",
+   "product": "Recharge",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0914,
+   "now": 0.096
+  },
+  {
+   "brand": "RedZed",
+   "product": "Recharge",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0969,
+   "now": 0.1015
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
+    "rate": 0.062
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   }
+  ]
+ }
+}

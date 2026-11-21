@@ -1,24 +1,24 @@
 {
- "date": "2026-11-20",
+ "date": "2026-11-21",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-20T01:32:03.783Z",
-  "finished": "2026-11-20T01:43:24.209Z",
+  "started": "2026-11-21T00:59:50.500Z",
+  "finished": "2026-11-21T01:13:03.511Z",
   "brands": "258/304",
-  "products": 4921,
-  "opened": 401,
-  "closed": 387,
+  "products": 4924,
+  "opened": 200,
+  "closed": 196,
   "failures": 50
  },
  "totals": {
   "brands": 309,
-  "products": 4959,
-  "rates_open": 34040,
+  "products": 4962,
+  "rates_open": 34041,
   "deposit": 7069,
-  "lending": 26971
+  "lending": 26972
  },
  "moves": [
   {
@@ -26,20 +26,20 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03925,
-   "now": 0.05125
+   "was": 0.02925,
+   "now": 0.04125
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02925,
-   "now": 0.04125
+   "was": 0.03925,
+   "now": 0.05125
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
    "was": 0.01925,
@@ -63,11 +63,67 @@
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
    "was": 0.01925,
    "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.079,
+   "now": 0.087
   },
   {
    "brand": "RedZed",
@@ -78,12 +134,12 @@
    "now": 0.087
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
+   "brand": "ME Bank - ME Go",
+   "product": "ME Bank CompleteME Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.079,
-   "now": 0.087
+   "was": 0.0824,
+   "now": 0.0749
   },
   {
    "brand": "ME Bank - ME Go",
@@ -110,16 +166,24 @@
    "now": 0.0749
   },
   {
-   "brand": "ME Bank - ME Go",
-   "product": "ME Bank CompleteME Home Loan",
+   "brand": "Connective Complete",
+   "product": "Near Prime",
    "kind": "lending",
    "term": null,
-   "was": 0.0824,
-   "now": 0.0749
+   "was": 0.081,
+   "now": 0.088
   },
   {
    "brand": "RedZed",
    "product": "Reward",
+   "kind": "lending",
+   "term": null,
+   "was": 0.081,
+   "now": 0.088
+  },
+  {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
    "kind": "lending",
    "term": null,
    "was": 0.079,
@@ -128,22 +192,6 @@
   {
    "brand": "RedZed",
    "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.088
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.088
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
    "kind": "lending",
    "term": null,
    "was": 0.079,
@@ -182,16 +230,16 @@
    "now": 0.087
   },
   {
-   "brand": "Connective Complete",
-   "product": "Specialist",
+   "brand": "RedZed",
+   "product": "Recharge",
    "kind": "lending",
    "term": null,
    "was": 0.0989,
    "now": 0.1045
   },
   {
-   "brand": "RedZed",
-   "product": "Recharge",
+   "brand": "Connective Complete",
+   "product": "Specialist",
    "kind": "lending",
    "term": null,
    "was": 0.0989,
@@ -214,6 +262,14 @@
    "now": 0.0845
   },
   {
+   "brand": "Connective Complete",
+   "product": "Near Prime",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0825
+  },
+  {
    "brand": "RedZed",
    "product": "Reward",
    "kind": "lending",
@@ -222,8 +278,8 @@
    "now": 0.087
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
+   "brand": "RedZed",
+   "product": "Reward",
    "kind": "lending",
    "term": null,
    "was": 0.077,
@@ -238,22 +294,6 @@
    "now": 0.0845
   },
   {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.077,
-   "now": 0.0825
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0969,
-   "now": 0.102
-  },
-  {
    "brand": "Connective Complete",
    "product": "Specialist",
    "kind": "lending",
@@ -267,7 +307,7 @@
    "kind": "lending",
    "term": null,
    "was": 0.0969,
-   "now": 0.1015
+   "now": 0.102
   },
   {
    "brand": "Connective Complete",
@@ -284,14 +324,6 @@
    "term": null,
    "was": 0.0894,
    "now": 0.094
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0969,
-   "now": 0.1015
   },
   {
    "brand": "RedZed",
@@ -302,44 +334,12 @@
    "now": 0.096
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0835,
-   "now": 0.088
-  },
-  {
    "brand": "RedZed",
-   "product": "Reward",
+   "product": "Recharge",
    "kind": "lending",
    "term": null,
-   "was": 0.0835,
-   "now": 0.088
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0917,
-   "now": 0.096
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0949,
-   "now": 0.099
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0929,
-   "now": 0.097
+   "was": 0.0969,
+   "now": 0.1015
   }
  ],
  "best": {
