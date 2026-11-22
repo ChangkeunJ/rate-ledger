@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-22",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-21T23:59:47.837Z",
+  "finished": "2026-11-22T00:13:36.298Z",
+  "brands": "258/304",
+  "products": 4924,
+  "opened": 38,
+  "closed": 38,
+  "failures": 50
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4962,
+  "rates_open": 34041,
+  "deposit": 7069,
+  "lending": 26972
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05125,
+   "now": 0.04125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.03125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.02125
+  },
+  {
+   "brand": "TMCU",
+   "product": "TRAVEL LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1164,
+   "now": 0.1214
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0725
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0798,
+   "now": 0.0753
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.082,
+   "now": 0.0775
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.088,
+   "now": 0.0835
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Defence Force Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0702,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "STANDARD VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "TMCU",
+   "product": "REFI SPECIAL OWNER OCCUPIED",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "FASTROAD USED CAR LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0939,
+   "now": 0.0964
+  },
+  {
+   "brand": "TMCU",
+   "product": "HOME EQUITY LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0774,
+   "now": 0.0799
+  },
+  {
+   "brand": "TMCU",
+   "product": "BASIC VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "REFI SPECIAL INVESTMENT",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "FASTROAD NEW CAR LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0764
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0749,
+   "now": 0.0774
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0704,
+   "now": 0.0729
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0654,
+   "now": 0.0679
+  },
+  {
+   "brand": "TMCU",
+   "product": "CREDIT CARD CRUSHER",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1214,
+   "now": 0.1239
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0719,
+   "now": 0.0744
+  },
+  {
+   "brand": "First Option Bank",
+   "product": "Save Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0355,
+   "now": 0.038
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
+   "now": 0.0749
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0624,
+   "now": 0.0649
+  },
+  {
+   "brand": "TMCU",
+   "product": "GREENROAD",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0714,
+   "now": 0.0739
+  },
+  {
+   "brand": "TMCU",
+   "product": "UNSECURED LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.1139,
+   "now": 0.1164
+  },
+  {
+   "brand": "SWSbank",
+   "product": "Optimum 3 Year Fixed Rate Home Loan",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0635,
+   "now": 0.061
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
+    "rate": 0.062
+   }
+  ]
+ }
+}

@@ -1,16 +1,16 @@
 {
- "date": "2026-11-21",
+ "date": "2026-11-22",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-21T00:59:50.500Z",
-  "finished": "2026-11-21T01:13:03.511Z",
+  "started": "2026-11-21T23:59:47.837Z",
+  "finished": "2026-11-22T00:13:36.298Z",
   "brands": "258/304",
   "products": 4924,
-  "opened": 200,
-  "closed": 196,
+  "opened": 38,
+  "closed": 38,
   "failures": 50
  },
  "totals": {
@@ -26,62 +26,6 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02925,
-   "now": 0.04125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01925,
-   "now": 0.03125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03925,
-   "now": 0.05125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02925,
-   "now": 0.04125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.01925,
-   "now": 0.03125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.02125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
    "was": 0.05125,
    "now": 0.04125
   },
@@ -90,16 +34,8 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03125,
-   "now": 0.02125
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.03125
+   "was": 0.05125,
+   "now": 0.04125
   },
   {
    "brand": "CommBank",
@@ -114,232 +50,296 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.05125,
-   "now": 0.04125
+   "was": 0.04125,
+   "now": 0.03125
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.079,
-   "now": 0.087
+   "was": 0.03125,
+   "now": 0.02125
   },
   {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
    "term": null,
-   "was": 0.079,
-   "now": 0.087
+   "was": 0.03125,
+   "now": 0.02125
   },
   {
-   "brand": "ME Bank - ME Go",
-   "product": "ME Bank CompleteME Home Loan",
+   "brand": "TMCU",
+   "product": "TRAVEL LOAN",
    "kind": "lending",
    "term": null,
-   "was": 0.0824,
+   "was": 0.1164,
+   "now": 0.1214
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.077,
+   "now": 0.0725
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0798,
+   "now": 0.0753
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.082,
+   "now": 0.0775
+  },
+  {
+   "brand": "MoneyMe",
+   "product": "Autopay Asset Finance (Broker & Dealer)",
+   "kind": "lending",
+   "term": null,
+   "was": 0.088,
+   "now": 0.0835
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Defence Force Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0692,
+   "now": 0.0664
+  },
+  {
+   "brand": "NATIONAL AUSTRALIA BANK",
+   "product": "NAB Tailored Home Loan",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0702,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "STANDARD VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0674,
+   "now": 0.0699
+  },
+  {
+   "brand": "TMCU",
+   "product": "REFI SPECIAL OWNER OCCUPIED",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "FASTROAD USED CAR LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0939,
+   "now": 0.0964
+  },
+  {
+   "brand": "TMCU",
+   "product": "HOME EQUITY LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0774,
+   "now": 0.0799
+  },
+  {
+   "brand": "TMCU",
+   "product": "BASIC VARIABLE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "REFI SPECIAL INVESTMENT",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "FASTROAD NEW CAR LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0764
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0749,
+   "now": 0.0774
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0704,
+   "now": 0.0729
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0614,
+   "now": 0.0639
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 YEAR FIXED INTEREST ONLY",
+   "kind": "lending",
+   "term": "P24M",
+   "was": 0.0724,
    "now": 0.0749
   },
   {
-   "brand": "ME Bank - ME Go",
-   "product": "ME Bank CompleteME Home Loan",
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN",
    "kind": "lending",
-   "term": null,
-   "was": 0.0824,
-   "now": 0.0749
+   "term": "P24M",
+   "was": 0.0654,
+   "now": 0.0679
   },
   {
-   "brand": "ME Bank - ME Go",
-   "product": "ME Bank EconoME Home Loan",
+   "brand": "TMCU",
+   "product": "CREDIT CARD CRUSHER",
    "kind": "lending",
    "term": null,
-   "was": 0.0819,
+   "was": 0.1214,
+   "now": 0.1239
+  },
+  {
+   "brand": "TMCU",
+   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
+   "kind": "lending",
+   "term": "P12M",
+   "was": 0.0719,
    "now": 0.0744
   },
   {
-   "brand": "ME Bank - ME Go",
-   "product": "ME Bank CompleteME Home Loan",
+   "brand": "First Option Bank",
+   "product": "Save Account",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.0355,
+   "now": 0.038
+  },
+  {
+   "brand": "TMCU",
+   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
    "kind": "lending",
    "term": null,
-   "was": 0.0824,
+   "was": 0.0649,
+   "now": 0.0674
+  },
+  {
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0724,
    "now": 0.0749
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
+   "brand": "TMCU",
+   "product": "VARIABLE INTEREST ONLY",
    "kind": "lending",
    "term": null,
-   "was": 0.081,
-   "now": 0.088
+   "was": 0.0724,
+   "now": 0.0749
   },
   {
-   "brand": "RedZed",
-   "product": "Reward",
+   "brand": "TMCU",
+   "product": "1 YEAR FIXED RATE LOAN",
    "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.088
+   "term": "P12M",
+   "was": 0.0624,
+   "now": 0.0649
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
+   "brand": "TMCU",
+   "product": "GREENROAD",
    "kind": "lending",
    "term": null,
-   "was": 0.079,
-   "now": 0.086
+   "was": 0.0714,
+   "now": 0.0739
   },
   {
-   "brand": "RedZed",
-   "product": "Reward",
+   "brand": "TMCU",
+   "product": "UNSECURED LOAN",
    "kind": "lending",
    "term": null,
-   "was": 0.079,
-   "now": 0.086
+   "was": 0.1139,
+   "now": 0.1164
   },
   {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
+   "brand": "SWSbank",
+   "product": "Optimum 3 Year Fixed Rate Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.081,
-   "now": 0.088
-  },
-  {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.077,
-   "now": 0.0835
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.077,
-   "now": 0.0835
-  },
-  {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.081,
-   "now": 0.087
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0989,
-   "now": 0.1045
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0989,
-   "now": 0.1045
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0815,
-   "now": 0.087
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.0845
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Near Prime",
-   "kind": "lending",
-   "term": null,
-   "was": 0.077,
-   "now": 0.0825
-  },
-  {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0815,
-   "now": 0.087
-  },
-  {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.077,
-   "now": 0.0825
-  },
-  {
-   "brand": "RedZed",
-   "product": "Reward",
-   "kind": "lending",
-   "term": null,
-   "was": 0.079,
-   "now": 0.0845
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0969,
-   "now": 0.102
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0969,
-   "now": 0.102
-  },
-  {
-   "brand": "Connective Complete",
-   "product": "Specialist",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0894,
-   "now": 0.094
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0894,
-   "now": 0.094
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0914,
-   "now": 0.096
-  },
-  {
-   "brand": "RedZed",
-   "product": "Recharge",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0969,
-   "now": 0.1015
+   "was": 0.0635,
+   "now": 0.061
   }
  ],
  "best": {
@@ -387,13 +387,13 @@
     "rate": 0.064
    },
    {
-    "brand": "Bank of Queensland Limited",
-    "product": "Future Saver Account",
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
     "rate": 0.062
    },
    {
-    "brand": "Newcastle Permanent",
-    "product": "Smart Saver Account (under 25)",
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
     "rate": 0.062
    }
   ]
