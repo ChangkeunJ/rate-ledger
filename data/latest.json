@@ -1,16 +1,16 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-21T23:59:47.837Z",
-  "finished": "2026-11-22T00:13:36.298Z",
+  "started": "2026-11-23T00:32:30.065Z",
+  "finished": "2026-11-23T00:42:36.611Z",
   "brands": "258/304",
   "products": 4924,
-  "opened": 38,
-  "closed": 38,
+  "opened": 58,
+  "closed": 58,
   "failures": 50
  },
  "totals": {
@@ -22,336 +22,336 @@
  },
  "moves": [
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Reward Saver",
    "kind": "deposit",
    "term": null,
-   "was": 0.05125,
-   "now": 0.04125
+   "was": 0.049,
+   "now": 0.0515
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo EasySaver",
    "kind": "deposit",
    "term": null,
-   "was": 0.05125,
-   "now": 0.04125
+   "was": 0.038,
+   "now": 0.0405
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Reward Saver",
    "kind": "deposit",
    "term": null,
-   "was": 0.04125,
-   "now": 0.03125
+   "was": 0.049,
+   "now": 0.0515
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.04125,
-   "now": 0.03125
+   "was": 0.0275,
+   "now": 0.03
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.03125,
-   "now": 0.02125
+   "was": 0.0245,
+   "now": 0.027
   },
   {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Easy Retirement Account",
    "kind": "deposit",
    "term": null,
-   "was": 0.03125,
-   "now": 0.02125
+   "was": 0.0195,
+   "now": 0.022
   },
   {
-   "brand": "TMCU",
-   "product": "TRAVEL LOAN",
-   "kind": "lending",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo PiggySaver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.1164,
-   "now": 0.1214
+   "was": 0.038,
+   "now": 0.0405
   },
   {
-   "brand": "MoneyMe",
-   "product": "Autopay Asset Finance (Broker & Dealer)",
-   "kind": "lending",
+   "brand": "Bendigo Bank",
+   "product": "Bendigo Business EasySaver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.077,
-   "now": 0.0725
+   "was": 0.015,
+   "now": 0.017
   },
   {
-   "brand": "MoneyMe",
-   "product": "Autopay Asset Finance (Broker & Dealer)",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0798,
-   "now": 0.0753
+   "was": 0.02,
+   "now": 0.022
   },
   {
-   "brand": "MoneyMe",
-   "product": "Autopay Asset Finance (Broker & Dealer)",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.082,
-   "now": 0.0775
+   "was": 0.0225,
+   "now": 0.0245
   },
   {
-   "brand": "MoneyMe",
-   "product": "Autopay Asset Finance (Broker & Dealer)",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.088,
-   "now": 0.0835
+   "was": 0.0275,
+   "now": 0.0295
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Tailored Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0692,
-   "now": 0.0664
+   "brand": "Southern Cross Credit Union",
+   "product": "BUSINESS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.055,
+   "now": 0.057
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Defence Force Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0692,
-   "now": 0.0664
+   "brand": "Southern Cross Credit Union",
+   "product": "TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.055,
+   "now": 0.057
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Tailored Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0692,
-   "now": 0.0664
+   "brand": "Central West CUL",
+   "product": "$500+ (12m to 24m) I5",
+   "kind": "deposit",
+   "term": "P730D",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Tailored Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0692,
-   "now": 0.0664
+   "brand": "Central West CUL",
+   "product": "$500+ (12m to 24m) I5",
+   "kind": "deposit",
+   "term": "P547D",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "NATIONAL AUSTRALIA BANK",
-   "product": "NAB Tailored Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
-   "was": 0.0702,
-   "now": 0.0674
+   "brand": "Central West CUL",
+   "product": "$500+ (12m to 24m) I5",
+   "kind": "deposit",
+   "term": "P17M",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "STANDARD VARIABLE LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0674,
-   "now": 0.0699
+   "brand": "Southern Cross Credit Union",
+   "product": "TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0535,
+   "now": 0.055
   },
   {
-   "brand": "TMCU",
-   "product": "REFI SPECIAL OWNER OCCUPIED",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0614,
-   "now": 0.0639
+   "brand": "Southern Cross Credit Union",
+   "product": "BUSINESS TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0535,
+   "now": 0.055
   },
   {
-   "brand": "TMCU",
-   "product": "FASTROAD USED CAR LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0939,
-   "now": 0.0964
+   "brand": "Central West CUL",
+   "product": "$500+ (12m to 24m) I5",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "HOME EQUITY LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0774,
-   "now": 0.0799
+   "brand": "Central West CUL",
+   "product": "500+ (6m to <12m) I1",
+   "kind": "deposit",
+   "term": "P364D",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "BASIC VARIABLE LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
+   "brand": "Central West CUL",
+   "product": "500+ (6m to <12m) I1",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "REFI SPECIAL INVESTMENT",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
+   "brand": "Central West CUL",
+   "product": "$500+ (3m to <6m) I8",
+   "kind": "deposit",
+   "term": "P179D",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "FASTROAD NEW CAR LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0739,
-   "now": 0.0764
+   "brand": "Central West CUL",
+   "product": "$500+ (3m to <6m) I8",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0285,
+   "now": 0.03
   },
   {
-   "brand": "TMCU",
-   "product": "2 FIXED RATE HOME LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0614,
-   "now": 0.0639
+   "brand": "Central West CUL",
+   "product": "$5000+ (12m - 24m) I4",
+   "kind": "deposit",
+   "term": "P17M",
+   "was": 0.05,
+   "now": 0.051
   },
   {
-   "brand": "TMCU",
-   "product": "1 YEAR FIXED INTEREST ONLY",
+   "brand": "Central West CUL",
+   "product": "$5000+ (12m - 24m) I4",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.05,
+   "now": 0.051
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "$5000+ (12m - 24m) I4",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.05,
+   "now": 0.051
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "$5000+ (3m to <6m) I6",
+   "kind": "deposit",
+   "term": "P179D",
+   "was": 0.0325,
+   "now": 0.0335
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "$5000+ (3m to <6m) I6",
+   "kind": "deposit",
+   "term": "P179D",
+   "was": 0.0325,
+   "now": 0.0335
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "$5000+ (3m to <6m) I6",
+   "kind": "deposit",
+   "term": "P5M",
+   "was": 0.0325,
+   "now": 0.0335
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "$5000+ (3m to <6m) I6",
+   "kind": "deposit",
+   "term": "P5M",
+   "was": 0.0325,
+   "now": 0.0335
+  },
+  {
+   "brand": "Central West CUL",
+   "product": "Smart Fixed Rate Home Loan 1 year",
    "kind": "lending",
    "term": "P12M",
-   "was": 0.0749,
-   "now": 0.0774
+   "was": 0.0659,
+   "now": 0.0669
   },
   {
-   "brand": "TMCU",
-   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
+   "brand": "Central West CUL",
+   "product": "Smart Fixed Rate Home Loan 2 year",
    "kind": "lending",
    "term": "P24M",
-   "was": 0.0704,
-   "now": 0.0729
+   "was": 0.0659,
+   "now": 0.0669
   },
   {
-   "brand": "TMCU",
-   "product": "1 YEAR FIXED RATE LOAN",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0614,
-   "now": 0.0639
-  },
-  {
-   "brand": "TMCU",
-   "product": "2 YEAR FIXED INTEREST ONLY",
+   "brand": "Central West CUL",
+   "product": "Smart Fixed Rate Investment Home Loan 2 Years",
    "kind": "lending",
    "term": "P24M",
-   "was": 0.0724,
-   "now": 0.0749
-  },
-  {
-   "brand": "TMCU",
-   "product": "2 FIXED RATE HOME LOAN",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0654,
+   "was": 0.0669,
    "now": 0.0679
   },
   {
-   "brand": "TMCU",
-   "product": "CREDIT CARD CRUSHER",
-   "kind": "lending",
-   "term": null,
-   "was": 0.1214,
-   "now": 0.1239
-  },
-  {
-   "brand": "TMCU",
-   "product": "2 FIXED RATE HOME LOAN INVESTMENT",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
-  },
-  {
-   "brand": "TMCU",
-   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0719,
-   "now": 0.0744
-  },
-  {
-   "brand": "First Option Bank",
-   "product": "Save Account",
+   "brand": "Southern Cross Credit Union",
+   "product": "BUSINESS TERM DEPOSIT",
    "kind": "deposit",
-   "term": null,
-   "was": 0.0355,
-   "now": 0.038
+   "term": "P9M",
+   "was": 0.0545,
+   "now": 0.0555
   },
   {
-   "brand": "TMCU",
-   "product": "1 FIXED RATE HOME LOAN INVESTMENT",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0649,
-   "now": 0.0674
+   "brand": "Southern Cross Credit Union",
+   "product": "TERM DEPOSIT",
+   "kind": "deposit",
+   "term": "P9M",
+   "was": 0.0545,
+   "now": 0.0555
   },
   {
-   "brand": "TMCU",
-   "product": "VARIABLE INTEREST ONLY",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0724,
-   "now": 0.0749
-  },
-  {
-   "brand": "TMCU",
-   "product": "VARIABLE INTEREST ONLY",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0724,
-   "now": 0.0749
-  },
-  {
-   "brand": "TMCU",
-   "product": "1 YEAR FIXED RATE LOAN",
+   "brand": "Central West CUL",
+   "product": "Smart Fixed Rate Investment Home Loan 1 Year",
    "kind": "lending",
    "term": "P12M",
-   "was": 0.0624,
-   "now": 0.0649
+   "was": 0.0669,
+   "now": 0.0679
   },
   {
-   "brand": "TMCU",
-   "product": "GREENROAD",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0714,
-   "now": 0.0739
+   "term": "P3Y",
+   "was": 0.0689,
+   "now": 0.0679
   },
   {
-   "brand": "TMCU",
-   "product": "UNSECURED LOAN",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
    "term": null,
-   "was": 0.1139,
-   "now": 0.1164
+   "was": 0.0669,
+   "now": 0.0659
   },
   {
-   "brand": "SWSbank",
-   "product": "Optimum 3 Year Fixed Rate Home Loan",
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
    "kind": "lending",
-   "term": null,
-   "was": 0.0635,
-   "now": 0.061
+   "term": "P1Y",
+   "was": 0.0649,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Everyday Home Loan",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0699,
+   "now": 0.0709
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Unity Bank",
-    "product": "Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.058
    },
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
     "rate": 0.058
    },
    {
