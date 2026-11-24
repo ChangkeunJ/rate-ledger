@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-24",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-24T04:31:11.202Z",
+  "finished": "2026-11-24T04:43:57.816Z",
+  "brands": "259/304",
+  "products": 4926,
+  "opened": 622,
+  "closed": 607,
+  "failures": 51
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4964,
+  "rates_open": 34052,
+  "deposit": 7069,
+  "lending": 26983
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02125,
+   "now": 0.03625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02125,
+   "now": 0.03625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.04625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.05625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04125,
+   "now": 0.05625
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0759
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0789,
+   "now": 0.0859
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0819
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Non Resident",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0809,
+   "now": 0.0879
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0789
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0759,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0839
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.0909
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0789
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0779,
+   "now": 0.0849
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0819,
+   "now": 0.0889
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0819
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Non Resident",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0899
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0709,
+   "now": 0.0779
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0809,
+   "now": 0.0879
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0744,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0819
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0764,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0794,
+   "now": 0.0859
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0774,
+   "now": 0.0839
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0784,
+   "now": 0.0849
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0764,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0709,
+   "now": 0.0769
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0779
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0749
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
+    "rate": 0.062
+   }
+  ]
+ }
+}

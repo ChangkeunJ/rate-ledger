@@ -1,357 +1,357 @@
 {
- "date": "2026-11-23",
+ "date": "2026-11-24",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-23T00:32:30.065Z",
-  "finished": "2026-11-23T00:42:36.611Z",
-  "brands": "258/304",
-  "products": 4924,
-  "opened": 58,
-  "closed": 58,
-  "failures": 50
+  "started": "2026-11-24T04:31:11.202Z",
+  "finished": "2026-11-24T04:43:57.816Z",
+  "brands": "259/304",
+  "products": 4926,
+  "opened": 622,
+  "closed": 607,
+  "failures": 51
  },
  "totals": {
   "brands": 309,
-  "products": 4962,
-  "rates_open": 34041,
+  "products": 4964,
+  "rates_open": 34052,
   "deposit": 7069,
-  "lending": 26972
+  "lending": 26983
  },
  "moves": [
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Reward Saver",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.049,
-   "now": 0.0515
+   "was": 0.03125,
+   "now": 0.04625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo EasySaver",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.038,
-   "now": 0.0405
+   "was": 0.02125,
+   "now": 0.03625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Reward Saver",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.049,
-   "now": 0.0515
+   "was": 0.02125,
+   "now": 0.03625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Easy Retirement Account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0275,
-   "now": 0.03
+   "was": 0.03125,
+   "now": 0.04625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Easy Retirement Account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0245,
-   "now": 0.027
+   "was": 0.04125,
+   "now": 0.05625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Easy Retirement Account",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.0195,
-   "now": 0.022
+   "was": 0.04125,
+   "now": 0.05625
   },
   {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo PiggySaver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.038,
-   "now": 0.0405
-  },
-  {
-   "brand": "Bendigo Bank",
-   "product": "Bendigo Business EasySaver",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.015,
-   "now": 0.017
-  },
-  {
-   "brand": "Horizon Bank",
-   "product": "ADVANTAGE 55",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02,
-   "now": 0.022
-  },
-  {
-   "brand": "Horizon Bank",
-   "product": "ADVANTAGE 55",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0225,
-   "now": 0.0245
-  },
-  {
-   "brand": "Horizon Bank",
-   "product": "ADVANTAGE 55",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.0275,
-   "now": 0.0295
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.055,
-   "now": 0.057
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.055,
-   "now": 0.057
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (12m to 24m) I5",
-   "kind": "deposit",
-   "term": "P730D",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (12m to 24m) I5",
-   "kind": "deposit",
-   "term": "P547D",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (12m to 24m) I5",
-   "kind": "deposit",
-   "term": "P17M",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.0535,
-   "now": 0.055
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.0535,
-   "now": 0.055
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (12m to 24m) I5",
-   "kind": "deposit",
-   "term": "P24M",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "500+ (6m to <12m) I1",
-   "kind": "deposit",
-   "term": "P364D",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "500+ (6m to <12m) I1",
-   "kind": "deposit",
-   "term": "P12M",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (3m to <6m) I8",
-   "kind": "deposit",
-   "term": "P179D",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$500+ (3m to <6m) I8",
-   "kind": "deposit",
-   "term": "P6M",
-   "was": 0.0285,
-   "now": 0.03
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (12m - 24m) I4",
-   "kind": "deposit",
-   "term": "P17M",
-   "was": 0.05,
-   "now": 0.051
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (12m - 24m) I4",
-   "kind": "deposit",
-   "term": "P24M",
-   "was": 0.05,
-   "now": 0.051
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (12m - 24m) I4",
-   "kind": "deposit",
-   "term": "P24M",
-   "was": 0.05,
-   "now": 0.051
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (3m to <6m) I6",
-   "kind": "deposit",
-   "term": "P179D",
-   "was": 0.0325,
-   "now": 0.0335
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (3m to <6m) I6",
-   "kind": "deposit",
-   "term": "P179D",
-   "was": 0.0325,
-   "now": 0.0335
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (3m to <6m) I6",
-   "kind": "deposit",
-   "term": "P5M",
-   "was": 0.0325,
-   "now": 0.0335
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "$5000+ (3m to <6m) I6",
-   "kind": "deposit",
-   "term": "P5M",
-   "was": 0.0325,
-   "now": 0.0335
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "Smart Fixed Rate Home Loan 1 year",
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
    "kind": "lending",
-   "term": "P12M",
-   "was": 0.0659,
-   "now": 0.0669
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
   },
   {
-   "brand": "Central West CUL",
-   "product": "Smart Fixed Rate Home Loan 2 year",
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
    "kind": "lending",
-   "term": "P24M",
-   "was": 0.0659,
-   "now": 0.0669
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "Smart Fixed Rate Investment Home Loan 2 Years",
-   "kind": "lending",
-   "term": "P24M",
-   "was": 0.0669,
-   "now": 0.0679
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "BUSINESS TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P9M",
-   "was": 0.0545,
-   "now": 0.0555
-  },
-  {
-   "brand": "Southern Cross Credit Union",
-   "product": "TERM DEPOSIT",
-   "kind": "deposit",
-   "term": "P9M",
-   "was": 0.0545,
-   "now": 0.0555
-  },
-  {
-   "brand": "Central West CUL",
-   "product": "Smart Fixed Rate Investment Home Loan 1 Year",
-   "kind": "lending",
-   "term": "P12M",
-   "was": 0.0669,
-   "now": 0.0679
-  },
-  {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
-   "kind": "lending",
-   "term": "P3Y",
+   "term": null,
    "was": 0.0689,
-   "now": 0.0679
+   "now": 0.0759
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0669,
-   "now": 0.0659
+   "was": 0.0789,
+   "now": 0.0859
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
    "kind": "lending",
-   "term": "P1Y",
-   "was": 0.0649,
-   "now": 0.0659
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0819
   },
   {
-   "brand": "MoveBank",
-   "product": "Everyday Home Loan",
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
    "kind": "lending",
-   "term": "P5Y",
-   "was": 0.0699,
-   "now": 0.0709
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Non Resident",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0809,
+   "now": 0.0879
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0789
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0759,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0769,
+   "now": 0.0839
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0839,
+   "now": 0.0909
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0789
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0779,
+   "now": 0.0849
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0819,
+   "now": 0.0889
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0819
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Non Resident",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0829,
+   "now": 0.0899
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0709,
+   "now": 0.0779
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0809,
+   "now": 0.0879
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0744,
+   "now": 0.0809
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0754,
+   "now": 0.0819
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0764,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0794,
+   "now": 0.0859
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0774,
+   "now": 0.0839
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0734,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0784,
+   "now": 0.0849
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0764,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0709,
+   "now": 0.0769
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0719,
+   "now": 0.0779
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0739,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0749
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
     "rate": 0.058
    },
    {
-    "brand": "Unity Bank",
-    "product": "Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.058
    },
    {
