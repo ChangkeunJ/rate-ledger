@@ -1,24 +1,24 @@
 {
- "date": "2026-11-24",
+ "date": "2026-11-25",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-24T04:31:11.202Z",
-  "finished": "2026-11-24T04:43:57.816Z",
+  "started": "2026-11-25T03:15:59.295Z",
+  "finished": "2026-11-25T03:25:50.064Z",
   "brands": "259/304",
-  "products": 4926,
-  "opened": 622,
-  "closed": 607,
-  "failures": 51
+  "products": 4932,
+  "opened": 171,
+  "closed": 235,
+  "failures": 49
  },
  "totals": {
   "brands": 309,
-  "products": 4964,
-  "rates_open": 34052,
+  "products": 4970,
+  "rates_open": 33988,
   "deposit": 7069,
-  "lending": 26983
+  "lending": 26919
  },
  "moves": [
   {
@@ -26,16 +26,48 @@
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03125,
-   "now": 0.04625
+   "was": 0.04625,
+   "now": 0.02725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05625,
+   "now": 0.03725
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02125,
-   "now": 0.03625
+   "was": 0.04625,
+   "now": 0.02725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05625,
+   "now": 0.03725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03625,
+   "now": 0.01725
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03625,
+   "now": 0.01725
   },
   {
    "brand": "CommBank",
@@ -55,7 +87,7 @@
   },
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
+   "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
    "was": 0.04125,
@@ -66,8 +98,24 @@
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
+   "was": 0.02125,
+   "now": 0.03625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
    "was": 0.04125,
    "now": 0.05625
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03125,
+   "now": 0.04625
   },
   {
    "brand": "Mortgage Ezy",
@@ -79,11 +127,11 @@
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
+   "product": "Propel Commercial",
    "kind": "lending",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0759
+   "was": 0.0869,
+   "now": 0.0939
   },
   {
    "brand": "Mortgage Ezy",
@@ -95,6 +143,30 @@
   },
   {
    "brand": "Mortgage Ezy",
+   "product": "Propel Commercial",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0869,
+   "now": 0.0939
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0729,
+   "now": 0.0799
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Expat",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0759,
+   "now": 0.0829
+  },
+  {
+   "brand": "Mortgage Ezy",
    "product": "Propel Expat",
    "kind": "lending",
    "term": null,
@@ -103,11 +175,11 @@
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
+   "product": "Propel Expat",
    "kind": "lending",
    "term": null,
-   "was": 0.0739,
-   "now": 0.0809
+   "was": 0.0779,
+   "now": 0.0849
   },
   {
    "brand": "Mortgage Ezy",
@@ -122,8 +194,16 @@
    "product": "Propel Full Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0739,
-   "now": 0.0809
+   "was": 0.0709,
+   "now": 0.0779
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Full Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0689,
+   "now": 0.0759
   },
   {
    "brand": "Mortgage Ezy",
@@ -135,11 +215,19 @@
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
+   "product": "Propel Lo Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0759,
-   "now": 0.0829
+   "was": 0.0719,
+   "now": 0.0789
+  },
+  {
+   "brand": "Mortgage Ezy",
+   "product": "Propel Lo Doc",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0749,
+   "now": 0.0819
   },
   {
    "brand": "Mortgage Ezy",
@@ -159,51 +247,35 @@
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
+   "product": "Propel Non Resident",
    "kind": "lending",
    "term": null,
-   "was": 0.0869,
-   "now": 0.0939
+   "was": 0.0829,
+   "now": 0.0899
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
+   "product": "Propel Full Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0869,
-   "now": 0.0939
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.0909
+   "was": 0.0739,
+   "now": 0.0809
   },
   {
    "brand": "Mortgage Ezy",
    "product": "Propel Lo Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0719,
-   "now": 0.0789
+   "was": 0.0739,
+   "now": 0.0809
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
+   "product": "Propel Lo Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0779,
-   "now": 0.0849
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0729,
-   "now": 0.0799
+   "was": 0.0809,
+   "now": 0.0879
   },
   {
    "brand": "Mortgage Ezy",
@@ -218,64 +290,8 @@
    "product": "Propel Lo Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0749,
-   "now": 0.0819
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Non Resident",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0829,
-   "now": 0.0899
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0709,
-   "now": 0.0779
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0809,
-   "now": 0.0879
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0744,
-   "now": 0.0809
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0754,
-   "now": 0.0819
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0764,
-   "now": 0.0829
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0794,
-   "now": 0.0859
+   "was": 0.0839,
+   "now": 0.0909
   },
   {
    "brand": "Mortgage Ezy",
@@ -290,8 +306,8 @@
    "product": "Propel Full Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0734,
-   "now": 0.0799
+   "was": 0.0764,
+   "now": 0.0829
   },
   {
    "brand": "Mortgage Ezy",
@@ -311,47 +327,31 @@
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
+   "product": "Propel Full Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0709,
-   "now": 0.0769
+   "was": 0.0744,
+   "now": 0.0809
   },
   {
    "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
+   "product": "Propel Full Doc",
    "kind": "lending",
    "term": null,
-   "was": 0.0719,
-   "now": 0.0779
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0739,
+   "was": 0.0734,
    "now": 0.0799
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0689,
-   "now": 0.0749
   }
  ],
  "best": {
   "term_deposit_1y": [
    {
-    "brand": "Unity Bank",
-    "product": "Term Deposit",
+    "brand": "Gateway Bank",
+    "product": "Package TD 12 Months",
     "rate": 0.058
    },
    {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
     "rate": 0.058
    },
    {
@@ -387,13 +387,13 @@
     "rate": 0.064
    },
    {
-    "brand": "Newcastle Permanent",
-    "product": "Smart Saver Account (under 25)",
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
     "rate": 0.062
    },
    {
-    "brand": "Bank of Queensland Limited",
-    "product": "Future Saver Account",
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
     "rate": 0.062
    }
   ]
