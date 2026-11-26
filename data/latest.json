@@ -1,49 +1,33 @@
 {
- "date": "2026-11-25",
+ "date": "2026-11-26",
  "cash_rate": {
   "target": 0.0485,
   "since": "2026-11-04"
  },
  "run": {
-  "started": "2026-11-25T03:15:59.295Z",
-  "finished": "2026-11-25T03:25:50.064Z",
-  "brands": "259/304",
-  "products": 4932,
-  "opened": 171,
-  "closed": 235,
-  "failures": 49
+  "started": "2026-11-26T02:33:19.129Z",
+  "finished": "2026-11-26T02:46:45.111Z",
+  "brands": "255/304",
+  "products": 4816,
+  "opened": 247,
+  "closed": 98,
+  "failures": 54
  },
  "totals": {
   "brands": 309,
-  "products": 4970,
-  "rates_open": 33988,
+  "products": 4976,
+  "rates_open": 34119,
   "deposit": 7069,
-  "lending": 26919
+  "lending": 27050
  },
  "moves": [
   {
    "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04625,
-   "now": 0.02725
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Business)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.05625,
-   "now": 0.03725
-  },
-  {
-   "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04625,
-   "now": 0.02725
+   "was": 0.03625,
+   "now": 0.01725
   },
   {
    "brand": "CommBank",
@@ -63,292 +47,303 @@
   },
   {
    "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05625,
+   "now": 0.03725
+  },
+  {
+   "brand": "CommBank",
    "product": "Foreign Currency Account (Retail)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03625,
-   "now": 0.01725
+   "was": 0.04625,
+   "now": 0.02725
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.02125,
-   "now": 0.03625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.03125,
-   "now": 0.04625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.04125,
-   "now": 0.05625
-  },
-  {
-   "brand": "CommBank",
-   "product": "Foreign Currency Account (Retail)",
-   "kind": "deposit",
-   "term": null,
-   "was": 0.02125,
-   "now": 0.03625
+   "was": 0.04625,
+   "now": 0.02725
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.04125,
-   "now": 0.05625
+   "was": 0.02725,
+   "now": 0.04525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03725,
+   "now": 0.05525
   },
   {
    "brand": "CommBank",
    "product": "Foreign Currency Account (Business)",
    "kind": "deposit",
    "term": null,
-   "was": 0.03125,
-   "now": 0.04625
+   "was": 0.01725,
+   "now": 0.03525
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.02725,
+   "now": 0.04525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03725,
+   "now": 0.05525
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.01725,
+   "now": 0.03525
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Business Overdraft (commercial secured)",
    "kind": "lending",
    "term": null,
-   "was": 0.0869,
-   "now": 0.0939
+   "was": 0.106,
+   "now": 0.1085
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
+   "brand": "Great Southern Bank",
+   "product": "Business Overdraft (residential secured)",
    "kind": "lending",
    "term": null,
-   "was": 0.0869,
-   "now": 0.0939
+   "was": 0.097,
+   "now": 0.0995
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
+   "brand": "Summerland Bank",
+   "product": "Gold Class",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.028,
+   "now": 0.0305
+  },
+  {
+   "brand": "Summerland Bank",
+   "product": "iSave Online",
+   "kind": "deposit",
+   "term": "P90D",
+   "was": 0.057,
+   "now": 0.0595
+  },
+  {
+   "brand": "Great Southern Bank",
+   "product": "Commercial Variable - Residentially Secured P&I",
    "kind": "lending",
    "term": null,
-   "was": 0.0789,
-   "now": 0.0859
+   "was": 0.075,
+   "now": 0.0775
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
+   "brand": "Great Southern Bank",
+   "product": "Commercial Variable - Residentially Secured IO",
    "kind": "lending",
    "term": null,
-   "was": 0.0869,
-   "now": 0.0939
+   "was": 0.075,
+   "now": 0.0775
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
+   "brand": "Great Southern Bank",
+   "product": "Commercial Variable - Commercially Secured IO",
    "kind": "lending",
    "term": null,
-   "was": 0.0729,
-   "now": 0.0799
+   "was": 0.08,
+   "now": 0.0825
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
+   "brand": "Great Southern Bank",
+   "product": "Commercial Variable - Commercially secured P&I",
    "kind": "lending",
    "term": null,
-   "was": 0.0759,
-   "now": 0.0829
+   "was": 0.08,
+   "now": 0.0825
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
-   "kind": "lending",
+   "brand": "Summerland Bank",
+   "product": "Bonus Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0749,
-   "now": 0.0819
+   "was": 0.0475,
+   "now": 0.05
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Expat",
-   "kind": "lending",
+   "brand": "Summerland Bank",
+   "product": "iSave Online",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0779,
-   "now": 0.0849
+   "was": 0.0075,
+   "now": 0.01
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Non Resident",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Youth eSaver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0809,
-   "now": 0.0879
+   "was": 0.01,
+   "now": 0.0125
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Youth eSaver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0709,
-   "now": 0.0779
+   "was": 0.0575,
+   "now": 0.06
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Future Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0689,
-   "now": 0.0759
+   "was": 0.0365,
+   "now": 0.039
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Goal Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0719,
-   "now": 0.0789
+   "was": 0.051,
+   "now": 0.0535
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Future Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0719,
-   "now": 0.0789
+   "was": 0.05,
+   "now": 0.0525
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Everyday Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0749,
-   "now": 0.0819
+   "was": 0.0505,
+   "now": 0.053
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
+   "brand": "Great Southern Bank",
+   "product": "Home Saver",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0769,
-   "now": 0.0839
+   "was": 0.05,
+   "now": 0.0525
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Commercial",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0869,
-   "now": 0.0939
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Non Resident",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0829,
-   "now": 0.0899
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0739,
-   "now": 0.0809
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0739,
-   "now": 0.0809
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0809,
-   "now": 0.0879
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0819,
-   "now": 0.0889
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Lo Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0839,
-   "now": 0.0909
-  },
-  {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
+   "brand": "AFG Home Loans - Retro",
+   "product": "Retro Lite",
    "kind": "lending",
    "term": null,
    "was": 0.0774,
-   "now": 0.0839
+   "now": 0.0754
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0764,
-   "now": 0.0829
+   "was": 0.022,
+   "now": 0.02
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0784,
-   "now": 0.0849
+   "was": 0.0245,
+   "now": 0.0225
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
+   "brand": "Horizon Bank",
+   "product": "ADVANTAGE 55",
+   "kind": "deposit",
    "term": null,
-   "was": 0.0764,
-   "now": 0.0829
+   "was": 0.0295,
+   "now": 0.0275
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0744,
-   "now": 0.0809
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 6 TO 11 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0525,
+   "now": 0.054
   },
   {
-   "brand": "Mortgage Ezy",
-   "product": "Propel Full Doc",
-   "kind": "lending",
-   "term": null,
-   "was": 0.0734,
-   "now": 0.0799
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 6 TO 11 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0525,
+   "now": 0.054
+  },
+  {
+   "brand": "Gateway Bank",
+   "product": "Package TD 12 Months",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.058,
+   "now": 0.0565
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 6 TO 11 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0515,
+   "now": 0.053
+  },
+  {
+   "brand": "Gateway Bank",
+   "product": "Term Deposit 12 Months",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.057,
+   "now": 0.0555
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 6 TO 11 MONTHS INTEREST MONTHLY",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.0515,
+   "now": 0.053
+  },
+  {
+   "brand": "CommFCU",
+   "product": "TERM DEPOSITS - 3 TO 5 MONTHS INTEREST ON MATURITY",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.05,
+   "now": 0.0515
   }
  ],
  "best": {
   "term_deposit_1y": [
-   {
-    "brand": "Gateway Bank",
-    "product": "Package TD 12 Months",
-    "rate": 0.058
-   },
    {
     "brand": "Unity Bank",
     "product": "Term Deposit",
@@ -368,6 +363,11 @@
     "brand": "Suncorp Bank",
     "product": "Term Deposit",
     "rate": 0.0575
+   },
+   {
+    "brand": "Southern Cross Credit Union",
+    "product": "TERM DEPOSIT",
+    "rate": 0.057
    }
   ],
   "savings": [
