@@ -1,0 +1,401 @@
+{
+ "date": "2026-11-27",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-27T02:33:33.278Z",
+  "finished": "2026-11-27T02:46:54.427Z",
+  "brands": "257/304",
+  "products": 4890,
+  "opened": 405,
+  "closed": 355,
+  "failures": 51
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4980,
+  "rates_open": 34169,
+  "deposit": 7069,
+  "lending": 27100
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03525,
+   "now": 0.07825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05525,
+   "now": 0.09825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04525,
+   "now": 0.08825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.04525,
+   "now": 0.08825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.03525,
+   "now": 0.07825
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.05525,
+   "now": 0.09825
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid monthly",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0485,
+   "now": 0.032
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid monthly",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0485,
+   "now": 0.032
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid at maturity/annually",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.051,
+   "now": 0.0345
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid monthly",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0485,
+   "now": 0.032
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid monthly",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0485,
+   "now": 0.032
+  },
+  {
+   "brand": "Northern Inland Credit Union Limited",
+   "product": "3 MONTHS Term Deposit with interest paid monthly",
+   "kind": "deposit",
+   "term": "P3M",
+   "was": 0.0485,
+   "now": 0.032
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P36M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "TD Immigration (DIMIA) Bank Guarantee",
+   "kind": "deposit",
+   "term": "P30M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "TD Immigration (DIMIA) Bank Guarantee",
+   "kind": "deposit",
+   "term": "P30M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "TD Immigration (DIMIA) Bank Guarantee",
+   "kind": "deposit",
+   "term": "P30M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P24M",
+   "was": 0.053,
+   "now": 0.049
+  },
+  {
+   "brand": "CommBank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P34M",
+   "was": 0.0525,
+   "now": 0.0485
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Gold Prime Residential Special Home Loans",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0665,
+   "now": 0.0639
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Gold Prime Residential Special Home Loans",
+   "kind": "lending",
+   "term": null,
+   "was": 0.069,
+   "now": 0.0664
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Gold Prime Residential Special Home Loans",
+   "kind": "lending",
+   "term": null,
+   "was": 0.07,
+   "now": 0.0674
+  },
+  {
+   "brand": "BNK Bank (Goldfields Money/BCHL)",
+   "product": "Gold Prime Residential Special Home Loans",
+   "kind": "lending",
+   "term": null,
+   "was": 0.067,
+   "now": 0.0644
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Southern Cross Credit Union",
+    "product": "TERM DEPOSIT",
+    "rate": 0.057
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "CommBank",
+    "product": "Foreign Currency Account (Business)",
+    "rate": 0.09825
+   },
+   {
+    "brand": "CommBank",
+    "product": "Foreign Currency Account (Retail)",
+    "rate": 0.09825
+   },
+   {
+    "brand": "CommBank",
+    "product": "Foreign Currency Account (Retail)",
+    "rate": 0.08825
+   },
+   {
+    "brand": "CommBank",
+    "product": "Foreign Currency Account (Business)",
+    "rate": 0.08825
+   }
+  ]
+ }
+}
