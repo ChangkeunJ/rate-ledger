@@ -1,0 +1,225 @@
+{
+ "date": "2026-11-28",
+ "cash_rate": {
+  "target": 0.0485,
+  "since": "2026-11-04"
+ },
+ "run": {
+  "started": "2026-11-28T02:23:07.159Z",
+  "finished": "2026-11-28T02:34:52.835Z",
+  "brands": "259/304",
+  "products": 4941,
+  "opened": 21,
+  "closed": 21,
+  "failures": 49
+ },
+ "totals": {
+  "brands": 309,
+  "products": 4979,
+  "rates_open": 34168,
+  "deposit": 7068,
+  "lending": 27100
+ },
+ "moves": [
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.07825,
+   "now": 0.02025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.09825,
+   "now": 0.04025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Business)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.08825,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.08825,
+   "now": 0.03025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.09825,
+   "now": 0.04025
+  },
+  {
+   "brand": "CommBank",
+   "product": "Foreign Currency Account (Retail)",
+   "kind": "deposit",
+   "term": null,
+   "was": 0.07825,
+   "now": 0.02025
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P12M",
+   "was": 0.049,
+   "now": 0.053
+  },
+  {
+   "brand": "Bendigo Bank",
+   "product": "Standard Term Deposit",
+   "kind": "deposit",
+   "term": "P6M",
+   "was": 0.047,
+   "now": 0.0505
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor IO No Offset Mortgage",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0679,
+   "now": 0.0689
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Owner Occupier P&I No Offset Mortgage",
+   "kind": "lending",
+   "term": "P5Y",
+   "was": 0.0664,
+   "now": 0.0674
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Owner Occupier P&I No Offset Mortgage",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0609,
+   "now": 0.0619
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor P&I No Offset Mortgage",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0634,
+   "now": 0.0624
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor P&I No Offset Mortgage",
+   "kind": "lending",
+   "term": "P1Y",
+   "was": 0.0674,
+   "now": 0.0664
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor P&I No Offset Mortgage",
+   "kind": "lending",
+   "term": "P3Y",
+   "was": 0.0669,
+   "now": 0.0659
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Owner Occupier IO No Offset Mortgage",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0629
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Owner Occupier IO No Offset Mortgage",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0639,
+   "now": 0.0649
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor IO No Offset Mortgage",
+   "kind": "lending",
+   "term": "P2Y",
+   "was": 0.0684,
+   "now": 0.0694
+  },
+  {
+   "brand": "MoveBank",
+   "product": "Investor IO No Offset Mortgage",
+   "kind": "lending",
+   "term": null,
+   "was": 0.0644,
+   "now": 0.0654
+  }
+ ],
+ "best": {
+  "term_deposit_1y": [
+   {
+    "brand": "Unity Bank",
+    "product": "Term Deposit",
+    "rate": 0.058
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Suncorp Bank",
+    "product": "Term Deposit",
+    "rate": 0.0575
+   },
+   {
+    "brand": "Southern Cross Credit Union",
+    "product": "BUSINESS TERM DEPOSIT",
+    "rate": 0.057
+   }
+  ],
+  "savings": [
+   {
+    "brand": "Bankwest",
+    "product": "Bankwest Easy Saver",
+    "rate": 0.115
+   },
+   {
+    "brand": "Revolut",
+    "product": "Revolut Instant Access Savings",
+    "rate": 0.065
+   },
+   {
+    "brand": "Rabobank",
+    "product": "High Interest Savings Account",
+    "rate": 0.064
+   },
+   {
+    "brand": "Newcastle Permanent",
+    "product": "Smart Saver Account (under 25)",
+    "rate": 0.062
+   },
+   {
+    "brand": "Bank of Queensland Limited",
+    "product": "Future Saver Account",
+    "rate": 0.062
+   }
+  ]
+ }
+}
